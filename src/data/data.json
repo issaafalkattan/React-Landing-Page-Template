@@ -1,8 +1,8 @@
 {
     "Header": {
 
-        "title": "We are a Landing Page",
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+        "title": "مركز براعم التحدي للرعاية النهارية بالجوف",
+        "paragraph": "مركزي براعم وفرسان التحدي للرعاية النهارية هم إحدى المشاريع التنموية التي تخدم حالات اضطراب التوحد و ذوي الإعاقة في منطقة الجوف بعدما لمس القائمين عليهم انعدام خدمات الرعاية والتأهيل لمختلف الحالات حيث تم تصميم برامجهم وخدماتهم واختيار فريق العمل وفق اعلى معايير الجودة ليتمكن المركزين من خدمة الحالات المتزايدة بجودة ونوعية بكل احترافية ومهنية حسب تطلعات اسر الحالات وإمكانات أبناءهم ضمن رؤية عصرية متطورة تتماشى مع رؤية حكومتنا الرشيدة 2030 م"
 
     },
     "About": {
@@ -114,23 +114,43 @@
     },
     "Features": [{
             "icon": "fa fa-comments-o",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "title": "برنامج التدخل المبكر",
+            "text": " وهو خاص بالفئات  العمرية ما قبل6 سنوات"
         },
         {
             "icon": "fa fa-bullhorn",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "title": "برنامج الخدمات التأهيلية المساندة",
+            "text": ""
         },
         {
             "icon": "fa fa-group",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "title": "البرنامج التأهيلي التطوري",
+            "text": "يعني فيه الشريحة العمرية 6-12 يهدف لتدريب المهارات الاستقلالية وبرامج تطور اللغة والعلاج الحسي والحركي"
         },
         {
             "icon": "fa fa-magic",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "title": "برامج تأهيلية",
+            "text": "متخصصة للفئة من 12 وحتى 45 متضمنة مقاييس القلق والاكتئاب ."
+        },
+        {
+            "icon": "fa fa-magic",
+            "title": "برامج دمج اجتماعي وفق خطة تطويرية",
+            "text": ""
+        },
+        {
+            "icon": "fa fa-magic",
+            "title": "برامج ترفيهية تدريبية موجهه",
+            "text": ""
+        },
+        {
+            "icon": "fa fa-magic",
+            "title": "برنامج الرعاية المبكرة للأطفال ذوي الإعاقة دون سن السادسة ",
+            "text": ""
+        },
+        {
+            "icon": "fa fa-magic",
+            "title": "برنامج خدمات الإرشاد الأسري",
+            "text": ""
         }
     ]
 }

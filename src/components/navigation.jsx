@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import logo from "../logo.jpeg"
 
 export class Navigation extends Component {
   render() {
@@ -18,9 +19,8 @@ export class Navigation extends Component {
               <span className="icon-bar"></span>{" "}
               <span className="icon-bar"></span>{" "}
             </button>
-            <a className="navbar-brand page-scroll" href="#page-top">
-              React Landing Page
-            </a>{" "}
+            <img className="navbar-brand page-scroll" alt="logo" src={logo} />
+            {" "}
           </div>
 
           <div
@@ -30,37 +30,28 @@ export class Navigation extends Component {
             <ul className="nav navbar-nav navbar-right">
               <li>
                 <a href="#features" className="page-scroll">
-                  Features
+                من نحن
                 </a>
               </li>
               <li>
                 <a href="#about" className="page-scroll">
-                  About
+                رسالتنا/رؤيتنا
                 </a>
               </li>
               <li>
                 <a href="#services" className="page-scroll">
-                  Services
+                برامج وخدمات
                 </a>
               </li>
               <li>
                 <a href="#portfolio" className="page-scroll">
-                  Gallery
+                مميزات المركزين
                 </a>
               </li>
-              <li>
-                <a href="#testimonials" className="page-scroll">
-                  Testimonials
-                </a>
-              </li>
-              <li>
-                <a href="#team" className="page-scroll">
-                  Team
-                </a>
-              </li>
+             
               <li>
                 <a href="#contact" className="page-scroll">
-                  Contact
+                  تواصل معنا
                 </a>
               </li>
             </ul>
