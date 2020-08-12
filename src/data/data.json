@@ -6,18 +6,14 @@
 
     },
     "About": {
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "paragraph": "",
         "Why": [
-            "Lorem ipsum dolor",
-            "Tempor incididunt",
-            "Lorem ipsum dolor",
-            "Incididunt ut labore"
+            "بناء جيل متميز من اضطراب التوحد و ذوي الإعاقة قادر على الاعتماد على نفسه باستقلالية تامة نافعاً لدينه ووطنه."
         ],
         "Why2": [
-            "Aliquip ex ea commodo",
-            "Lorem ipsum dolor",
-            "Exercitation ullamco",
-            "Lorem ipsum dolor"
+            " رعاية وتأهيل اضطراب التوحد و ذوي الإعاقة للوصول بهم على أقصى ماتستطيع قدراتهم",
+            "الاهتمام بـاضطراب التوحد و ذوي الإعاقة من جميع النواحي صحياً ونفسياً وفكرياً وسلوكياً و اجتماعيا لممارسة حياتهم الطبيعية بدون عقبات",
+            "توفير بيئة تربوية وتأهيلية حديثة وجاذبة ذات جوده عالية"
         ]
     },
     "Services": [{
