@@ -186,6 +186,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	display: table;
 	width: 100%;
 	padding: 0;
+	opacity: 0.8;
 	background: url(../img/intro-bg.jpg) center center no-repeat;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
@@ -199,7 +200,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .intro h1 {
 	font-family: 'Raleway', sans-serif;
 	color: #fff;
-	font-size: 82px;
+	font-size: 50px;
 	font-weight: 700;
 	text-transform: uppercase;
 	margin-top: 0;
@@ -585,4 +586,10 @@ color: #777;
 #about img {
 	margin: 50px 0;
 }
+}
+
+
+.logo {
+	height: 20px;
+	width: 20px;
 }

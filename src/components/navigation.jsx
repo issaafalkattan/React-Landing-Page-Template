@@ -19,7 +19,7 @@ export class Navigation extends Component {
               <span className="icon-bar"></span>{" "}
               <span className="icon-bar"></span>{" "}
             </button>
-            <img className="navbar-brand page-scroll" alt="logo" src={logo} />
+            <img className=" logo navbar-brand page-scroll" alt="logo" src={logo} />
             {" "}
           </div>
 
@@ -51,7 +51,7 @@ export class Navigation extends Component {
              
               <li>
                 <a href="#contact" className="page-scroll">
-                  تواصل
+                  تواصل معنا
                 </a>
               </li>
             </ul>
