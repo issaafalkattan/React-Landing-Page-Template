@@ -9,10 +9,9 @@ export class Contact extends Component {
             <div className="col-md-8">
               <div className="row">
                 <div className="section-title">
-                  <h2>Get In Touch</h2>
+                  <h2>تواصل معنا</h2>
                   <p>
-                    Please fill out the form below to send us an email and we
-                    will get back to you as soon as possible.
+                   من فضلك قم بتعبئة الخانات وسنتواصل معك بأقرب وقت عن طريق الايميل
                   </p>
                 </div>
                 <form name="sentMessage" id="contactForm" noValidate>
@@ -23,7 +22,7 @@ export class Contact extends Component {
                           type="text"
                           id="name"
                           className="form-control"
-                          placeholder="Name"
+                          placeholder="الاسم"
                           required="required"
                         />
                         <p className="help-block text-danger"></p>
@@ -35,7 +34,7 @@ export class Contact extends Component {
                           type="email"
                           id="email"
                           className="form-control"
-                          placeholder="Email"
+                          placeholder="الايميل"
                           required="required"
                         />
                         <p className="help-block text-danger"></p>
@@ -48,24 +47,24 @@ export class Contact extends Component {
                       id="message"
                       className="form-control"
                       rows="4"
-                      placeholder="Message"
+                      placeholder="الرسالة"
                       required
                     ></textarea>
                     <p className="help-block text-danger"></p>
                   </div>
                   <div id="success"></div>
                   <button type="submit" className="btn btn-custom btn-lg">
-                    Send Message
+                    إرسال الرسالة
                   </button>
                 </form>
               </div>
             </div>
             <div className="col-md-3 col-md-offset-1 contact-info">
               <div className="contact-item">
-                <h3>Contact Info</h3>
+                <h3>معلومات التواصل</h3>
                 <p>
                   <span>
-                    <i className="fa fa-map-marker"></i> Address
+                     العنوان <i className="fa fa-map-marker"></i>
                   </span>
                   {this.props.data ? this.props.data.address : "loading"}
                 </p>
@@ -73,7 +72,7 @@ export class Contact extends Component {
               <div className="contact-item">
                 <p>
                   <span>
-                    <i className="fa fa-phone"></i> Phone
+                     رقم الهاتف <i className="fa fa-phone"></i>
                   </span>{" "}
                   {this.props.data ? this.props.data.phone : "loading"}
                 </p>
@@ -81,7 +80,7 @@ export class Contact extends Component {
               <div className="contact-item">
                 <p>
                   <span>
-                    <i className="fa fa-envelope-o"></i> Email
+                    الايميل  <i className="fa fa-envelope-o"></i>
                   </span>{" "}
                   {this.props.data ? this.props.data.email : "loading"}
                 </p>

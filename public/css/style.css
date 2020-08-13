@@ -141,7 +141,7 @@ hr {
 .section-title h2::after {
 	position: absolute;
 	content: "";
-	background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+	background: linear-gradient(to right, #A9D051 0%, #A9D051 100%);
 	height: 4px;
 	width: 360px;
 	bottom: 0;
@@ -155,8 +155,8 @@ hr {
 	font-family: 'Raleway', sans-serif;
 	text-transform: uppercase;
 	color: #fff;
-	background-color: #5ca9fb;
-	background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+	background-color: #43B3C9;
+	background-image: linear-gradient(to right, #43B3C9 0%, #43B3C9 100%);
 	padding: 14px 34px;
 	letter-spacing: 1px;
 	margin: 0;
@@ -237,7 +237,7 @@ header .intro-text {
 	height: 100px;
 	padding: 30px 0;
 	border-radius: 50%;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	background: linear-gradient(to right, #43B3C9 0%, #43B3C9 100%);
 	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
 }
 /* About Section */
@@ -257,7 +257,7 @@ header .intro-text {
 #about h2::after {
 	position: absolute;
 	content: "";
-	background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+	background: linear-gradient(to right, #A9D051 0%, #A9D051 100%);
 	height: 4px;
 	width: 240px;
 	bottom: 0;
@@ -278,7 +278,7 @@ header .intro-text {
 #about .about-text li:before {
 	content: '\f00c';
 	font-family: 'FontAwesome';
-	color: #5ca9fb;
+	color: #43B3C9;
 	font-size: 11px;
 	font-weight: 300;
 	padding-left: 8px;
@@ -298,7 +298,7 @@ header .intro-text {
 /* Services Section */
 #services {
 	padding: 100px 0;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	background: linear-gradient(to right, #43B3C9 0%, #43B3C9 100%);
 	color: #fff;
 }
 #services .service-desc {
@@ -322,7 +322,7 @@ header .intro-text {
 	width: 120px;
 	height: 120px;
 	padding: 40px 0;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	background: linear-gradient(to right, #43B3C9 0%, #43B3C9 100%);
 	border-radius: 50%;
 	color: #fff;
 	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
@@ -443,7 +443,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
 	padding: 100px 0 60px 0;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	background: linear-gradient(to right, #43B3C9 0%, #43B3C9 100%);
 	color: rgba(255,255,255,.75);
 }
 #contact .section-title {
@@ -451,12 +451,14 @@ header .intro-text {
 }
 #contact .section-title p {
 	font-size: 16px;
+	text-align: center;
 }
 #contact h2 {
 	color: #fff;
 	margin-top: 10px;
 	margin-bottom: 15px;
 	padding-bottom: 15px;
+	margin-left: 244px;
 }
 #contact .section-title h2::after {
 	position: absolute;
@@ -465,7 +467,7 @@ header .intro-text {
 	height: 4px;
 	width: 60px;
 	bottom: 0;
-	left: 30px;
+	left: 80px;
 }
 #contact h3 {
 	color: #fff;
@@ -473,6 +475,7 @@ header .intro-text {
 	margin-bottom: 25px;
 	padding-bottom: 20px;
 	font-weight: 400;
+	text-align: center;
 }
 #contact form {
 	padding-top: 20px;
@@ -485,6 +488,7 @@ header .intro-text {
 	margin: 30px 0;
 	background: transparent;
 	border: 2px solid #fff;
+	margin-left: 270px;
 }
 #contact .btn-custom:hover {
 	color: #1f386e;
@@ -494,7 +498,7 @@ label {
 	font-size: 12px;
 	font-weight: 400;
 	font-family: 'Open Sans', sans-serif;
-	float: left;
+	float: right;
 }
 #contact .form-control {
 	display: block;
@@ -521,6 +525,7 @@ label {
 }
 .form-control::-webkit-input-placeholder {
 color: #777;
+text-align: right;
 }
 .form-control:-moz-placeholder {
 color: #777;
@@ -538,6 +543,7 @@ color: #777;
 	color: rgba(255,255,255,1);
 	margin-bottom: 10px;
 	display: block;
+	margin-left: 133px;
 }
 #contact .contact-item i.fa {
 	margin-right: 10px;
