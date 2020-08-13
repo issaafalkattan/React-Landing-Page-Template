@@ -465,9 +465,9 @@ header .intro-text {
 	content: "";
 	background: rgba(255,255,255,.3);
 	height: 4px;
-	width: 60px;
+	width: 160px;
 	bottom: 0;
-	left: 80px;
+	left: 37px;
 }
 #contact h3 {
 	color: #fff;
@@ -475,7 +475,10 @@ header .intro-text {
 	margin-bottom: 25px;
 	padding-bottom: 20px;
 	font-weight: 400;
-	text-align: center;
+	text-align: right;
+}
+#contact p {
+	text-align: right;
 }
 #contact form {
 	padding-top: 20px;
@@ -543,7 +546,6 @@ color: #777;
 	color: rgba(255,255,255,1);
 	margin-bottom: 10px;
 	display: block;
-	margin-left: 133px;
 }
 #contact .contact-item i.fa {
 	margin-right: 10px;
