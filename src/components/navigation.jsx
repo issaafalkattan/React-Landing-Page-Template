@@ -40,12 +40,12 @@ export class Navigation extends Component {
               </li>
               <li>
                 <a href="#services" className="page-scroll">
-               من نحن
+               مميزات المركزين
                 </a>
               </li>
               <li>
                 <a href="#portfolio" className="page-scroll">
-                مميزات المركزين
+            ألبوم الصور
                 </a>
               </li>
              

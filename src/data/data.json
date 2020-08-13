@@ -18,34 +18,51 @@
     },
     "Services": [{
             "icon": "fa fa-wordpress",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "name": "",
+            "text": "وجود عيادة قياس وتشخيص متخصصة تحتوي على فريق تشخيصي تكاملي شامل"
         },
         {
             "icon": "fa fa-cart-arrow-down",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "name": "",
+            "text": "وجود كادر وظيفي متخصص ذوي خبرة وكفاءة عالية للتعامل مع اضطراب التوحد و ذوي الإعاقة"
         },
         {
             "icon": "fa fa-cloud-download",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "name": "",
+            "text": "وجود صالة تأهيل حركي مجهزة بأحدث الوسائل والأجهزة والمعينات الحركية لتأهيل جميع الإعاقات الحركية.   "
         },
         {
             "icon": "fa fa-language",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "name": "",
+            "text": " توفر مساحات خضراء للعب الجماعي والترفيه للحالات"
         },
         {
             "icon": "fa fa-plane",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "name": "",
+            "text": "توفر وسائل نقل مجهزة لحالات الإعاقة الحركية مزودة برافعات كهربائية تحت إشراف كوادر متخصصة."
         },
         {
             "icon": "fa fa-pie-chart",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "name": "",
+            "text": "وجود فصول تأهيلية تدريبية مجهزة بتقنيات تتناسب مع حالات الإعاقة"
+        },
+        {
+            "icon": "fa fa-pie-chart",
+            "name": "",
+            "text": "وجود وحدات متخصصة لعلاج النطق ضمن كادر وظيفي متخصص وبرامج علاجية عالية الجودة تحتوي على وحدات تدريب فردية وجماعية"
+        },
+        {
+            "icon": "fa fa-pie-chart",
+            "name": "",
+            "text": " وجود أركان متخصصة للمهارات الاستقلالية لتعليم وتنمية مهارات الرعاية الشخصية والمهارات الاستقلالية للوصول بالحالة إلى أعلى مستوى من الاعتماد على الذات في المهارات الحياتية"
+        },
+        {
+            "icon": "fa fa-pie-chart",
+            "name": "",
+            "text": " وجود قاعة متخصصة للتدريب والتهيئة المهنية"
         }
+
+        
 
 
     ],
