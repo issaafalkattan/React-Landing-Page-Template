@@ -143,10 +143,10 @@ hr {
 	content: "";
 	background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
 	height: 4px;
-	width: 60px;
+	width: 360px;
 	bottom: 0;
 	margin-left: -30px;
-	left: 50%;
+	left: 35%;
 }
 .section-title p {
 	font-size: 18px;
@@ -212,7 +212,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .intro p {
 	color: #fff;
 	font-size: 22px;
-	font-weight: 300;
+	font-weight: bold;
 	line-height: 30px;
 	margin: 0 auto;
 	margin-bottom: 60px;
@@ -251,15 +251,16 @@ header .intro-text {
 	position: relative;
 	margin-bottom: 15px;
 	padding-bottom: 15px;
+	text-align: right;
 }
 #about h2::after {
 	position: absolute;
 	content: "";
 	background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
 	height: 4px;
-	width: 60px;
+	width: 240px;
 	bottom: 0;
-	left: 0;
+	right: 0;
 }
 #about .about-text li {
 	margin-bottom: 6px;
@@ -267,13 +268,20 @@ header .intro-text {
 	list-style: none;
 	padding: 0;
 }
+.about-text .list-style {
+	text-align: right;
+}
+.about-text h3 {
+	text-align: right;
+}
 #about .about-text li:before {
 	content: '\f00c';
 	font-family: 'FontAwesome';
 	color: #5ca9fb;
 	font-size: 11px;
 	font-weight: 300;
-	padding-right: 8px;
+	padding-left: 8px;
+	float: right;
 }
 #about img {
 	width: 520px;

@@ -49,6 +49,17 @@ a:active,
 a:hover {
   outline: 0;
 }
+
+.navbar-nav > li {
+  float: right !important;
+}
+
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+  margin-left: -15px;
+  width: 50px;
+  height: 50px;
+  padding: 0;
+}
 abbr[title] {
   border-bottom: 1px dotted;
 }
@@ -241,6 +252,7 @@ th {
   .navbar {
     display: none;
   }
+ 
   .btn > .caret,
   .dropup > .btn > .caret {
     border-top-color: #000 !important;
