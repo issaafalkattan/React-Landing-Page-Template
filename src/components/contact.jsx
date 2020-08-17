@@ -6,7 +6,7 @@ export class Contact extends Component {
       <div>
         <div id="contact">
           <div className="container">
-            <div className="col-md-8">
+            {/* <div className="col-md-8">
               <div className="row">
                 <div className="section-title">
                   <h2>تواصل معنا</h2>
@@ -58,10 +58,10 @@ export class Contact extends Component {
                   </button>
                 </form>
               </div>
-            </div>
-            <div className="col-md-3 col-md-offset-1 contact-info">
+            </div> */}
+            <div className="col-md-6  contact-info">
               <div className="contact-item">
-                <h3>معلومات التواصل</h3>
+                <h3>معلومات تواصل مركز الفرسان</h3>
                 <p>
                   <span>
                      العنوان <i className="fa fa-map-marker"></i>
@@ -86,6 +86,34 @@ export class Contact extends Component {
                 </p>
               </div>
             </div>
+            <div className="col-md-6  contact-info">
+              <div className="contact-item">
+                <h3>  معلومات تواصل مركز براعم التحدي</h3>
+                <p>
+                  <span>
+                     العنوان <i className="fa fa-map-marker"></i>
+                  </span>
+                  {this.props.data ? this.props.data.address : "loading"}
+                </p>
+              </div>
+              <div className="contact-item">
+                <p>
+                  <span>
+                     رقم الهاتف <i className="fa fa-phone"></i>
+                  </span>{" "}
+                  {this.props.data ? this.props.data.phone : "loading"}
+                </p>
+              </div>
+              <div className="contact-item">
+                <p>
+                  <span>
+                    الايميل  <i className="fa fa-envelope-o"></i>
+                  </span>{" "}
+                  {this.props.data ? this.props.data.email : "loading"}
+                </p>
+              </div>
+            </div>
+           
             <div className="col-md-12">
               <div className="row">
                 <div className="social">

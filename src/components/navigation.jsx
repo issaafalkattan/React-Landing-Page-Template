@@ -45,7 +45,7 @@ export class Navigation extends Component {
               </li>
               <li>
                 <a href="#portfolio" className="page-scroll">
-            ألبوم الصور
+            وحدات المركز
                 </a>
               </li>
              

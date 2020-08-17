@@ -3,6 +3,7 @@ import Navigation from './components/navigation';
 import Header from './components/header';
 import Features from './components/features';
 import About from './components/about';
+import Registration from './components/registration';
 import Services from './components/services';
 import Gallery from './components/gallery';
 // import Testimonials from './components/testimonials';
@@ -29,6 +30,7 @@ export class App extends Component {
         <Header data={this.state.landingPageData.Header} />
         <Features data={this.state.landingPageData.Features} />
         <About data={this.state.landingPageData.About} />
+        <Registration data={this.state.landingPageData.Registration} />
         <Services data={this.state.landingPageData.Services} />
         <Gallery />
         {/* <Testimonials data={this.state.landingPageData.Testimonials} /> */}

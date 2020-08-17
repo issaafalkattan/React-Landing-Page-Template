@@ -138,7 +138,7 @@ hr {
 	margin-bottom: 15px;
 	padding-bottom: 15px;
 }
-.section-title h2::after {
+/* .section-title h2::after {
 	position: absolute;
 	content: "";
 	background: linear-gradient(to right, #A9D051 0%, #A9D051 100%);
@@ -147,7 +147,7 @@ hr {
 	bottom: 0;
 	margin-left: -30px;
 	left: 35%;
-}
+} */
 .section-title p {
 	font-size: 18px;
 }
