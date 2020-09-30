@@ -1,8 +1,8 @@
 {
     "Header": {
 
-        "title": "We are a Landing Page",
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+        "title": "Novedoso y con estilo",
+        "paragraph": "Buena calidad al mejor precio."
 
     },
     "About": {
@@ -119,7 +119,7 @@
         },
         {
             "icon": "fa fa-bullhorn",
-            "title": "Lorem ipsum",
+            "title": "Productos novedosos",
             "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
         },
         {
