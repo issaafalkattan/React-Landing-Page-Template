@@ -53,29 +53,20 @@
     ],
     "Team": [{
             "img": "img/team/01.jpg",
-            "name": "John Doe",
-            "job": "Director"
+            "name": "Karla Melissa Pela",
+            "job": "Gerente"
         },
         {
             "img": "img/team/02.jpg",
-            "name": "Mike Doe",
-            "job": "Senior Designer"
-        }, {
-            "img": "img/team/03.jpg",
-            "name": "Jane Doe",
-            "job": "Senior Designer"
-        },
-        {
-            "img": "img/team/04.jpg",
-            "name": "Karen Doe",
-            "job": "Project Manager"
+            "name": "Eduardo Roa Daza",
+            "job": "..."
         }
     ],
     "Contact": {
-        "address": "4321 California St, San Francisco, CA 12345 ",
-        "phone": "+1 123 456 1234",
-        "email": "info@company.com",
-        "facebook": "fb.com",
+        "address": "Calle 8 No. 7-65",
+        "phone": "+57 31774243118",
+        "email": "melipepapalomino20@hotmail.com",
+        "facebook": "https://www.facebook.com/DiosEsMiSalvadorr",
         "twitter": "twitter.com",
         "youtube": "youtube.com"
     },
