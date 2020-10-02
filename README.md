@@ -2,7 +2,7 @@
 
 ### <a href="https://react-landing-page-template.herokuapp.com">Ir al sitio</a> 
 
-## Description
+## Descripción
 Página de aterrezaje para empresa de compra y venta de productos al por mayor y detal.
 
 
