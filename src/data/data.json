@@ -53,13 +53,13 @@
     ],
     "Team": [{
             "img": "img/team/01.jpg",
-            "name": "Karla Melissa Pela",
-            "job": "Gerente"
+            "name": "Karla Melissa Peña",
+            "job": "Gerente y propietaria"
         },
         {
             "img": "img/team/02.jpg",
             "name": "Eduardo Roa Daza",
-            "job": "..."
+            "job": "Socio"
         }
     ],
     "Contact": {
