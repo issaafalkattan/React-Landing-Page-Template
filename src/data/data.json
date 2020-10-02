@@ -6,18 +6,17 @@
 
     },
     "About": {
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "paragraph": "Somos una empresa con más de 5 años de experiencia en el mercado, nos caracterizamos por ofrecer el mejor servcio en cuanto calidad, variedad y precio.",
         "Why": [
-            "Lorem ipsum dolor",
-            "Tempor incididunt",
-            "Lorem ipsum dolor",
-            "Incididunt ut labore"
+            "Contamos con una excelente reputación.",
+            "Ofrecemos garantia de 1 mes por si algún cliente no se siente satisfecho con el producto.",
+            "Diseños unicos en los productos.",
+            "Mejor material al mejor precio.",
+            "Si no lo tenemos se lo conseguimos.",
+            "Disponibilidad en los pagos."
         ],
         "Why2": [
-            "Aliquip ex ea commodo",
-            "Lorem ipsum dolor",
-            "Exercitation ullamco",
-            "Lorem ipsum dolor"
+            ""
         ]
     },
     "Services": [{
