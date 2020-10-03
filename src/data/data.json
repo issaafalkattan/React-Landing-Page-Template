@@ -20,12 +20,12 @@
         ]
     },
     "Services": [{
-            "icon": "fa fa-wordpress",
+            "icon": "fa fa-angellist",
             "name": "Entregas a domicilio",
             "text": "Cobertura en todo el huila (proximamente en otros departamentos), nosotros mismo se lo llevamos con un costo adicional del domicilio."
         },
         {
-            "icon":"fa fa-comments-o",
+            "icon":"fa fa-facebook",
             "name": "Te asesarmos en darle belleza a tu hogar :)",
             "text": "Ponte en contacto con nosotros y te ayudaremos a hacer que tú hogar sea un lugar donde todas las personas quieran estar"
         }
