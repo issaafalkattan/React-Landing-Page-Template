@@ -82,9 +82,10 @@ hr {
 	text-transform: uppercase;
 }
 #menu.navbar-default .navbar-nav > li > a {
-	font-family: 'Lato', sans-serif;
+	/* font-family: 'Lato', sans-serif; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	text-transform: uppercase;
-	color: #555;
+	color:#0e0b0b;
 	font-size: 15px;
 	font-weight: 400;
 	padding: 8px 2px;
@@ -115,7 +116,7 @@ hr {
 	bottom: -1px !important;
 	width: 100% !important;
 	height: 2px !important;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
+	background: linear-gradient(to right, #1b2bbe 0%, #0b1a2b 100%) !important;
 	content: "" !important;
 	transition: width 0.2s !important;
 }
@@ -155,7 +156,7 @@ hr {
 	font-family: 'Raleway', sans-serif;
 	text-transform: uppercase;
 	color: #fff;
-	background-color: #5ca9fb;
+	background-color: #e29977;
 	background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
 	padding: 14px 34px;
 	letter-spacing: 1px;
@@ -169,7 +170,7 @@ hr {
 .btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
 	color: #fff;
 	background-image: none;
-	background-color: #6372ff;
+	background-color: #6c6e88;
 }
 .btn:active, .btn.active {
 	background-image: none;
@@ -186,8 +187,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: url(../img/intro-bg.jpg) center center no-repeat;
-	background-color: #e5e5e5;
+	background: url(../img/bg-intro.jpg) center center no-repeat;
+    background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
