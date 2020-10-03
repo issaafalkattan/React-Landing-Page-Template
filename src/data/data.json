@@ -82,8 +82,18 @@
         },
         {
             "icon": "fa fa-bullhorn",
-            "title": "Productos novedosos",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "title": "Productos de distintos materiales para todos los gustos",
+            "text": "Le tenemos el producto en el material que lo desee, tanto si es madera como metal."
+        },
+        {
+            "icon": "fa fa-bullhorn",
+            "title": "Productos para niños",
+            "text": "Le tenemos todo en cuanto a las necesidades de tus niños."
+        },
+        {
+            "icon": "fa fa-bullhorn",
+            "title": "productos que combinan con tu personalidad",
+            "text": "Los productos están altamente personalizados y customizados para adaptarse casí a cualquier cliente."
         }
     ]
 }
