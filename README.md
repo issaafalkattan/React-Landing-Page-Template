@@ -1,5 +1,7 @@
-# Página de destino
+### Git pod
 
+# Página de destino
+[![Editar con gitpod](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/diegocomunity/Landing-page)
 ### <a href="https://react-landing-page-template.herokuapp.com">Ir al sitio</a> 
 
 ## Descripción
