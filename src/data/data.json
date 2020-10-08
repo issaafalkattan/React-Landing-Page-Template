@@ -28,6 +28,16 @@
             "icon":"fa fa-comments-o",
             "name": "Te asesarmos en darle belleza a tu hogar :)",
             "text": "Ponte en contacto con nosotros y te ayudaremos a hacer que tú hogar sea un lugar donde todas las personas quieran estar"
+        },
+        {
+            "icon":"fa fa-comments-o",
+            "name": "Diseños personalizados",
+            "text": "Te damos diseños únicos y si no te convencen te diseñamos lo que desees"
+        },
+        {
+            "icon":"fa fa-comments-o",
+            "name": "Productos didacticos para niños",
+            "text": "Te ofrecemos productos para la comodidad de tus niños"
         }
     ],
     "Testimonials": [{
