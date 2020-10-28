@@ -186,7 +186,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: url(../img/intro-bg.jpg) center center no-repeat;
+	background: url(../img/hashi2.jpg) center center no-repeat;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -289,7 +289,7 @@ header .intro-text {
 /* Services Section */
 #services {
 	padding: 100px 0;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	background: linear-gradient(to right, #232961 0%, #213d5a 100%);
 	color: #fff;
 }
 #services .service-desc {
@@ -557,9 +557,10 @@ color: #777;
 	color: #608dfd;
 	background: #fff;
 }
+
 /* Footer Section*/
 #footer {
-	background: #f6f6f6;
+	background: #181616;
 	padding: 30px 0;
 }
 #footer p {
