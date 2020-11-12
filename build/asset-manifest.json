@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Latechcom/React-Landing-Page-Template.git/static/css/main.69eda509.chunk.css",
+    "main.js": "/Latechcom/React-Landing-Page-Template.git/static/js/main.3744bdd0.chunk.js",
+    "main.js.map": "/Latechcom/React-Landing-Page-Template.git/static/js/main.3744bdd0.chunk.js.map",
+    "runtime-main.js": "/Latechcom/React-Landing-Page-Template.git/static/js/runtime-main.ba201dd5.js",
+    "runtime-main.js.map": "/Latechcom/React-Landing-Page-Template.git/static/js/runtime-main.ba201dd5.js.map",
+    "static/js/2.101fb2a2.chunk.js": "/Latechcom/React-Landing-Page-Template.git/static/js/2.101fb2a2.chunk.js",
+    "static/js/2.101fb2a2.chunk.js.map": "/Latechcom/React-Landing-Page-Template.git/static/js/2.101fb2a2.chunk.js.map",
+    "index.html": "/Latechcom/React-Landing-Page-Template.git/index.html",
+    "precache-manifest.8737fa083a09b72ce263c76b2ca5e2bc.js": "/Latechcom/React-Landing-Page-Template.git/precache-manifest.8737fa083a09b72ce263c76b2ca5e2bc.js",
+    "service-worker.js": "/Latechcom/React-Landing-Page-Template.git/service-worker.js",
+    "static/css/main.69eda509.chunk.css.map": "/Latechcom/React-Landing-Page-Template.git/static/css/main.69eda509.chunk.css.map",
+    "static/js/2.101fb2a2.chunk.js.LICENSE.txt": "/Latechcom/React-Landing-Page-Template.git/static/js/2.101fb2a2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ba201dd5.js",
+    "static/js/2.101fb2a2.chunk.js",
+    "static/css/main.69eda509.chunk.css",
+    "static/js/main.3744bdd0.chunk.js"
+  ]
+}
