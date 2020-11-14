@@ -8,8 +8,7 @@ export class Services extends Component {
           <div className="section-title">
             <h2>Our Services</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-              dapibus leonec.
+            Choose from our portfolio of innovative products and services to foster your brand's exposure.
             </p>
           </div>
           <div className="row">
