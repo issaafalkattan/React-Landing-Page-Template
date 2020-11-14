@@ -9,7 +9,7 @@ export class Contact extends Component {
             <div className="col-md-8">
               <div className="row">
                 <div className="section-title">
-                  <h2>Get In Touch</h2>
+                  <h2>Contact</h2>
                   <p>
                     Please fill out the form below to send us an email and we
                     will get back to you as soon as possible.
@@ -65,22 +65,6 @@ export class Contact extends Component {
                 <h3>Contact Info</h3>
                 <p>
                   <span>
-                    <i className="fa fa-map-marker"></i> Address
-                  </span>
-                  {this.props.data ? this.props.data.address : "loading"}
-                </p>
-              </div>
-              <div className="contact-item">
-                <p>
-                  <span>
-                    <i className="fa fa-phone"></i> Phone
-                  </span>{" "}
-                  {this.props.data ? this.props.data.phone : "loading"}
-                </p>
-              </div>
-              <div className="contact-item">
-                <p>
-                  <span>
                     <i className="fa fa-envelope-o"></i> Email
                   </span>{" "}
                   {this.props.data ? this.props.data.email : "loading"}
@@ -117,9 +101,9 @@ export class Contact extends Component {
         <div id="footer">
           <div className="container text-center">
             <p>
-              &copy; 2020 Issaaf Kattan React Land Page Template. Design by{" "}
-              <a href="http://www.templatewire.com" rel="nofollow">
-                TemplateWire
+              &copy; 2020 SocialQ. Design by{" "}
+              <a href="https://github.com/Santiago8888" rel="nofollow">
+                Santiago M.
               </a>
             </p>
           </div>
