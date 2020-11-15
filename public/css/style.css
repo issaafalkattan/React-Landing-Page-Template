@@ -156,7 +156,7 @@ hr {
 	text-transform: uppercase;
 	color: #fff;
 	background-color: #4c969a;
-	background-image: linear-gradient(to bottom right, #4c969a 30%, #d15637 100%);
+	background-image: linear-gradient(to bottom, #4c969a 35%, #d15637 100%);
 	padding: 14px 34px;
 	letter-spacing: 1px;
 	margin: 0;
