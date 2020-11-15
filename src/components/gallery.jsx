@@ -15,7 +15,8 @@ export class Gallery extends Component {
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="img/portfolio/01-large.jpg"
+                      href="https://santiagoq.medium.com/what-am-i-looking-for-in-an-ai-powered-community-manager-b25b90fed2f?sk=e9675b272e964a6c03462b999f0406b5" 
+                      target="_blank"
                       title="Project Title"
                       data-lightbox-gallery="gallery1"
                     >
@@ -36,7 +37,8 @@ export class Gallery extends Component {
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="img/portfolio/02-large.jpg"
+                      href="https://santiagoq.medium.com/sales-as-understood-by-an-engineer-6daef67ce629"
+                      target="_blank"
                       title="Project Title"
                       data-lightbox-gallery="gallery1"
                     >
@@ -57,7 +59,8 @@ export class Gallery extends Component {
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="img/portfolio/05-large.jpg"
+                      href="https://santiagoq.medium.com/"
+                      target="_blank"
                       title="Project Title"
                       data-lightbox-gallery="gallery1"
                     >
