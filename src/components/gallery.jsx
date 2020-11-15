@@ -7,9 +7,6 @@ export class Gallery extends Component {
         <div className="container">
           <div className="section-title">
             <h2>Blog</h2>
-            <p>
-              Know more about us by reading about what we do. think, and aspire to:
-            </p>
           </div>
           <div className="row">
             <div className="portfolio-items">

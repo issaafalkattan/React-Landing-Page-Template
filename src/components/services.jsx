@@ -7,9 +7,6 @@ export class Services extends Component {
         <div className="container">
           <div className="section-title">
             <h2>Our Services</h2>
-            <p>
-            Choose from our portfolio of innovative products and services to foster your brand's exposure.
-            </p>
           </div>
           <div className="row">
             {this.props.data
