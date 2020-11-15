@@ -14,7 +14,15 @@ export class Team extends Component {
                   <div  key={`${d.name}-${i}`} className="col-md-3 col-md-offset-2 col-sm-6 team">
                     <div className="thumbnail">
                       {" "}
-                      <img src={d.img} alt="..." className="team-img" />
+                      <img 
+                        src={d.img} 
+                        alt="..." 
+                        className="team-img" 
+                        style={{
+                          borderRadius: 120, 
+                          border: `5px solid #${i ? 'd15637' : '4c969a'}`
+                        }}
+                      />
                       <div className="caption">
                         <h4>{d.name}</h4>
                         <p>{d.job}</p>

@@ -77,12 +77,12 @@
         }
     ],
     "Team": [{
-            "img": "img/team/01.jpg",
+            "img": "img/team/01.png",
             "name": "Santiago M. Quintero",
             "job": "CTO"
         },
         {
-            "img": "img/team/04.jpg",
+            "img": "img/team/02.jpg",
             "name": "Paola H. Hoffman",
             "job": "CMO"
         }
