@@ -98,7 +98,7 @@ hr {
 	bottom: -1px;
 	width: 0;
 	height: 2px;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	background: linear-gradient(to right, #d15637 0%, #70b5b9 100%);
 	content: "";
 	transition: width 0.2s;
 }
@@ -115,7 +115,7 @@ hr {
 	bottom: -1px !important;
 	width: 100% !important;
 	height: 2px !important;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
+	background: linear-gradient(to right, #d15637 0%, #70b5b9 100%) !important;
 	content: "" !important;
 	transition: width 0.2s !important;
 }
@@ -141,7 +141,7 @@ hr {
 .section-title h2::after {
 	position: absolute;
 	content: "";
-	background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+	background: linear-gradient(to right, #70b5b9 0%, #d15637 100%);
 	height: 4px;
 	width: 60px;
 	bottom: 0;
@@ -155,8 +155,8 @@ hr {
 	font-family: 'Raleway', sans-serif;
 	text-transform: uppercase;
 	color: #fff;
-	background-color: #5ca9fb;
-	background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+	background-color: #4c969a;
+	background-image: linear-gradient(to bottom right, #4c969a 30%, #d15637 100%);
 	padding: 14px 34px;
 	letter-spacing: 1px;
 	margin: 0;
@@ -169,7 +169,7 @@ hr {
 .btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
 	color: #fff;
 	background-image: none;
-	background-color: #6372ff;
+	background-color: #d15637;
 }
 .btn:active, .btn.active {
 	background-image: none;
@@ -194,7 +194,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	-o-background-size: cover;
 }
 .intro .overlay {
-	background: rgba(0,0,0,0.2);
+	background: rgba(0,0,0,0.6);
 }
 .intro h1 {
 	font-family: 'Raleway', sans-serif;
@@ -207,7 +207,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 .intro h1 span {
 	font-weight: 800;
-	color: #5ca9fb;
+	color: #70b5b9;
 }
 .intro p {
 	color: #fff;
@@ -222,6 +222,14 @@ header .intro-text {
 	padding-bottom: 200px;
 	text-align: center;
 }
+
+@media (max-width: 768px) { 
+	header .intro-text {
+		padding-top: 150px;
+		padding-bottom: 100px;
+	}
+}
+
 /* Features Section */
 #features {
 	padding: 100px 0;
@@ -236,7 +244,7 @@ header .intro-text {
 	height: 100px;
 	padding: 30px 0;
 	border-radius: 50%;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	background: linear-gradient(to right, #d15637 0%, #70b5b9 100%);
 	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
 }
 /* About Section */
@@ -247,20 +255,8 @@ header .intro-text {
 	font-size: 22px;
 	margin: 0 0 20px 0;
 }
-#about h2 {
-	position: relative;
-	margin-bottom: 15px;
-	padding-bottom: 15px;
-}
-#about h2::after {
-	position: absolute;
-	content: "";
-	background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
-	height: 4px;
-	width: 60px;
-	bottom: 0;
-	left: 0;
-}
+
+
 #about .about-text li {
 	margin-bottom: 6px;
 	margin-left: 6px;
@@ -270,11 +266,12 @@ header .intro-text {
 #about .about-text li:before {
 	content: '\f00c';
 	font-family: 'FontAwesome';
-	color: #5ca9fb;
+	color: #70b5b9;
 	font-size: 11px;
 	font-weight: 300;
 	padding-right: 8px;
 }
+
 #about img {
 	width: 520px;
 	margin-top: 10px;
@@ -282,6 +279,7 @@ header .intro-text {
 	border-right: 0;
 	box-shadow: 0 0 50px rgba(0,0,0,0.06);
 }
+
 #about p {
 	line-height: 24px;
 	margin: 30px 0;
@@ -289,7 +287,7 @@ header .intro-text {
 /* Services Section */
 #services {
 	padding: 100px 0;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	background: linear-gradient(to bottom right, #5ca9fb 0%, #4c969a 100%);
 	color: #fff;
 }
 #services .service-desc {
@@ -313,7 +311,7 @@ header .intro-text {
 	width: 120px;
 	height: 120px;
 	padding: 40px 0;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	background: linear-gradient(to bottom right, #6372ff 0%, #70b5b9 70%);
 	border-radius: 50%;
 	color: #fff;
 	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
@@ -434,7 +432,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
 	padding: 100px 0 60px 0;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	background: linear-gradient(to bottom right, #5ca9fb 0%, #4c969a 100%);
 	color: rgba(255,255,255,.75);
 }
 #contact .section-title {
