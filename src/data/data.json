@@ -98,22 +98,22 @@
     "Features": [{
             "icon": "fa fa-comments-o",
             "title": "Recognition",
-            "text": "You've invested a lot of effort to get here. Share your success!"
+            "text": "You've invested a lot of effort to get here, enjoy your success!"
         },
         {
             "icon": "fa fa-bullhorn",
             "title": "Influence",
-            "text": "Become a leader in your industry or niche. Set the trends."
+            "text": "Become a leader, set the trends of your industry or niche."
         },
         {
             "icon": "fa fa-group",
             "title": "Monetize",
-            "text": "An engage audience is an easy way to earn money online."
+            "text": "An engaged audience is the easiest way to earn money online."
         },
         {
             "icon": "fa fa-magic",
             "title": "Social Impact",
-            "text": "You care about the world we live in, shape it as you see it fit."
+            "text": "You care about the world we live in, help to make it better!"
         }
     ]
 }
