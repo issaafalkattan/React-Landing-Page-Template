@@ -96,7 +96,7 @@
         "youtube": "youtube.com"
     },
     "Features": [{
-            "icon": "fa fa-comments-o",
+            "icon": "fa fa-group",
             "title": "Recognition",
             "text": "You've invested a lot of effort to get here, enjoy your success!"
         },
@@ -106,7 +106,7 @@
             "text": "Become a leader, set the trends of your industry or niche."
         },
         {
-            "icon": "fa fa-group",
+            "icon": "fa fa-usd",
             "title": "Monetize",
             "text": "An engaged audience is the easiest way to earn money online."
         },
