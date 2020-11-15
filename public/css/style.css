@@ -156,7 +156,7 @@ hr {
 	text-transform: uppercase;
 	color: #fff;
 	background-color: #4c969a;
-	background-image: linear-gradient(to bottom, #4c969a 35%, #d15637 100%);
+	background-image: radial-gradient(circle at 50% -50%, #4c969a 40%, #d15637 100%);
 	padding: 14px 34px;
 	letter-spacing: 1px;
 	margin: 0;
@@ -244,7 +244,7 @@ header .intro-text {
 	height: 100px;
 	padding: 30px 0;
 	border-radius: 50%;
-	background: linear-gradient(to right, #d15637 0%, #70b5b9 100%);
+	background: radial-gradient(farthest-corner at 80% 80%, #d15637, #70b5b9  80%);
 	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
 }
 /* About Section */
