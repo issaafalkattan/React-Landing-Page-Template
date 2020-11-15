@@ -6,7 +6,7 @@ export class testimonials extends Component {
       <div id="testimonials">
         <div className="container">
           <div className="section-title text-center">
-            <h2>Who are our ideal clients?</h2>
+            <h2>Our Clients</h2>
           </div>
           <div className="row">
             {this.props.data

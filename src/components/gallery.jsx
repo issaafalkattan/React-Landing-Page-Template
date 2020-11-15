@@ -8,7 +8,7 @@ export class Gallery extends Component {
           <div className="section-title">
             <h2>Blog</h2>
             <p>
-              Read more about what we value, think and promote:
+              Know more about us by reading about what we do. think, and aspire to:
             </p>
           </div>
           <div className="row">
@@ -23,7 +23,7 @@ export class Gallery extends Component {
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4>Lorem Ipsum</h4>
+                        <h4>An AI powered <br/> community manager</h4>
                       </div>
                       <img
                         src="img/portfolio/01-small.jpg"
@@ -44,7 +44,7 @@ export class Gallery extends Component {
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4>Adipiscing Elit</h4>
+                        <h4>Sales for Engineers</h4>
                       </div>
                       <img
                         src="img/portfolio/02-small.jpg"
@@ -65,7 +65,7 @@ export class Gallery extends Component {
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4>Adipiscing Elit</h4>
+                        <h4>Full Blog</h4>
                       </div>
                       <img
                         src="img/portfolio/05-small.jpg"
