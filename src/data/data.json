@@ -22,58 +22,58 @@
         {
             "icon": "fa fa-hiking",
             "name": "Culture Scaling",
-            "text": "Innovative solution for rapidly growing startups looking to foster their culture."
+            "text": "Innovative solution for rapidly growing startups looking to scale their culture."
         },
         {
             "icon": "fa fa-lightbulb",
-            "name": "Weekly Insight",
-            "text": "Personalized reports based on your last week social media activity."
+            "name": "Weekly Insights",
+            "text": "Personalized reports based on your last week social media activity and goals."
         },
         {
             "icon": "fa fa-diagnoses",
             "name": "1-to-1 Coaching",
-            "text": "Set your perfect online strategy with the help from someone that has done it before."
+            "text": "Set your perfect online strategy with the help of someone that has done it before."
         },
         {
             "icon": "fa fa-rss",
             "name": "Newsletter",
-            "text": "Subscribe and get delivered to your industry trends and novel research about branding."
+            "text": "Subscribe and get delivered to your inbox trends and novel research about growing a brand."
         },
         {
             "icon": "fa fa-dumbbell",
             "name": "Engagement Gym",
-            "text": "Data-driven growth excerices to empower up your brand and online prescence."
+            "text": "Data-driven growth excerices to empower your brand and online prescence."
         }
     ],
     "Testimonials": [{
             "img": "img/testimonials/01.jpg",
-            "text": "Rapidly scaling startups can benefit from creating brand awareness to move beyond the \"early adopter\" customer segment.",
-            "name": "Series A startup"
+            "text": "Reduce customer acquisition costs with a solid digital prescence.",
+            "name": "Series A Startup"
         },
         {
             "img": "img/testimonials/02.jpg",
-            "text": "As the startup grows and founders cannot be involved in every new hire, without a brand the company culture begins to dilute.",
-            "name": "The 20 Employee Startup"
+            "text": "Branding helps companies to prevent company culture dilution.",
+            "name": "High Turnover Company"
         },
         {
             "img": "img/testimonials/03.jpg",
-            "text": "Getting the first customers can be though, especially when there is no audience or awareness of your product.",
+            "text": "Building a product gets easier the more engaged your audience is.",
             "name": "Nascent Internet Business"
         },
         {
             "img": "img/testimonials/04.jpg",
-            "text": "At some point to advance in your carrer, is not about your individual contribution but the ability to lead and influence",
-            "name": "The Rising Software Engineer"
+            "text": "Advancing in your carrer is fueled by the ability to lead and influence.",
+            "name": "Rising Software Engineer"
         },
         {
             "img": "img/testimonials/06.jpg",
-            "text": "Young folks require to positively distinugish themselves as proactive resourceful to compete in a tight job market.",
-            "name": "The Graduated Student"
+            "text": "Positively distinugish yourself to compete in a tight job market.",
+            "name": "Graduated Student"
         },
         {
             "img": "img/testimonials/05.jpg",
-            "text": "Writers spend so much time crafting the perfect blog post, they should spend just as much time invested in its distribution.",
-            "name": "The Hobbyst Writer"
+            "text": "To succeed, invest in your work promotion and distribution strategies.",
+            "name": "Passionate Content Creator"
         }
     ],
     "Team": [{
