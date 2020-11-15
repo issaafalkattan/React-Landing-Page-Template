@@ -236,13 +236,13 @@ header .intro-text {
 	background: #f6f6f6;
 }
 #features i.fa {
-	font-size: 38px;
+	font-size: 48px;
 	margin-bottom: 20px;
 	transition: all 0.5s;
 	color: #fff;
 	width: 100px;
 	height: 100px;
-	padding: 30px 0;
+	padding: 25px 0;
 	border-radius: 50%;
 	background: radial-gradient(farthest-corner at 90% 90%, #d15637, #70b5b9 70%);
 	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
@@ -313,10 +313,10 @@ header .intro-text {
 }
 
 #services i.fa {
-	font-size: 42px;
+	font-size: 64px;
 	width: 120px;
 	height: 120px;
-	padding: 40px 0;
+	padding: 29px 0;
 	background: radial-gradient(farthest-corner at 90% 90%, #d15637, #70b5b9 80%);
 	border-radius: 50%;
 	color: #fff;

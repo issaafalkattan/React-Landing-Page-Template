@@ -15,34 +15,34 @@
         ]
     },
     "Services": [{
-            "icon": "fa fa-wordpress",
+            "icon": "fa fa-spinner",
             "name": "Growth Circles",
             "text": "The best way to get started, connect with like-minded individuals to help each other out."
         },
         {
-            "icon": "fa fa-cart-arrow-down",
-            "name": "Organizational Culture Dashboard",
-            "text": "Our gem, an innovative solution for growing startups that want to scale their culture."
+            "icon": "fa fa-hiking",
+            "name": "Culture Scaling",
+            "text": "Innovative solution for rapidly growing startups looking to foster their culture."
         },
         {
-            "icon": "fa fa-cloud-download",
-            "name": "Weekly Insight Reports",
-            "text": "Personalized reports based on your last week social media activity and goals."
+            "icon": "fa fa-lightbulb",
+            "name": "Weekly Insight",
+            "text": "Personalized reports based on your last week social media activity."
         },
         {
-            "icon": "fa fa-language",
-            "name": "Twitter Coaching",
-            "text": "Twitter is a great place to build a breand, leverage our one-2-one meetings to get you started with the perfect strategy."
+            "icon": "fa fa-diagnoses",
+            "name": "1-to-1 Coaching",
+            "text": "Set your perfect strategy with the help from someone that has done it before."
         },
         {
-            "icon": "fa fa-plane",
+            "icon": "fa fa-rss",
             "name": "Newsletter",
-            "text": "Subscribe and stay ahead of the trends in the distribution industry."
+            "text": "Subscribe and get delivered to your industry trends and novel research about branding."
         },
         {
-            "icon": "fa fa-pie-chart",
+            "icon": "fa fa-dumbbell",
             "name": "Engagement Gym",
-            "text": "Repetitive growth excersices, powered by mind-blowing analytics to get your where you want to be."
+            "text": "Data-driven growth excerices to empower up your brand and online prescence."
         }
     ],
     "Testimonials": [{
@@ -96,7 +96,7 @@
         "youtube": "youtube.com"
     },
     "Features": [{
-            "icon": "fa fa-group",
+            "icon": "fa fa-fire",
             "title": "Recognition",
             "text": "You've invested a lot of effort to get here, enjoy your success!"
         },
@@ -106,7 +106,7 @@
             "text": "Become a leader, set the trends of your industry or niche."
         },
         {
-            "icon": "fa fa-usd",
+            "icon": "fa fa-dollar-sign",
             "title": "Monetize",
             "text": "An engaged audience is the easiest way to earn money online."
         },
