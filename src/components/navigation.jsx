@@ -27,7 +27,7 @@ export class Navigation extends Component {
                 width="30"
                 alt=""
               />
-              <span style={{verticalAlign:'middle'}}>SocialQ</span>
+              <span style={{verticalAlign:'middle'}}>Social Q</span>
             </a>{" "}
           </div>
 
