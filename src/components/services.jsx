@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import amplitude from 'amplitude-js'
 
 export class Services extends Component {
   render() {
@@ -27,6 +28,7 @@ export class Services extends Component {
             className="btn btn-custom btn-lg" 
             href="https://calendly.com/socialq/30min" 
             style={{backgroundImage:'none', backgroundColor:'d15637'}}
+            onClick={() => amplitude.getInstance().logEvent('SCHEDULE_CALL')}
           > Free Consultation </a>
         </div>
       </div>
