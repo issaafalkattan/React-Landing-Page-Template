@@ -22,6 +22,12 @@ export class Services extends Component {
                 ))
               : "loading"}
           </div>
+          <a 
+            target="_blank"
+            className="btn btn-custom btn-lg" 
+            href="https://calendly.com/socialq/30min" 
+            style={{backgroundImage:'none', backgroundColor:'d15637'}}
+          > Free Consultation </a>
         </div>
       </div>
     );

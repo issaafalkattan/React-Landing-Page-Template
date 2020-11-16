@@ -151,6 +151,7 @@ hr {
 .section-title p {
 	font-size: 18px;
 }
+
 .btn-custom {
 	font-family: 'Raleway', sans-serif;
 	text-transform: uppercase;
@@ -166,6 +167,7 @@ hr {
 	transition: all 0.5s linear;
 	border: 0;
 }
+
 .btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
 	color: #fff;
 	background-image: none;

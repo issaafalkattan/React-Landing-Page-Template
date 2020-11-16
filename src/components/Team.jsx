@@ -29,21 +29,21 @@ export class Team extends Component {
                         { 
                           !i 
                           ? 
-                            <a href='https://twitter.com/SantiagoMQui'>
+                            <a href='https://twitter.com/SantiagoMQui' target="_blank">
                               <i className="fab fa-twitter" style={{ fontSize: 24, marginRight: 12 }} />
                             </a> 
                           : null 
                         } { 
                           !i 
                           ? 
-                            <a href='https://github.com/Santiago8888'>
+                            <a href='https://github.com/Santiago8888' target="_blank">
                               <i className="fab fa-github" style={{ fontSize: 24, marginLeft: 12, color:'black' }}/>
                             </a> 
                           : null 
                         } { 
                           i 
                           ? 
-                            <a href='https://www.linkedin.com/in/paola-holgu%C3%ADn-hoffman-703261162'>
+                            <a href='https://www.linkedin.com/in/paola-holgu%C3%ADn-hoffman-703261162' target="_blank">
                               <i className="fab fa-linkedin" style={{ fontSize: 24 }}/>
                             </a> 
                           : null 
