@@ -46,7 +46,7 @@ export class Team extends Component {
                               href='https://github.com/Santiago8888' 
                               target="_blank" 
                               rel="noopener noreferrer"
-                              onClick={() => amplitude.getInstance().logEvent('TEAM', {blog: 'SANTIAGO_GIT'})}
+                              onClick={() => amplitude.getInstance().logEvent('TEAM', {social: 'SANTIAGO_GIT'})}
                             >
                               <i className="fab fa-github" style={{ fontSize: 24, marginLeft: 12, color:'black' }}/>
                             </a> 
@@ -58,7 +58,7 @@ export class Team extends Component {
                               href='https://www.linkedin.com/in/paola-holgu%C3%ADn-hoffman-703261162' 
                               target="_blank" 
                               rel="noopener noreferrer"
-                              onClick={() => amplitude.getInstance().logEvent('TEAM', {blog: 'PAOLA_LINKEDIN'})}
+                              onClick={() => amplitude.getInstance().logEvent('TEAM', {social: 'PAOLA_LINKEDIN'})}
                             >
                               <i className="fab fa-linkedin" style={{ fontSize: 24 }}/>
                             </a> 

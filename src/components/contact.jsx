@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import amplitude from 'amplitude-js'
 
 export class Contact extends Component {
   render() {
@@ -72,7 +73,13 @@ export class Contact extends Component {
                   <span>
                     <i className="fa fa-calendar"></i> Calendly
                   </span>{" "}
-                  <a href="https://calendly.com/socialq/" style={{color:'white'}}>SocialQ</a>
+                  <a 
+                    href="https://calendly.com/socialq/" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={() => amplitude.getInstance().logEvent('CONTACT', {contact: 'calendly'})}
+                    style={{color:'white'}}
+                  >SocialQ</a>
                 </p>
               </div>
             </div>
@@ -81,7 +88,12 @@ export class Contact extends Component {
                 <div className="social">
                   <ul>
                     <li>
-                      <a href='https://www.linkedin.com/company/socialqu' target="_blank" rel="nofollow">
+                      <a 
+                        onClick={() => amplitude.getInstance().logEvent('CONTACT', {contact: 'linkedin'})}
+                        href='https://www.linkedin.com/company/socialqu' 
+                        target="_blank" 
+                        rel="nofollow"
+                      >
                         <i className="fab fa-linkedin-in" style={{color:'white', fontSize:30}}/>
                       </a>
                     </li>
@@ -95,7 +107,12 @@ export class Contact extends Component {
           <div className="container text-center">
             <p>
               &copy; 2020 SocialQ. Design by{" "}
-              <a href="https://www.linkedin.com/in/dannewmark/" target="_blank" rel="nofollow">
+              <a 
+                href="https://www.linkedin.com/in/dannewmark/" 
+                target="_blank" 
+                rel="nofollow"
+                onClick={() => amplitude.getInstance().logEvent('CONTACT', {contact: 'dan_design'})}
+              >
                 Dan Newmark
               </a>
             </p>
