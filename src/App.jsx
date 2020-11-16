@@ -9,17 +9,25 @@ import Testimonials from './components/testimonials';
 import Team from './components/Team';
 import Contact from './components/contact';
 import JsonData from './data/data.json';
+import amplitude from 'amplitude-js'
 
 export class App extends Component {
   state = {
     landingPageData: {},
   }
+
   getlandingPageData() {
     this.setState({landingPageData : JsonData})
   }
 
+  initAmplitude(){
+    amplitude.getInstance().init(process.env.REACT_APP_AMPLITUDE_TOKEN)
+    amplitude.getInstance().logEvent('VISIT_LANDING')
+  }  
+
   componentDidMount() {
     this.getlandingPageData();
+    this.initAmplitude();
   }
 
   render() {
