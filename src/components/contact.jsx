@@ -49,7 +49,6 @@ export class Contact extends Component {
                       className="form-control"
                       rows="4"
                       placeholder="Message"
-                      required
                     ></textarea>
                     <p className="help-block text-danger"></p>
                   </div>
@@ -69,6 +68,12 @@ export class Contact extends Component {
                   </span>{" "}
                   {this.props.data ? this.props.data.email : "loading"}
                 </p>
+                <p>
+                  <span>
+                    <i className="fa fa-calendar"></i> Calendly
+                  </span>{" "}
+                  <a href="https://calendly.com/socialq/" style={{color:'white'}}>SocialQ</a>
+                </p>
               </div>
             </div>
             <div className="col-md-12">
@@ -76,20 +81,8 @@ export class Contact extends Component {
                 <div className="social">
                   <ul>
                     <li>
-                      <a
-                        href={this.props.data ? this.props.data.facebook : "/"}
-                      >
-                        <i className="fa fa-facebook"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href={this.props.data ? this.props.data.twitter : "/"}>
-                        <i className="fa fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href={this.props.data ? this.props.data.youtube : "/"}>
-                        <i className="fa fa-youtube"></i>
+                      <a href='https://www.linkedin.com/company/socialqu' target="_blank" rel="nofollow">
+                        <i className="fab fa-linkedin-in" style={{color:'white', fontSize:30}}/>
                       </a>
                     </li>
                   </ul>
@@ -102,8 +95,8 @@ export class Contact extends Component {
           <div className="container text-center">
             <p>
               &copy; 2020 SocialQ. Design by{" "}
-              <a href="https://github.com/Santiago8888" rel="nofollow">
-                Santiago M.
+              <a href="https://www.linkedin.com/in/dannewmark/" target="_blank" rel="nofollow">
+                Dan Newmark
               </a>
             </p>
           </div>
