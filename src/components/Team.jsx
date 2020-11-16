@@ -26,6 +26,28 @@ export class Team extends Component {
                       <div className="caption">
                         <h4>{d.name}</h4>
                         <p>{d.job}</p>
+                        { 
+                          !i 
+                          ? 
+                            <a href='https://twitter.com/SantiagoMQui'>
+                              <i className="fab fa-twitter" style={{ fontSize: 24, marginRight: 12 }} />
+                            </a> 
+                          : null 
+                        } { 
+                          !i 
+                          ? 
+                            <a href='https://github.com/Santiago8888'>
+                              <i className="fab fa-github" style={{ fontSize: 24, marginLeft: 12, color:'black' }}/>
+                            </a> 
+                          : null 
+                        } { 
+                          i 
+                          ? 
+                            <a href='https://www.linkedin.com/in/paola-holgu%C3%ADn-hoffman-703261162'>
+                              <i className="fab fa-linkedin" style={{ fontSize: 24 }}/>
+                            </a> 
+                          : null 
+                        }
                       </div>
                     </div>
                   </div>

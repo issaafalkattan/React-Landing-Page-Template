@@ -65,7 +65,7 @@ export class Contact extends Component {
                 <h3>Contact Info</h3>
                 <p>
                   <span>
-                    <i className="fa fa-envelope-o"></i> Email
+                    <i className="fa fa-envelope"></i> Email
                   </span>{" "}
                   {this.props.data ? this.props.data.email : "loading"}
                 </p>
