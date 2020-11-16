@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import amplitude from 'amplitude-js'
 
 export class Navigation extends Component {
   render() {
@@ -18,7 +19,7 @@ export class Navigation extends Component {
               <span className="icon-bar"></span>{" "}
               <span className="icon-bar"></span>{" "}
             </button>
-            <a className="navbar-brand page-scroll" href="#page-top">
+            <a className="navbar-brand page-scroll" href="#page-top" onClick={() => amplitude.getInstance().logEvent('NAVBAR', { tab: 'Brand' })}>
               <img 
                 src="/icon.png"
                 style={{display:'initial', marginRight:15}}
@@ -37,37 +38,37 @@ export class Navigation extends Component {
           >
             <ul className="nav navbar-nav navbar-right">
               <li>
-                <a href="#features" className="page-scroll">
+                <a href="#features" className="page-scroll" onClick={() => amplitude.getInstance().logEvent('NAVBAR', { tab: 'Mission' })}>
                   Mission
                 </a>
               </li>
               <li>
-                <a href="#about" className="page-scroll">
+                <a href="#about" className="page-scroll" onClick={() => amplitude.getInstance().logEvent('NAVBAR', { tab: 'About' })}>
                   About
                 </a>
               </li>
               <li>
-                <a href="#services" className="page-scroll">
+                <a href="#services" className="page-scroll" onClick={() => amplitude.getInstance().logEvent('NAVBAR', { tab: 'Services' })}>
                   Services
                 </a>
               </li>
               <li>
-                <a href="#portfolio" className="page-scroll">
+                <a href="#portfolio" className="page-scroll" onClick={() => amplitude.getInstance().logEvent('NAVBAR', { tab: 'Blog' })}>
                   Blog
                 </a>
               </li>
               <li>
-                <a href="#testimonials" className="page-scroll">
+                <a href="#testimonials" className="page-scroll" onClick={() => amplitude.getInstance().logEvent('NAVBAR', { tab: 'Clients' })}>
                   Clients
                 </a>
               </li>
               <li>
-                <a href="#team" className="page-scroll">
+                <a href="#team" className="page-scroll" onClick={() => amplitude.getInstance().logEvent('NAVBAR', { tab: 'Team' })}>
                   Team
                 </a>
               </li>
               <li>
-                <a href="#contact" className="page-scroll">
+                <a href="#contact" className="page-scroll" onClick={() => amplitude.getInstance().logEvent('NAVBAR', { tab: 'Contact' })}>
                   Contact
                 </a>
               </li>
