@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import amplitude from 'amplitude-js'
 
 export class Header extends Component {
   render() {
@@ -17,7 +18,7 @@ export class Header extends Component {
                   <p>
                     {this.props.data ? this.props.data.paragraph : "Loading"}
                   </p>
-                  <a href="#services" className="btn btn-custom btn-lg page-scroll">
+                  <a href="#services" className="btn btn-custom btn-lg page-scroll" onClick={() => amplitude.getInstance().logEvent('TOP_CTA')}>
                     Get Started
                   </a>{" "}
                 </div>
