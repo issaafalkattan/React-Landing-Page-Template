@@ -94,7 +94,7 @@ export class Contact extends Component {
               </div>
             </Slide>
 
-            <Slide left>
+            <Fade>
               <div className="col-md-12">
                 <div className="row">
                   <div className="social">
@@ -126,7 +126,7 @@ export class Contact extends Component {
                   </div>
                 </div>
               </div>
-            </Slide>
+            </Fade>
           </div>
         </div>
 

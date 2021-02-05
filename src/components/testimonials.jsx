@@ -4,7 +4,7 @@ import Fade from "react-reveal/Fade";
 export class testimonials extends Component {
   render() {
     return (
-      <Fade bottom>
+      <Fade left>
         <div id="testimonials">
           <div className="container">
             <div className="section-title text-center">

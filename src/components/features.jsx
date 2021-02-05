@@ -4,7 +4,7 @@ import Fade from "react-reveal/Fade";
 export class features extends Component {
   render() {
     return (
-      <Fade bottom>
+      <Fade>
         <div id="features" className="text-center">
           <div className="container">
             <div className="col-md-10 col-md-offset-1 section-title">
