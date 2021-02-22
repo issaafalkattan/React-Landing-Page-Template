@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Navigation from './components/navigation'
+import { Navigation } from './components/navigation'
 import { Header } from './components/header'
 import { Features } from './components/features'
 import { About } from './components/about'
