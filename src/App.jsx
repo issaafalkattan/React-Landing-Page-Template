@@ -6,7 +6,7 @@ import { About } from './components/about'
 import { Services } from './components/services'
 import { Gallery } from './components/gallery'
 import { Testimonials } from './components/testimonials'
-import Team from './components/Team'
+import { Team } from './components/Team'
 import { Contact } from './components/contact'
 import JsonData from './data/data.json'
 
