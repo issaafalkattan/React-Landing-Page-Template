@@ -1,42 +1,35 @@
-import React, { Component } from 'react'
-import Navigation from './components/navigation';
-import Header from './components/header';
-import Features from './components/features';
-import About from './components/about';
-import Services from './components/services';
-import Gallery from './components/gallery';
-import Testimonials from './components/testimonials';
-import Team from './components/Team';
-import Contact from './components/contact';
-import JsonData from './data/data.json';
+import { useState, useEffect } from 'react'
+import { Navigation } from './components/navigation'
+import { Header } from './components/header'
+import { Features } from './components/features'
+import { About } from './components/about'
+import { Services } from './components/services'
+import { Gallery } from './components/gallery'
+import { Testimonials } from './components/testimonials'
+import { Team } from './components/Team'
+import { Contact } from './components/contact'
+import JsonData from './data/data.json'
+import { scroll } from './util'
 
-export class App extends Component {
-  state = {
-    landingPageData: {},
-  }
-  getlandingPageData() {
-    this.setState({landingPageData : JsonData})
-  }
+const App = () => {
+  const [landingPageData, setLandingPageData] = useState({})
+  useEffect(() => {
+    setLandingPageData(JsonData)
+  }, [])
 
-  componentDidMount() {
-    this.getlandingPageData();
-  }
-
-  render() {
-    return (
-      <div>
-        <Navigation />
-        <Header data={this.state.landingPageData.Header} />
-        <Features data={this.state.landingPageData.Features} />
-        <About data={this.state.landingPageData.About} />
-        <Services data={this.state.landingPageData.Services} />
-        <Gallery />
-        <Testimonials data={this.state.landingPageData.Testimonials} />
-        <Team data={this.state.landingPageData.Team} />
-        <Contact data={this.state.landingPageData.Contact} />
-      </div>
-    )
-  }
+  return (
+    <div>
+      <Navigation />
+      <Header data={landingPageData.Header} />
+      <Features data={landingPageData.Features} />
+      <About data={landingPageData.About} />
+      <Services data={landingPageData.Services} />
+      <Gallery />
+      <Testimonials data={landingPageData.Testimonials} />
+      <Team data={landingPageData.Team} />
+      <Contact data={landingPageData.Contact} />
+    </div>
+  )
 }
 
-export default App;
+export default App
