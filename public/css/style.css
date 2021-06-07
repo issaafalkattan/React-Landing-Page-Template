@@ -301,8 +301,9 @@ header .intro-text {
 /* Services Section */
 #services {
 	padding: 100px 0;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	background: linear-gradient(to right, pink 0%, #5ca9fb 100%);
 	color: #fff;
+	background-color: #ff4c68;
 }
 #services .service-desc {
 	margin: 10px 10px 20px;
