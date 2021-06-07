@@ -2,7 +2,7 @@ body, html {
 	font-family: 'Open Sans', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
-	color: #777;
+	color: black;
 	font-weight: 400;
 	width: 100% !important;
 	height: 100% !important;
@@ -75,21 +75,28 @@ hr {
 	box-shadow: 0 0 10px rgba(0,0,0,0.15)
 }
 #menu a.navbar-brand {
-	font-family: 'Raleway', sans-serif;
-	font-size: 24px;
-	font-weight: 700;
-	color: #333;
+	font-family: 'Italianno', cursive;
+	font-size: 44px;
+	font-weight: 800;
+	color: cadetblue;
+	text-transform: uppercase;
+}
+#menu a.navbar-brand .ayush {
+	font-family: 'Italianno', cursive;
+	font-size: 44px;
+	font-weight: 800;
+	color: #555;
 	text-transform: uppercase;
 }
 #menu.navbar-default .navbar-nav > li > a {
-	font-family: 'Lato', sans-serif;
+	font-family: monospace;
 	text-transform: uppercase;
 	color: #555;
 	font-size: 15px;
 	font-weight: 400;
 	padding: 8px 2px;
 	border-radius: 0;
-	margin: 9px 20px 0 20px;
+	margin: 9px 20px 0px 20px;
 }
 #menu.navbar-default .navbar-nav > li > a:after {
 	display: block;
@@ -101,12 +108,16 @@ hr {
 	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
 	content: "";
 	transition: width 0.2s;
+	
 }
 #menu.navbar-default .navbar-nav > li > a:hover:after {
 	width: 100%;
+	
+	
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	background-color: transparent;
+	
 }
 .navbar-default .navbar-nav > .active > a:after, .navbar-default .navbar-nav > .active > a:hover:after, .navbar-default .navbar-nav > .active > a:focus:after {
 	display: block !important;
@@ -118,6 +129,7 @@ hr {
 	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
 	content: "" !important;
 	transition: width 0.2s !important;
+	
 }
 .navbar-toggle {
 	border-radius: 0;
@@ -186,7 +198,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: url(../img/intro-bg.jpg) center center no-repeat;
+	background:url('https://source.unsplash.com/1600x900/?nature,dam') no-repeat center center fixed;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -436,12 +448,14 @@ header .intro-text {
 	padding: 100px 0 60px 0;
 	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
 	color: rgba(255,255,255,.75);
+	background: url('../img/earth.jpg');
+	background-color: #0078ff;
 }
 #contact .section-title {
 	margin-bottom: 40px;
 }
 #contact .section-title p {
-	font-size: 16px;
+	font-size: 26px;
 }
 #contact h2 {
 	color: #fff;
@@ -486,18 +500,19 @@ label {
 	font-weight: 400;
 	font-family: 'Open Sans', sans-serif;
 	float: left;
+	background-color: black;
 }
 #contact .form-control {
 	display: block;
 	width: 100%;
-	padding: 6px 12px;
-	font-size: 16px;
+	padding: 8px 20px;
+	font-size: 20px;
 	line-height: 1.42857143;
 	color: #444;
-	background-color: #fff;
+	background-color: white;
 	background-image: none;
-	border: 1px solid #ddd;
-	border-radius: 0;
+	border: 4px solid #ddd;
+	border-radius: 10px;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	-webkit-transition: none;
@@ -524,14 +539,17 @@ color: #777;
 }
 #contact .contact-item {
 	margin: 20px 0;
+	
 }
 #contact .contact-item span {
 	color: rgba(255,255,255,1);
 	margin-bottom: 10px;
 	display: block;
+	
 }
 #contact .contact-item i.fa {
 	margin-right: 10px;
+	
 }
 #contact .social {
 	border-top: 1px solid rgba(255,255,255,0.15);
@@ -554,20 +572,24 @@ color: #777;
 	transition: all 0.3s;
 }
 #contact .social i.fa:hover {
-	color: #608dfd;
+	/* color: #608dfd; */
+	color:blue;
 	background: #fff;
+	
 }
 /* Footer Section*/
 #footer {
 	background: #f6f6f6;
-	padding: 30px 0;
+	background-image: url('../img/backfoot.png');
+	padding: 50px 0;
 }
 #footer p {
-	color: #888;
-	font-size: 14px;
+	color: white;
+	font-size: 20px;
 }
 #footer a {
 	color: #608dfd;
+	
 }
 #footer a:hover {
 	border-bottom: 2px solid #608dfd;
