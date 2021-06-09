@@ -44,6 +44,7 @@ a {
 	font-weight: 400;
 }
 a:hover, a:focus {
+	background-color: #212121;
 	text-decoration: none;
 	color: #608dfd;
 }
@@ -87,6 +88,14 @@ hr {
 	font-weight: 800;
 	color: #555;
 	text-transform: uppercase;
+}
+#menu a.navbar-brand .ayushk{
+	 margin-top: .1rem;
+	padding-top: 40px; */
+	font-family: 'Italianno', cursive;
+	font-size: 12px;
+	color: #1E7A46;
+	text-transform: lowercase;
 }
 #menu.navbar-default .navbar-nav > li > a {
 	font-family: monospace;
@@ -239,6 +248,7 @@ header .intro-text {
 	padding: 100px 0;
 	background: #f6f6f6;
 }
+
 #features i.fa {
 	font-size: 38px;
 	margin-bottom: 20px;

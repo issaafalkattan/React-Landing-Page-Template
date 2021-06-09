@@ -1,3 +1,4 @@
+import "../css/navigation.css";
 export const Navigation = (props) => {
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
@@ -16,8 +17,9 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
-            <span className="ayush">Geo</span>-Magnify
+            <span className="ayush">Geo</span>Magnify
           </a>{" "}
+          <h5 style={{color:"green" , textTransform:"none"}}>Understand earth better</h5>
         </div>
 
         <div
