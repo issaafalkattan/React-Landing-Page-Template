@@ -1,4 +1,5 @@
 import "../css/navigation.css";
+import ThemeChanger from "./ThemeChanger";
 export const Navigation = (props) => {
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
@@ -19,7 +20,9 @@ export const Navigation = (props) => {
           <a className="navbar-brand page-scroll" href="#page-top">
             <span className="ayush">Geo</span>Magnify
           </a>{" "}
-          <h5 style={{color:"green" , textTransform:"none"}}>Understand earth better</h5>
+          <h5 style={{ color: "green", textTransform: "none" }}>
+            Understand earth better
+          </h5>
         </div>
 
         <div
@@ -28,8 +31,8 @@ export const Navigation = (props) => {
         >
           <ul className="nav navbar-nav navbar-right">
             <li>
-              <a href="#features" className="page-scroll">
-                Features
+              <a href="#page-top" className="page-scroll">
+                Home
               </a>
             </li>
             <li>
@@ -53,18 +56,15 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li>
-              <a href="#team" className="page-scroll">
-                Team
-              </a>
-            </li>
-            <li>
               <a href="#contact" className="page-scroll">
                 Contact
               </a>
             </li>
           </ul>
         </div>
+        <ThemeChanger />
       </div>
     </nav>
+    
   );
 };

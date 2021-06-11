@@ -101,7 +101,7 @@ export const Contact = (props) => {
                 <span>
                   <i className="fa fa-map-marker"></i> Address
                 </span>
-                {props.data ? props.data.address : "loading"}
+                {props.data ? "BhramKunj Complex, Sector B,LDA Colony Kanpur Road, Lucknow,U.P 226023, India" : "loading"}
               </p>
             </div>
             <div className="contact-item">
@@ -109,7 +109,7 @@ export const Contact = (props) => {
                 <span>
                   <i className="fa fa-phone"></i> Phone
                 </span>{" "}
-                {props.data ? props.data.phone : "loading"}
+                {props.data ? "+91 9717705362" : "loading"}
               </p>
             </div>
             <div className="contact-item">
@@ -117,7 +117,7 @@ export const Contact = (props) => {
                 <span>
                   <i className="fa fa-envelope-o"></i> Email
                 </span>{" "}
-                {props.data ? props.data.email : "loading"}
+                {props.data ? "info@geomagnify.com" : "loading"}
               </p>
             </div>
           </div>
@@ -126,7 +126,7 @@ export const Contact = (props) => {
               <div className="social">
                 <ul>
                   <li>
-                    <a href="https://www.facebook.com/ayushkumar.ayushkumar.3538/">
+                    <a href="https://www.facebook.com/Geo-Magnify-110161481286677">
                       <i className="fa fa-facebook" ></i>
                     </a>
                   </li>
@@ -136,12 +136,12 @@ export const Contact = (props) => {
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.youtube : "/"}>
+                    <a href="https://www.youtube.com/channel/UCOvxLpagZyZKKIXeIUaWeFw">
                       <i className="fa fa-youtube"></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.google : "/"}>
+                    <a href="https://www.geomagnify.com/">
                       <i className="fa fa-google"></i>
                     </a>
                   </li>
@@ -151,7 +151,7 @@ export const Contact = (props) => {
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.linkedin : "/"}>
+                    <a href="https://www.linkedin.com/company/geomagnify/about/?viewAsMember=true">
                       <i className="fa fa-linkedin"></i>
                     </a>
                   </li>

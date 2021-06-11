@@ -53,8 +53,8 @@ ul, ol {
 }
 ul, ol {
 	padding: 0;
-	webkit-padding: 0;
-	moz-padding: 0;
+	/* webkit-padding: 0;
+	moz-padding: 0; */
 }
 hr {
 	height: 2px;
@@ -91,7 +91,7 @@ hr {
 }
 #menu a.navbar-brand .ayushk{
 	 margin-top: .1rem;
-	padding-top: 40px; */
+	padding-top: 40px; 
 	font-family: 'Italianno', cursive;
 	font-size: 12px;
 	color: #1E7A46;
@@ -207,7 +207,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	display: table;
 	width: 100%;
 	padding: 0;
-	background:url('https://source.unsplash.com/1600x900/?nature,dam') no-repeat center center fixed;
+	background:url('https://source.unsplash.com/1600x1200/?nature,dam') no-repeat center center fixed;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -243,27 +243,10 @@ header .intro-text {
 	padding-bottom: 200px;
 	text-align: center;
 }
-/* Features Section */
-#features {
-	padding: 100px 0;
-	background: #f6f6f6;
-}
 
-#features i.fa {
-	font-size: 38px;
-	margin-bottom: 20px;
-	transition: all 0.5s;
-	color: #fff;
-	width: 100px;
-	height: 100px;
-	padding: 30px 0;
-	border-radius: 50%;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
-}
 /* About Section */
 #about {
-	padding: 100px 0;
+	padding: 140px 0;
 }
 #about h3 {
 	font-size: 22px;
@@ -310,7 +293,7 @@ header .intro-text {
 }
 /* Services Section */
 #services {
-	padding: 100px 0;
+	padding: 140px 0;
 	background: linear-gradient(to right, pink 0%, #5ca9fb 100%);
 	color: #fff;
 	background-color: #ff4c68;
@@ -354,7 +337,7 @@ header .intro-text {
 }
 /* Portfolio Section */
 #portfolio {
-	padding: 100px 0;
+	padding: 140px 0;
 }
 .portfolio-item {
 	margin: 1px -15px 0 -14px;
@@ -399,7 +382,7 @@ header .intro-text {
 }
 /* Testimonials Section */
 #testimonials {
-	padding: 100px 0;
+	padding: 140px 0;
 	background: #f6f6f6;
 }
 #testimonials i {
@@ -436,27 +419,10 @@ header .intro-text {
 	font-weight: 600;
 	color: #666;
 }
-/* Team Section */
-#team {
-	padding: 100px 0;
-}
-#team h4 {
-	margin: 5px 0;
-}
-#team .team-img {
-	width: 240px;
-}
-#team .thumbnail {
-	background: transparent;
-	border: 0;
-}
-#team .thumbnail .caption {
-	padding: 10px 0 0 0;
-	color: #888;
-}
+
 /* Contact Section */
 #contact {
-	padding: 100px 0 60px 0;
+	padding: 140px 0 60px 0;
 	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
 	color: rgba(255,255,255,.75);
 	background: url('../img/earth.jpg');
@@ -466,7 +432,7 @@ header .intro-text {
 	margin-bottom: 40px;
 }
 #contact .section-title p {
-	font-size: 26px;
+	font-size: 20px;
 }
 #contact h2 {
 	color: #fff;
