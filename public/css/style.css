@@ -109,7 +109,7 @@ hr {
 	border-radius: 0;
 	margin: 9px 20px 0px 20px;
 }
-#menu.navbar-default .navbar-nav > li > a:after {
+/* #menu.navbar-default .navbar-nav > li > a:after {
 	display: block;
 	position: absolute;
 	left: 0;
@@ -120,7 +120,7 @@ hr {
 	content: "";
 	transition: width 0.2s;
 	
-}
+} */
 #menu.navbar-default .navbar-nav > li > a:hover:after {
 	width: 100%;
 	

@@ -1,6 +1,21 @@
-li {
-    border-radius: 40px;
+
+ul li{
+    margin: 8px;
+    border-radius: 20px;
+    
 }
-a > #manish > .page-scroll r{
-    background-color:gray;
+
+#menu{
+    padding: 10px 0;
 }
+li:hover {
+    background-color:grey;
+    color: transparent;
+}
+#menu.navbar-default .navbar-nav > li > a {
+    color: black;
+}
+#menu.navbar-default .navbar-nav > li > a:hover {
+    color:white;
+}
+

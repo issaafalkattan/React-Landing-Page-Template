@@ -17,7 +17,7 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
+          <a className="navbar-brand page-scroll" style={{"text-shadow":"5px 2px 4px skyblue","font-style":"oblique"}}href="#page-top">
             <span className="ayush">Geo</span>Magnify
           </a>{" "}
           {/* <h5 style={{ color: "green", textTransform: "none" }}>
@@ -29,9 +29,9 @@ export const Navigation = (props) => {
           className="collapse navbar-collapse"
           id="bs-example-navbar-collapse-1"
         >
-          <ul className="nav navbar-nav navbar-right">
-            <li>
-              <a href="#page-top" className="page-scroll">
+          <ul className="nav navbar-nav navbar-right" >
+            <li style={{"font-weight":"bolder","color":"black"}}>
+              <a href="#page-top" className="page-scroll" >
                 Home
               </a>
             </li>
