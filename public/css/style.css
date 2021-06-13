@@ -7,6 +7,8 @@ body, html {
 	width: 100% !important;
 	height: 100% !important;
 }
+
+
 h2, h3, h4 {
 	font-family: 'Raleway', sans-serif;
 }
@@ -67,7 +69,7 @@ hr {
 }
 /* Navigation */
 #menu {
-	padding: 15px;
+	padding: 5px;
 	transition: all 0.8s;
 }
 #menu.navbar-default {

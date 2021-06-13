@@ -5,8 +5,14 @@ export const Gallery = (props) => {
         <div className='section-title'>
           <h2>Gallery</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+             GeoMagnify Services employ unparalleled project management and state-of-the-art
+             technology using the best equipment in providing Geospatial solutions, including
+             data creation and product development solutions for medium to large scale enterprise
+             and government agencies across India. We have got a mission of delivering an unmatched
+             quality Geo-services & products to establish an incredible business relationship with 
+             our clients. We are committed to providing quick,efficient and quality services to our
+             customers, which relentlessly drives us to produce superior quality deliverance by constant
+             innovation in our services.
           </p>
         </div>
         <div className='row'>
@@ -16,15 +22,15 @@ export const Gallery = (props) => {
                 <div className='hover-bg'>
                   {' '}
                   <a
-                    href='img/portfolio/01-large.jpg'
+                    href='img/portfolio/001-large.jpeg'
                     title='Project Title'
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>Lorem Ipsum</h4>
+                      <h4>GPR SURVEY IN FARIDABAD</h4>
                     </div>
                     <img
-                      src='img/portfolio/01-small.jpg'
+                      src='img/portfolio/001-small.jpg'
                       className='img-responsive'
                       alt='Project Title'
                     />{' '}
@@ -37,15 +43,15 @@ export const Gallery = (props) => {
                 <div className='hover-bg'>
                   {' '}
                   <a
-                    href='img/portfolio/02-large.jpg'
+                    href='img/portfolio/002-large.jpg'
                     title='Project Title'
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>Adipiscing Elit</h4>
+                      <h4>GPR SURVEY IN BHOPAL</h4>
                     </div>
                     <img
-                      src='img/portfolio/02-small.jpg'
+                      src='img/portfolio/002-small.jpg'
                       className='img-responsive'
                       alt='Project Title'
                     />{' '}
@@ -58,15 +64,15 @@ export const Gallery = (props) => {
                 <div className='hover-bg'>
                   {' '}
                   <a
-                    href='img/portfolio/03-large.jpg'
+                    href='img/portfolio/003-large.jpg'
                     title='Project Title'
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>Lorem Ipsum</h4>
+                      <h4>GPR SURVEY IN BIHAR</h4>
                     </div>
                     <img
-                      src='img/portfolio/03-small.jpg'
+                      src='img/portfolio/003-small.jpg'
                       className='img-responsive'
                       alt='Project Title'
                     />{' '}
@@ -79,15 +85,15 @@ export const Gallery = (props) => {
                 <div className='hover-bg'>
                   {' '}
                   <a
-                    href='img/portfolio/04-large.jpg'
+                    href='img/portfolio/004-large.jpg'
                     title='Project Title'
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>Lorem Ipsum</h4>
+                      <h4>GPR SURVEY IN DELHI</h4>
                     </div>
                     <img
-                      src='img/portfolio/04-small.jpg'
+                      src='img/portfolio/004-small.jpg'
                       className='img-responsive'
                       alt='Project Title'
                     />{' '}
@@ -100,15 +106,15 @@ export const Gallery = (props) => {
                 <div className='hover-bg'>
                   {' '}
                   <a
-                    href='img/portfolio/05-large.jpg'
+                    href='img/portfolio/005-large.jpg'
                     title='Project Title'
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>Adipiscing Elit</h4>
+                      <h4>GPR SURVEY IN GUJRAT</h4>
                     </div>
                     <img
-                      src='img/portfolio/05-small.jpg'
+                      src='img/portfolio/005-small.jpg'
                       className='img-responsive'
                       alt='Project Title'
                     />{' '}
@@ -121,15 +127,15 @@ export const Gallery = (props) => {
                 <div className='hover-bg'>
                   {' '}
                   <a
-                    href='img/portfolio/06-large.jpg'
+                    href='img/portfolio/006-large.jpg'
                     title='Project Title'
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>Dolor Sit</h4>
+                      <h4>GPR SURVEY IN MUNGER</h4>
                     </div>
                     <img
-                      src='img/portfolio/06-small.jpg'
+                      src='img/portfolio/006-small.jpg'
                       className='img-responsive'
                       alt='Project Title'
                     />{' '}
@@ -142,15 +148,15 @@ export const Gallery = (props) => {
                 <div className='hover-bg'>
                   {' '}
                   <a
-                    href='img/portfolio/07-large.jpg'
+                    href='img/portfolio/007-large.jpg'
                     title='Project Title'
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>Dolor Sit</h4>
+                      <h4>GPR SURVEY IN SAHARANPUR</h4>
                     </div>
                     <img
-                      src='img/portfolio/07-small.jpg'
+                      src='img/portfolio/007-small.jpg'
                       className='img-responsive'
                       alt='Project Title'
                     />{' '}
@@ -163,15 +169,15 @@ export const Gallery = (props) => {
                 <div className='hover-bg'>
                   {' '}
                   <a
-                    href='img/portfolio/08-large.jpg'
+                    href='img/portfolio/008-large.jpg'
                     title='Project Title'
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>Lorem Ipsum</h4>
+                      <h4>GPR SURVEY IN BETTIAH</h4>
                     </div>
                     <img
-                      src='img/portfolio/08-small.jpg'
+                      src='img/portfolio/008-small.jpg'
                       className='img-responsive'
                       alt='Project Title'
                     />{' '}
@@ -184,15 +190,15 @@ export const Gallery = (props) => {
                 <div className='hover-bg'>
                   {' '}
                   <a
-                    href='img/portfolio/09-large.jpg'
+                    href='img/portfolio/009-large.jpg'
                     title='Project Title'
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>Adipiscing Elit</h4>
+                      <h4>GPR SURVEY IN RAMNAGAR</h4>
                     </div>
                     <img
-                      src='img/portfolio/09-small.jpg'
+                      src='img/portfolio/009-small.jpg'
                       className='img-responsive'
                       alt='Project Title'
                     />{' '}
@@ -200,6 +206,133 @@ export const Gallery = (props) => {
                 </div>
               </div>
             </div>
+            <div className='col-sm-6 col-md-4 col-lg-4'>
+              <div className='portfolio-item'>
+                <div className='hover-bg'>
+                  {' '}
+                  <a
+                    href='img/portfolio/010-large.jpg'
+                    title='Project Title'
+                    data-lightbox-gallery='gallery1'
+                  >
+                    <div className='hover-text'>
+                      <h4>GPR SURVEY IN KANPUR</h4>
+                    </div>
+                    <img
+                      src='img/portfolio/010-small.jpg'
+                      className='img-responsive'
+                      alt='Project Title'
+                    />{' '}
+                  </a>{' '}
+                </div>
+              </div>
+            </div>
+            <div className='col-sm-6 col-md-4 col-lg-4'>
+              <div className='portfolio-item'>
+                <div className='hover-bg'>
+                  {' '}
+                  <a
+                    href='img/portfolio/011-large.jpg'
+                    title='Project Title'
+                    data-lightbox-gallery='gallery1'
+                  >
+                    <div className='hover-text'>
+                      <h4>GPR SURVEY IN JODHPUR</h4>
+                    </div>
+                    <img
+                      src='img/portfolio/011-small.jpg'
+                      className='img-responsive'
+                      alt='Project Title'
+                    />{' '}
+                  </a>{' '}
+                </div>
+              </div>
+            </div>
+            <div className='col-sm-6 col-md-4 col-lg-4'>
+              <div className='portfolio-item'>
+                <div className='hover-bg'>
+                  {' '}
+                  <a
+                    href='img/portfolio/012-large.jpg'
+                    title='Project Title'
+                    data-lightbox-gallery='gallery1'
+                  >
+                    <div className='hover-text'>
+                      <h4>GPR SURVEY IN JAISALMER</h4>
+                    </div>
+                    <img
+                      src='img/portfolio/012-small.jpg'
+                      className='img-responsive'
+                      alt='Project Title'
+                    />{' '}
+                  </a>{' '}
+                </div>
+              </div>
+            </div>
+            <div className='col-sm-6 col-md-4 col-lg-4'>
+              <div className='portfolio-item'>
+                <div className='hover-bg'>
+                  {' '}
+                  <a
+                    href='img/portfolio/013-large.jpg'
+                    title='Project Title'
+                    data-lightbox-gallery='gallery1'
+                  >
+                    <div className='hover-text'>
+                      <h4>BIKANER</h4>
+                    </div>
+                    <img
+                      src='img/portfolio/013-small.jpg'
+                      className='img-responsive'
+                      alt='Project Title'
+                    />{' '}
+                  </a>{' '}
+                </div>
+              </div>
+            </div>
+            <div className='col-sm-6 col-md-4 col-lg-4'>
+              <div className='portfolio-item'>
+                <div className='hover-bg'>
+                  {' '}
+                  <a
+                    href='img/portfolio/014-large.jpg'
+                    title='Project Title'
+                    data-lightbox-gallery='gallery1'
+                  >
+                    <div className='hover-text'>
+                      <h4>GPR SURVEY IN PUSKAR</h4>
+                    </div>
+                    <img
+                      src='img/portfolio/014-small.jpg'
+                      className='img-responsive'
+                      alt='Project Title'
+                    />{' '}
+                  </a>{' '}
+                </div>
+              </div>
+            </div>
+            <div className='col-sm-6 col-md-4 col-lg-4'>
+              <div className='portfolio-item'>
+                <div className='hover-bg'>
+                  {' '}
+                  <a
+                    href='img/portfolio/015-large.jpg'
+                    title='Project Title'
+                    data-lightbox-gallery='gallery1'
+                  >
+                    <div className='hover-text'>
+                      <h4>GPR SURVEY IN OSIAN</h4>
+                    </div>
+                    <img
+                      src='img/portfolio/015-small.jpg'
+                      className='img-responsive'
+                      alt='Project Title'
+                    />{' '}
+                  </a>{' '}
+                </div>
+              </div>
+            </div>
+            
           </div>
         </div>
       </div>

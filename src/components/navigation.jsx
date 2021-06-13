@@ -20,9 +20,9 @@ export const Navigation = (props) => {
           <a className="navbar-brand page-scroll" href="#page-top">
             <span className="ayush">Geo</span>Magnify
           </a>{" "}
-          <h5 style={{ color: "green", textTransform: "none" }}>
+          {/* <h5 style={{ color: "green", textTransform: "none" }}>
             Understand earth better
-          </h5>
+          </h5> */}
         </div>
 
         <div

@@ -20,7 +20,7 @@ const Page = styled.div`
   z-index: 10;
   position: fixed;
   right: 4%;
-  top: 2%;
+  top: 1%;
   border-top-right-radius: 50%;
   border-bottom-right-radius: 50%;
   background-color: var(--gfg-selected-color);
