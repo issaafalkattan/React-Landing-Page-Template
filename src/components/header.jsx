@@ -1,4 +1,6 @@
-export const Header = (props) => {
+import {NavLink} from 'react-router-dom';
+
+export const Header = () => {
   return (
     <header id='header'>
       <div className='intro'>
@@ -7,16 +9,16 @@ export const Header = (props) => {
             <div className='row'>
               <div className='col-md-8 col-md-offset-2 intro-text'>
                 <h1>
-                  {props.data ? "GEO MAGNIFY" : 'Loading'}
+                  GEO MAGNIFY
                   <span></span>
                 </h1>
-                <p>{props.data ? "Understand Earth Better" : 'Loading'}</p>
-                <a
-                  href='#features'
+                <p>Understand Earth Better</p>
+                <NavLink
+                  to='/features'
                   className='btn btn-custom btn-lg page-scroll'
                 >
                   Learn More
-                </a>{' '}
+                </NavLink>{' '}
               </div>
             </div>
           </div>

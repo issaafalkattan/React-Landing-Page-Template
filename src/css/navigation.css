@@ -14,6 +14,9 @@ li:hover {
 }
 #menu.navbar-default .navbar-nav > li > a {
     color: black;
+    text-align: center;
+    padding-bottom: 1.5rem;
+    
 }
 #menu.navbar-default .navbar-nav > li > a:hover {
     color:white;
