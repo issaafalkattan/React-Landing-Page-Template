@@ -1,6 +1,6 @@
 import { useState } from "react";
 import emailjs from "emailjs-com";
-
+// import {Route,Redirect} from "react-router-dom";
 const initialState = {
   name: "",
   email: "",
@@ -19,16 +19,17 @@ export const Contact = (props) => {
     e.preventDefault();
     console.log(name, email, message);
     emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_USER_ID")
+      .sendForm("service_hwu65jf", "template_q1llq5a", e.target, "user_iFIWV0TiklcFfu98BQcrU")
       .then(
         (result) => {
-          console.log(result.text);
+           window.alert('Thank you! Your form has been submitted successfully...✔✔✔');
           clearState();
         },
         (error) => {
           console.log(error.text);
         }
       );
+      e.target.reset();
   };
   return (
     <div>
@@ -38,7 +39,7 @@ export const Contact = (props) => {
             <div className="row">
               <div className="section-title">
                 <h2>Get In Touch</h2>
-                <p>
+                <p style={{"font-size":"20px"}}>
                   Whether you want to get in touch, talk about a project
                   collaboration, or just say hi, I'd love to hear from you.
                   Simply fill the from and send me an email.
@@ -164,7 +165,7 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy; 2021 Bangalore India, Inc. All rights reserved.
+            &copy; 2021 GeoMagnify India, Inc. All rights reserved.
           </p>
         </div>
       </div>

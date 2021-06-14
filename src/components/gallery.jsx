@@ -27,7 +27,7 @@ export const Gallery = (props) => {
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>GPR SURVEY IN FARIDABAD</h4>
+                      <h4>Lorem Ipsum</h4>
                     </div>
                     <img
                       src='img/portfolio/001-small.jpg'
@@ -48,7 +48,7 @@ export const Gallery = (props) => {
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>GPR SURVEY IN BHOPAL</h4>
+                      <h4>Lorem Ipsum</h4>
                     </div>
                     <img
                       src='img/portfolio/002-small.jpg'
@@ -69,7 +69,7 @@ export const Gallery = (props) => {
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>GPR SURVEY IN BIHAR</h4>
+                      <h4>Lorem Ipsum</h4>
                     </div>
                     <img
                       src='img/portfolio/003-small.jpg'
@@ -90,7 +90,7 @@ export const Gallery = (props) => {
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>GPR SURVEY IN DELHI</h4>
+                      <h4>Lorem Ipsum</h4>
                     </div>
                     <img
                       src='img/portfolio/004-small.jpg'
@@ -111,7 +111,7 @@ export const Gallery = (props) => {
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>GPR SURVEY IN GUJRAT</h4>
+                      <h4>Lorem Ipsum</h4>
                     </div>
                     <img
                       src='img/portfolio/005-small.jpg'
@@ -132,7 +132,7 @@ export const Gallery = (props) => {
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>GPR SURVEY IN MUNGER</h4>
+                      <h4>Lorem Ipsum</h4>
                     </div>
                     <img
                       src='img/portfolio/006-small.jpg'
@@ -153,7 +153,7 @@ export const Gallery = (props) => {
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>GPR SURVEY IN SAHARANPUR</h4>
+                      <h4>Lorem Ipsum</h4>
                     </div>
                     <img
                       src='img/portfolio/007-small.jpg'
@@ -174,7 +174,7 @@ export const Gallery = (props) => {
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>GPR SURVEY IN BETTIAH</h4>
+                      <h4>Lorem Ipsum</h4>
                     </div>
                     <img
                       src='img/portfolio/008-small.jpg'
@@ -195,7 +195,7 @@ export const Gallery = (props) => {
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>GPR SURVEY IN RAMNAGAR</h4>
+                      <h4>Lorem Ipsum</h4>
                     </div>
                     <img
                       src='img/portfolio/009-small.jpg'
@@ -216,7 +216,7 @@ export const Gallery = (props) => {
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>GPR SURVEY IN KANPUR</h4>
+                      <h4>Lorem Ipsum</h4>
                     </div>
                     <img
                       src='img/portfolio/010-small.jpg'
@@ -237,7 +237,7 @@ export const Gallery = (props) => {
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>GPR SURVEY IN JODHPUR</h4>
+                      <h4>Lorem Ipsum</h4>
                     </div>
                     <img
                       src='img/portfolio/011-small.jpg'
@@ -258,7 +258,7 @@ export const Gallery = (props) => {
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>GPR SURVEY IN JAISALMER</h4>
+                      <h4>Lorem Ipsum</h4>
                     </div>
                     <img
                       src='img/portfolio/012-small.jpg'
@@ -279,7 +279,7 @@ export const Gallery = (props) => {
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>BIKANER</h4>
+                      <h4>Lorem Ipsum</h4>
                     </div>
                     <img
                       src='img/portfolio/013-small.jpg'
@@ -300,7 +300,7 @@ export const Gallery = (props) => {
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>GPR SURVEY IN PUSKAR</h4>
+                      <h4>Lorem Ipsum</h4>
                     </div>
                     <img
                       src='img/portfolio/014-small.jpg'
@@ -321,7 +321,7 @@ export const Gallery = (props) => {
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>GPR SURVEY IN OSIAN</h4>
+                      <h4>Lorem Ipsum</h4>
                     </div>
                     <img
                       src='img/portfolio/015-small.jpg'
