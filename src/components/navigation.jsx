@@ -1,5 +1,6 @@
 import "../css/navigation.css";
 import ThemeChanger from "./ThemeChanger";
+import {NavLink} from 'react-router-dom';
 export const Navigation = (props) => {
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
@@ -17,9 +18,9 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          <a className="navbar-brand page-scroll" style={{"text-shadow":"5px 2px 4px skyblue","font-style":"oblique"}}href="#page-top">
+          <NavLink className="navbar-brand page-scroll" style={{"text-shadow":"5px 2px 4px skyblue","font-style":"oblique"}} to="/page-top">
             <span className="ayush">Geo</span>Magnify
-          </a>{" "}
+          </NavLink>{" "}
           {/* <h5 style={{ color: "green", textTransform: "none" }}>
             Understand earth better
           </h5> */}
@@ -31,34 +32,35 @@ export const Navigation = (props) => {
         >
           <ul className="nav navbar-nav navbar-right" >
             <li style={{"font-weight":"bolder","color":"black"}}>
-              <a href="#page-top" className="page-scroll" >
+              <NavLink to="/page-top" id="a" className="page-scroll" >
                 Home
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a href="#about" className="page-scroll">
+              <NavLink to="/about" id="a" className="page-scroll">
                 About
-              </a>
+              </NavLink>
             </li>
+            
             <li>
-              <a href="#services" className="page-scroll">
+              <NavLink to="/services" id="a" className="page-scroll">
                 Services
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a href="#portfolio" className="page-scroll">
+              <NavLink to="/portfolio" id="a" className="page-scroll">
                 Gallery
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a href="#testimonials" className="page-scroll">
+              <NavLink to="/testimonials" id="a" className="page-scroll">
                 Testimonials
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a href="#contact" className="page-scroll">
+              <NavLink to="/contact" id="a" className="page-scroll">
                 Contact
-              </a>
+              </NavLink>
             </li>
           </ul>
         </div>

@@ -1,26 +1,27 @@
 import {Link,Switch,Route} from 'react-router-dom';
-import Engineering from '../pages/Engineering-Geophysics';
-import Environment from '../pages/Environment-Geophysics';
+import Engineering from '../pages/Engineering';
+import Environment from '../pages/Environment';
+import './services.css';
 export const Services = (props) => {
   return (
       <div id="services" className="text-center">
         <div className="container">
           <div className="section-title">
             <h2>Our Services</h2>
-            <nav>
+            <nav className="service-nav">
                 <ul>
-                    <li>
-                        <Link to='/#services/s1' >Engineering Geophysics</Link>
+                    <li >
+                        <Link to='/engineering' >Engineering Geophysics</Link>
                     </li>
                     <li>
-                        <Link to='/#services/s2'>Environment Geophysics</Link>
+                        <Link to='/environment'>Environment Geophysics</Link>
                     </li>
                 </ul>
             </nav>
-            <p>
+            {/* <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
               dapibus leonec.
-            </p>
+            </p> */}
           </div>
 
           
@@ -43,8 +44,8 @@ export const Services = (props) => {
           </div>
         </div>
         <Switch>
-           <Route path='/#services/s1' component={Engineering} />
-           <Route path='/#services/s2' component={Environment} />
+           <Route path='/engineering' component={Engineering} />
+           <Route path='/environment' component={Environment} />
         </Switch>
       </div>
       

@@ -1,0 +1,59 @@
+.alpha{
+    position: relative;
+    top: 90px;
+    background-color: #F5F5FC;
+}
+#bita{
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+.title{
+    height: 140px;
+    border: 1px solid black;
+    background-color: #3C3950F0;
+    color:white;
+    text-align: center;
+    padding:15px 0px;
+    font-size: 30px;
+}
+.gama{
+    padding-left: 20px;
+    position: relative;
+    top: 20px;
+    /* border: 1px solid black; */
+    height: 340px;
+    /* background-color: cadetblue; */
+    margin-bottom: 50px;
+    
+}
+.bita{
+    position:absolute;
+    left: 700px;
+    top:50px;
+    right: 30px;
+    color: black;
+    line-height: 30px;
+    font-size: 28px;
+    padding-right: 150px;
+    
+}
+.delta{
+    padding-left: 30px;
+    background-color: skyblue;
+}
+ol.lower-alpha , h3{
+    list-style-type: lower-alpha;
+    padding-left: 350px;
+    line-height: 30px;
+}
+ol.decimal{
+    list-style-type:decimal;
+    padding-left: 350px;
+    line-height: 30px;
+}
+ul.circle{
+    list-style-type:circle;
+}

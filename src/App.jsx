@@ -9,11 +9,11 @@ import { Testimonials } from "./components/testimonials";
 import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
-// import Engineering from "./pages/Engineering-Geophysics";
-// import Environment from "./pages/Environment-Geophysics";
-// import { Route, Switch } from "react-router-dom";
+import { Switch, Route, Redirect } from "react-router-dom";
+import Engineering from "./pages/Engineering-demo";
+import Environment from "./pages/Environment";
 
-export const scroll = new SmoothScroll('a[href*="#"]', {
+export const scroll = new SmoothScroll('a[href*="/"]', {
   speed: 1000,
   speedAsDuration: true,
 });
@@ -27,22 +27,35 @@ const App = () => {
   return (
     <div>
       <Navigation />
-      <Header />
-      <About data={landingPageData.About} />
-      <Services data={landingPageData.Services} />
-
-      {/* <Switch>
-        <Route path="/#services/engineering" exact>
+      <Switch>
+        <Route exact path='/' >
+          <Redirect to='/page-top' />
+        </Route>
+        <Route  exact path="/page-top">
+          <Header />
+        </Route>
+        <Route exact path="/about">
+          <About data={landingPageData.About} />
+        </Route>
+        <Route exact path="/services">
+          <Services data={landingPageData.Services} />
+        </Route>
+        <Route exact path="/engineering" >
           <Engineering />
         </Route>
-        <Route path="/#services/environment" exact>
+        <Route exact path="/environment" >
           <Environment />
         </Route>
-      </Switch> */}
-
-      <Gallery />
-      <Testimonials data={landingPageData.Testimonials} />
-      <Contact data={landingPageData.Contact} />
+        <Route exact path="/portfolio">
+          <Gallery />
+        </Route>
+        <Route exact path="/testimonials">
+          <Testimonials data={landingPageData.Testimonials} />
+        </Route>
+        <Route exact path="/contact">
+          <Contact data={landingPageData.Contact} />
+        </Route>
+      </Switch>
     </div>
   );
 };
