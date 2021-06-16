@@ -44,7 +44,7 @@
     padding-left: 30px;
     background-color: skyblue;
 }
-ol.lower-alpha , h3{
+ol.lower-alpha , #h{
     list-style-type: lower-alpha;
     padding-left: 350px;
     line-height: 30px;

@@ -8,6 +8,7 @@ export const Services = (props) => {
         <div className="container">
           <div className="section-title">
             <h2>Our Services</h2>
+            
             <nav className="service-nav">
                 <ul>
                     <li >

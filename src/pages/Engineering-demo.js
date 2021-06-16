@@ -35,7 +35,7 @@ const Engineering = () => {
                     <li>Slop stability </li>
                     <li>Engineering Parameter assessment</li>
                 </ol>
-                <h3>Techniques used for different purposes:</h3>
+                <h3 id="h">Techniques used for different purposes:</h3>
                 <ol className="decimal">
                     <li>Investigation for Cavity and weak zones within the civil structure areas.</li>
                     <ul className="circle">

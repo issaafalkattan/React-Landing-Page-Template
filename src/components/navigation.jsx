@@ -1,6 +1,7 @@
 import "../css/navigation.css";
 import ThemeChanger from "./ThemeChanger";
-import {NavLink} from 'react-router-dom';
+import { NavLink } from "react-router-dom";
+import Dropdown from "react-bootstrap/Dropdown";
 export const Navigation = (props) => {
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
@@ -18,7 +19,14 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          <NavLink className="navbar-brand page-scroll" style={{"text-shadow":"5px 2px 4px skyblue","font-style":"oblique"}} to="/page-top">
+          <NavLink
+            className="navbar-brand page-scroll"
+            style={{
+              "text-shadow": "5px 2px 4px skyblue",
+              "font-style": "oblique",
+            }}
+            to="/page-top"
+          >
             <span className="ayush">Geo</span>Magnify
           </NavLink>{" "}
           {/* <h5 style={{ color: "green", textTransform: "none" }}>
@@ -30,9 +38,9 @@ export const Navigation = (props) => {
           className="collapse navbar-collapse"
           id="bs-example-navbar-collapse-1"
         >
-          <ul className="nav navbar-nav navbar-right" >
-            <li style={{"font-weight":"bolder","color":"black"}}>
-              <NavLink to="/page-top" id="a" className="page-scroll" >
+          <ul className="nav navbar-nav navbar-right">
+            <li style={{ "font-weight": "bolder", color: "black" }}>
+              <NavLink to="/page-top" id="a" className="page-scroll">
                 Home
               </NavLink>
             </li>
@@ -41,11 +49,36 @@ export const Navigation = (props) => {
                 About
               </NavLink>
             </li>
-            
+
             <li>
-              <NavLink to="/services" id="a" className="page-scroll">
+              {/* <NavLink to="/services" id="a" className="page-scroll">
+                Services
+              </NavLink> */}
+              <Dropdown>
+                <Dropdown.Toggle
+                  variant="success"
+                  id="dropdown-basic"
+                >
+                  <NavLink to="/services" id="a" className="page-scroll">
                 Services
               </NavLink>
+                </Dropdown.Toggle>
+
+                <Dropdown.Menu>
+                  <Dropdown.Item href="/engineering">
+                    <NavLink to="/engineering" >
+                    Engineering-Geophysics
+                    </NavLink>
+                  </Dropdown.Item>
+                  <br/>
+                  <Dropdown.Item href="/environment">
+                    <NavLink to="environment">
+                    Environment-Geophysics
+                    </NavLink>
+                    
+                  </Dropdown.Item>
+                </Dropdown.Menu>
+              </Dropdown>
             </li>
             <li>
               <NavLink to="/portfolio" id="a" className="page-scroll">
@@ -67,6 +100,5 @@ export const Navigation = (props) => {
         <ThemeChanger />
       </div>
     </nav>
-    
   );
 };

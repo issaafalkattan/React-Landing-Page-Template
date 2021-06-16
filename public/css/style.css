@@ -250,9 +250,9 @@ header .intro-text {
 #about {
 	padding: 140px 0;
 }
-#about h3 {
+#about #has {
 	font-size: 22px;
-	margin: 0 0 20px -330px;
+	margin: 0 0 20px 0px;
 }
 #about h2 {
 	position: relative;
@@ -451,12 +451,11 @@ header .intro-text {
 	bottom: 0;
 	left: 30px;
 }
-#contact h3 {
+#contact #ha {
 	color: #fff;
 	margin-top: 80px;
 	margin-bottom: 25px;
 	padding-bottom: 20px;
-	margin-left: -350px;
 	font-weight: 400;
 }
 #contact form {

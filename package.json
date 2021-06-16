@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^7.1.2",
     "emailjs-com": "^2.6.4",
     "react": "^17.0.1",
+    "react-bootstrap": "^1.6.1",
     "react-dom": "^17.0.1",
     "react-icons": "^4.2.0",
     "react-router-dom": "^5.2.0",
