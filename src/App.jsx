@@ -12,7 +12,7 @@ import SmoothScroll from "smooth-scroll";
 import { Switch, Route, Redirect } from "react-router-dom";
 import Engineering from "./pages/Engineering-demo";
 import Environment from "./pages/Environment";
-import Demo from './Demo';
+
 export const scroll = new SmoothScroll('a[href*="/"]', {
   speed: 1000,
   speedAsDuration: true,
@@ -26,7 +26,6 @@ const App = () => {
 
   return (
     <div>
-      <Demo/>
       <Navigation />
       <Switch>
         <Route exact path='/' >
