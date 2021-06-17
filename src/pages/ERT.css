@@ -1,0 +1,37 @@
+
+.ert-container{
+    position: relative;
+    top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f6f6f6;
+}
+
+#ert-h1{
+    height: 140px;
+    border: 1px solid black;
+    background-color: #3C3950F0;
+    color:white;
+    text-align: center;
+    padding:15px 0px;
+    font-size: 30px;
+    width:100%;
+}
+.ert-item{
+    margin: 100px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    /* flex-wrap: wrap-reverse; */
+ } 
+.ert-img{
+    margin: 5vh 3vw;
+    border-radius: 2px solid red;
+}
+#ert-p{
+    margin:  5vh 9vw;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} 

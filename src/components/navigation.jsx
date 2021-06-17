@@ -1,7 +1,6 @@
 import "../css/navigation.css";
-import ThemeChanger from "./ThemeChanger";
+// import ThemeChanger from "./ThemeChanger";
 import { NavLink } from "react-router-dom";
-import Dropdown from "react-bootstrap/Dropdown";
 export const Navigation = (props) => {
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
@@ -21,10 +20,10 @@ export const Navigation = (props) => {
           </button>
           <NavLink
             className="navbar-brand page-scroll"
-            style={{
-              "text-shadow": "5px 2px 4px skyblue",
-              "font-style": "oblique",
-            }}
+            // style={{
+            //   "text-shadow": "5px 2px 4px skyblue",
+            //   "font-style": "oblique",
+            // }}
             to="/page-top"
           >
             <span className="ayush">Geo</span>Magnify
@@ -51,45 +50,20 @@ export const Navigation = (props) => {
             </li>
 
             <li>
-              {/* <NavLink to="/services" id="a" className="page-scroll">
-                Services
-              </NavLink> */}
-              <Dropdown>
-                <Dropdown.Toggle
-                  variant="success"
-                  id="dropdown-basic"
-                >
-                  <NavLink to="/services" id="a" className="page-scroll">
+              <NavLink to="/services" id="a" className="page-scroll">
                 Services
               </NavLink>
-                </Dropdown.Toggle>
-
-                <Dropdown.Menu>
-                  <Dropdown.Item href="/engineering">
-                    <NavLink to="/engineering" >
-                    Engineering-Geophysics
-                    </NavLink>
-                  </Dropdown.Item>
-                  <br/>
-                  <Dropdown.Item href="/environment">
-                    <NavLink to="environment">
-                    Environment-Geophysics
-                    </NavLink>
-                    
-                  </Dropdown.Item>
-                </Dropdown.Menu>
-              </Dropdown>
             </li>
             <li>
               <NavLink to="/portfolio" id="a" className="page-scroll">
                 Gallery
               </NavLink>
             </li>
-            <li>
+            {/* <li>
               <NavLink to="/testimonials" id="a" className="page-scroll">
                 Testimonials
               </NavLink>
-            </li>
+            </li> */}
             <li>
               <NavLink to="/contact" id="a" className="page-scroll">
                 Contact
@@ -97,7 +71,7 @@ export const Navigation = (props) => {
             </li>
           </ul>
         </div>
-        <ThemeChanger />
+        {/* <ThemeChanger /> */}
       </div>
     </nav>
   );

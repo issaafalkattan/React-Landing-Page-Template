@@ -14,7 +14,7 @@ export const Header = () => {
                 </h1>
                 <p>Understand Earth Better</p>
                 <NavLink
-                  to='/features'
+                  to='/engineering'
                   className='btn btn-custom btn-lg page-scroll'
                 >
                   Learn More

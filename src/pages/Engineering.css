@@ -1,14 +1,10 @@
+.noHover{
+    pointer-events: none;
+}
 .alpha{
     position: relative;
     top: 90px;
-    background-color: #F5F5FC;
-}
-#bita{
-    text-transform: uppercase;
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 20px;
-    font-size: 30px;
+    background-color: white;
 }
 .title{
     height: 140px;
@@ -19,41 +15,47 @@
     padding:15px 0px;
     font-size: 30px;
 }
-.gama{
-    padding-left: 20px;
+.landing{
     position: relative;
-    top: 20px;
-    /* border: 1px solid black; */
+    top: 0px;
+    /* height: 100px; */
+    background-color:white;
+    padding-bottom:40px;
+}
+#intro-part{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size:30px;
+    
+}
+
+.gama{
+    padding-left: 200px;
     height: 340px;
-    /* background-color: cadetblue; */
-    margin-bottom: 50px;
+    padding-top: 0px;
+    margin-bottom: 30px;
     
 }
-.bita{
-    position:absolute;
-    left: 700px;
-    top:50px;
-    right: 30px;
-    color: black;
-    line-height: 30px;
-    font-size: 28px;
-    padding-right: 150px;
-    
+ .img1{
+    float: right;
+    padding-right: 120px;
+    margin-bottom: 100px;
 }
-.delta{
-    padding-left: 30px;
-    background-color: skyblue;
+.content{
+    padding-top: 150px;
+    height: 750px;
+    background-color: #F5F5FC;
+    padding-left: 100px;
 }
-ol.lower-alpha , #h{
-    list-style-type: lower-alpha;
-    padding-left: 350px;
-    line-height: 30px;
+ .img2{
+    float: left;
+    padding-right: 120px;
 }
-ol.decimal{
-    list-style-type:decimal;
-    padding-left: 350px;
-    line-height: 30px;
+.content-text{
+    padding-right:100px;
 }
-ul.circle{
-    list-style-type:circle;
-}
+
+
+
+

@@ -22,7 +22,7 @@ li:hover {
     color:white;
 }
 
- #a{
+ /* #a{
     text-transform: uppercase;
     color: black;
     text-align:center;
@@ -32,11 +32,12 @@ li:hover {
     color: #fff;
     background-color: white;
     border-color:white;
-}
+} */
+/*
 .btn {
     
     /* padding: 6px 12px; */
-    margin: 8px;
+    /* margin: 8px;
     font-size: 14px;
     font-weight: normal;
     line-height: 1.42857143;
@@ -52,9 +53,9 @@ li:hover {
     user-select: none;
     background-image: none;
     /* border: 1px solid transparent; */
-    border-radius: 20px;
-    color: #fff;
-}
+    /* border-radius: 20px;
+    color: #fff; */
+/* }
 .btn:hover{
     color: #fff;
-}
+} */ 

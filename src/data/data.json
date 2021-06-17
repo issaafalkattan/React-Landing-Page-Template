@@ -21,33 +21,57 @@
         ]
     },
     "Services": [{
-            "icon": "fa fa-wordpress",
-            "name": "Lorem ipsum dolor",
+            "icon": "img/services/1.jpg",
+            "name": "Electrical Resistivity Tomography",
+            "url":"/ert",
+            "text": "Electrical Resistivity Tomography (ERT) method is a geophysical technique applicable in mapping subsurface conditions for various uses including geologic, geotechnical, hydrogeology, environmental mineral exploration, and archaeological investigation."
+        },
+        {
+            "icon": "img/services/2.jpg",
+            "name": "Microgravity",
+            "url":"/microgravity",
+            "text": "The microgravity method, which detects both the lateral and vertical variations in the rock density, will have limitation over this site in terms of depth and resolution."
+        },
+        {
+            "icon": "img/services/3.jpg",
+            "name": "Multichannel Analysis of Surface Waves (MASW)",
+            "url":"/multichannel",
+            "text": "Multichannel Analysis of Surface Waves (MASW) method will measure the surface waves and in particular Rayleigh wave velocity, which is frequency dependent."
+        },
+        {
+            "icon": "img/services/4.jpg",
+            "name": "Seismic Refraction",
+            "url":"/seismic",
+            "text": "Seismic Refraction surveys are used for varoius purposes to map the bedrock depth and evaluate rock rippability. Seismic refraction measurements are applicable in mapping subsurface conditions"
+        },
+        {
+            "icon": "img/services/5.jpg",
+            "name": "Downhole",
+            "url":"/downhole",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
         },
         {
-            "icon": "fa fa-cart-arrow-down",
-            "name": "Consectetur adipiscing",
+            "icon": "img/services/6.jpg",
+            "name": "Crosshole Seismic",
+            "url":"/crosshole",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
         },
         {
-            "icon": "fa fa-cloud-download",
-            "name": "Lorem ipsum dolor",
+            "icon": "img/services/7.jpg",
+            "name": "Refraction Microtremor (ReMi)",
+            "url":"/refraction",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
         },
         {
-            "icon": "fa fa-language",
-            "name": "Consectetur adipiscing",
+            "icon":"img/services/8.jpg",
+            "name": "Ground Penetrating Radar",
+            "url":"/ground",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
         },
         {
-            "icon": "fa fa-plane",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-pie-chart",
-            "name": "Consectetur adipiscing",
+            "icon": "img/services/9.jpg",
+            "name": "Electromagnetic (EM) Survey",
+            "url":"/electromagnetic",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
         }
 
