@@ -13,7 +13,7 @@ const Engineering = () => {
       
       <div className="landing">
         <div className="gama">
-          <h2>1.Engineering Geophysics:</h2>
+          <h2>Engineering Geophysics:</h2>
 
           <p className="para-text">
             Engineering Geophysical methods provide accurate data about the
@@ -30,7 +30,7 @@ const Engineering = () => {
           <img src={ayush} alt="Geophysics" />
         </div>
       </div>
-        <div className="content-data">
+        {/* <div className="content-data">
           <div className="img2">
             <img src={geotechnical} alt="Geophysics" />
           </div>
@@ -48,7 +48,7 @@ const Engineering = () => {
               burial sites.
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
   );
 };

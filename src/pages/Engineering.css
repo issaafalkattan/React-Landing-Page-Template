@@ -7,10 +7,10 @@ html{
 }
 .alpha{
     width:100%;
-    height:80rem;
+    /* height:auto; */
     position: relative;
     top: 9rem;
-    overflow: auto;
+    /* overflow: auto; */
     
     /* background-color: white; */
 }
@@ -23,14 +23,16 @@ html{
     text-align: center;
     padding:1.5rem 0;
     font-size: 3rem;
-    overflow:auto;
+    width:100%;
+    /* max-width: 100%; */
+    /* overflow:auto; */
 }
 .intro-part{
-    margin-top: 2rem;
+    margin-top: 4rem;
     /* border:2px solid green; */
     height:5rem;
     text-align: center;
-    overflow:auto;
+    /* overflow:auto; */
 }
 .landing{
     
@@ -46,16 +48,21 @@ html{
     /* overflow: auto; */
 }
 .gama{
-    margin:0 4rem;
+    /* padding: 2rem; */
+    margin:0 2rem;
     /* border: 2px solid grey; */
     /* overflow: auto; */
 }
 .img1{
+    margin: 4rem;
+}
+ div.img1.img{
+     /* padding: 2rem; */
     margin:0 4rem;
     /* border: 2px solid grey; */
     max-width: 100%;
     height:auto;
-}
+} 
 
 .content-data{
     /* margin-top: 4rem; */
@@ -67,30 +74,31 @@ html{
     justify-content: center;
     background-color: #F5F5FC;
     padding-top: 14rem;
-    overflow: auto;
     
 }
  
- .img2{
+ div.img2.img{
+     width:30rem;
+     height:30rem;
     margin:0 4rem;
-    overflow: auto;
+    max-width: 100%;
+    height:auto;
 } 
 .content-text{
     /* border: 2px solid grey; */
     margin:0 4rem;
     height:33rem;
-    overflow: auto;
 } 
 .para-text{
+    padding-left: 2rem;
     font-size: 2rem;
     width: 60rem;
     height:40rem;
-    max-width: 100%;
-    height:auto;
-    /* overflow: auto; */
-} 
+    } 
 
-@media(max-width:998px){
+
+
+/* @media(max-width:998px){
 	html{
 		font-size: 55%;
 	}
@@ -101,7 +109,48 @@ html{
 	html{
 		font-size: 45%;
 	}
-}
+} */
 
-
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+      div.alpha{
+          width:min-content;
+      }
+      div.title{
+          text-align:center;
+      }
+      
+    }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    html{
+        font-size: 40%;
+      }
+      /* .title{
+        width:100%;
+    } */
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    html{
+        font-size: 45%;
+      }
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    html{
+        font-size: 55%;
+      }
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    html{
+        font-size: 60%;
+      }
+  }
 
