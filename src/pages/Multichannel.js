@@ -1,17 +1,18 @@
 
-import './ERT.css';
+import '../pages/Engineering.css';
 const Multichannel=()=>{
     return(
         
-        <div class="ert-container">
-            <div id="ert-h1">
+        <div className="alpha">
+            <div className="title">
             <h1>Multichannel Analysis of Surface Waves (MASW) </h1>
             </div>
         
-        <div class="ert-item">
-            <img id="ert-img" src="https://cutt.ly/OnXzgIT"
-                alt="No image found" width="600px" height="400px" />
-            <p id="ert-p">
+        <div className="landing">
+            
+            <div className="gama">
+            <h2>Introduction</h2>
+            <p className="para-text">
                 Multichannel Analysis of Surface Waves (MASW) method will measure the surface waves and in particular
                 Rayleigh wave velocity, which is frequency dependent. Principally it considers the dispersive
                 characteristic of acoustic waves i.e., a particular frequency would travel with particular velocity.
@@ -26,6 +27,11 @@ const Multichannel=()=>{
                 behind a car with the geophones mounted on a land streamer or gliding plate. The seismic energy is
                 produced with a sledge hammer or Propelled Energy Generator (PEG) source.
             </p>
+            </div>
+            <div className="img1">
+            <img  src="img/services/multichannel.png"
+                alt="No image found"  />
+            </div>
         </div>
         </div>
     );

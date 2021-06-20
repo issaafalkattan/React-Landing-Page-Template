@@ -1,7 +1,11 @@
 
+html{
+    font-size: 62.5%;
+}
+
 .ert-container{
     position: relative;
-    top: 90px;
+    top: 9rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,17 +13,17 @@
 }
 
 #ert-h1{
-    height: 140px;
-    border: 1px solid black;
+    height: 14rem;
+    border: .1rem solid black;
     background-color: #3C3950F0;
     color:white;
     text-align: center;
-    padding:15px 0px;
-    font-size: 30px;
+    padding:1.5rem 0;
+    font-size: 3rem;
     width:100%;
 }
 .ert-item{
-    margin: 100px 40px;
+    margin: 10rem 4rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -27,11 +31,27 @@
     /* background-color: red; */
     /* flex-wrap: wrap-reverse; */
  } 
-.ert-img{
-    margin: 5vh 3vw;
-    border-radius: 2px solid red;
+#ert-img{
+    margin: 3.8rem 4.6rem;
+    border-radius: .2rem solid red;
+    width:60rem ;
+    height:40rem;
 }
 #ert-p{
-    margin:  5vh 9vw;
+    margin:  3.8rem 13.8rem;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 } 
+
+
+@media(max-width:998px){
+	html{
+		font-size: 55%;
+	}
+}
+
+
+@media (max-width: 768px) {
+	html{
+		font-size: 45%;
+	}
+}

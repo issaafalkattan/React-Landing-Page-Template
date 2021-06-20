@@ -1,17 +1,22 @@
 
-import './ERT.css';
+import '../pages/Engineering.css';
 const Refraction=()=>{
     return(
         
-        <div class="ert-container">
-            <div id="ert-h1">
+        <div className="alpha">
+            <div className="title">
             <h1>Refraction Microtremor (ReMi)</h1>
             </div>
         
-        <div class="ert-item">
-            <img id="ert-img" src="https://cutt.ly/6nXvvqd"
-                alt="No image found" width="600px" height="400px" />
-            <p id="ert-p">
+        <div className="landing">
+            <div className="img1">
+            <img src="img/services/refraction.jpg"
+                alt="No image found"  />
+            </div>
+
+            <div className="gama">
+            <h2>Introduction</h2>
+            <p className="para-text">
                 ReMi can be performed under the same layout as used for seismic refraction, to obtain excellent shear
                 wave velocity profiles of subsurface. ReMi is a new, proven seismic method for measuring in-situ
                 shear-wave (S-wave) velocity profiles. It is economic both in terms of cost and time. Testing is
@@ -39,6 +44,7 @@ const Refraction=()=>{
                 geophysical technique decreases with depth, i.e., smaller cavity located at shallower depth could be
                 identified but cavity of same dimension could not be identified located at deeper levels.
             </p>
+        </div>
         </div>
         </div>
     );

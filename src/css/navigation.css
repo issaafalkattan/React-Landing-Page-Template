@@ -1,12 +1,16 @@
 
+html{
+    font-size:62.5%;
+}
+
 ul li {
-    margin: 8px;
-    border-radius: 20px;
+    margin: .8rem;
+    border-radius: 2rem;
     
 }
 
 #menu{
-    padding: 10px 0;
+    padding: 1rem 0;
 }
 li:hover {
     background-color:grey;
@@ -59,3 +63,17 @@ li:hover {
 .btn:hover{
     color: #fff;
 } */ 
+
+
+@media(max-width:998px){
+	html{
+		font-size: 55%;
+	}
+}
+
+
+@media (max-width: 768px) {
+	html{
+		font-size: 45%;
+	}
+}

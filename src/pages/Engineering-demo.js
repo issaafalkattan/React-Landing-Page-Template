@@ -7,15 +7,15 @@ const Engineering = () => {
       <div className="title">
         <h1>Geophysics</h1>
       </div>
+      <div className="intro-part">
+      <h2>Introduction</h2>
+      </div>
+      
       <div className="landing">
-        <h2 id="intro-part">Introduction</h2>
-        <div className="img1">
-          <img src={ayush} alt="Geophysics" />
-        </div>
         <div className="gama">
           <h2>1.Engineering Geophysics:</h2>
 
-          <p style={{ "font-size": "20px", width: "600px" }}>
+          <p className="para-text">
             Engineering Geophysical methods provide accurate data about the
             structure of the subsurface - valuable information in the field of
             engineering. <br />
@@ -26,15 +26,17 @@ const Engineering = () => {
             Open pit mines.
           </p>
         </div>
+        <div className="img1">
+          <img src={ayush} alt="Geophysics" />
+        </div>
       </div>
-      <div className="content">
         <div className="content-data">
           <div className="img2">
-            <img src={ayush} alt="Geophysics" />
+            <img src={geotechnical} alt="Geophysics" />
           </div>
           <div className="content-text">
             <h2>2.Environment Geophysics:</h2>
-            <p style={{ "font-size": "20px"}}>
+            <p className="para-text">
               Environmental geophysics is a relatively new field. It is
               primarily used to identify, map or predict the presence and
               potential movement of surface water and groundwater and to
@@ -48,7 +50,6 @@ const Engineering = () => {
           </div>
         </div>
       </div>
-    </div>
   );
 };
 export default Engineering;

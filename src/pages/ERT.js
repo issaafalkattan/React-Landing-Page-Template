@@ -1,17 +1,21 @@
 
-import './ERT.css';
+import '../pages/Engineering.css';
 const ERT=()=>{
     return(
         
-        <div class="ert-container">
-            <div id="ert-h1">
+        <div className="alpha">
+            <div className="title">
             <h1>Electrical Resistivity Tomography</h1>
             </div>
         
-        <div class="ert-item">
-            <img id="ert-img" src="https://tempsand.com.au/wp-content/uploads/2017/05/soil-thermal-testing-australia.jpg"
-                alt="No image found" width="600px" height="400px" />
-            <p id="ert-p">Electrical Resistivity Tomography (ERT) method is a geophysical technique applicable in mapping
+        <div className="landing">
+            <div className="img1">
+            <img src="img/services/ert.jpg"
+                alt="No image found"/>
+            </div>
+            <div className="gama">
+            <h2>Introduction</h2>
+            <p className="para-text">Electrical Resistivity Tomography (ERT) method is a geophysical technique applicable in mapping
                 subsurface conditions for various uses including geologic, geotechnical, hydrogeology, environmental
                 mineral exploration, and archaeological investigation.
                 <br/>
@@ -37,6 +41,7 @@ const ERT=()=>{
                 concentration of saline water. Areas with disintegrated rock (weathered and highly fractured) will
                 exhibit lower resistivity values compared to the site norm within each rock formation.
             </p>
+        </div>
         </div>
         </div>
     );

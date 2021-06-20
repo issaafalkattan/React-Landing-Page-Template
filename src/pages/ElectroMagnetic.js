@@ -1,17 +1,21 @@
 
-import './ERT.css';
+import '../pages/Engineering.css';
 const ElectroMagnetic=()=>{
     return(
         
-        <div class="ert-container">
-            <div id="ert-h1">
+        <div className="alpha">
+            <div className="title">
             <h1>Electromagnetic (EM) Survey</h1>
             </div>
         
-        <div class="ert-item">
-            <img id="ert-img" src="http://geosiamservices.com/wp-content/uploads/2015/07/AEM02-1024x689.jpg"
-                alt="No image found" width="600px" height="400px" />
-            <p id="ert-p">
+        <div className="landing">
+            <div className="img1">
+            <img  src="img/services/electromagnetic.jpg"
+                alt="No image found"  />
+            </div>
+            <div className="gama">
+            <h2>Introduction</h2>
+            <p className="para-text">
                 The electromagnetic method otherwise referred to as the EM method measures the response of induced
                 electromagnetic fields into the ground. The electromagnetic fields comprise alternating electric
                 intensity and magnetic force. Contrary to other conventional resistivity methods, this method does not
@@ -30,6 +34,7 @@ const ElectroMagnetic=()=>{
                 transmitter and the receiver. The measured quantity is the apparent conductivity with units in
                 millimhos/meter (m mhos/m).
             </p>
+        </div>
         </div>
         </div>
     );

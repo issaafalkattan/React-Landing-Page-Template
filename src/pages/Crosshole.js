@@ -1,16 +1,21 @@
 
-import './ERT.css';
+import '../pages/Engineering.css';
 const Crosshole=()=>{
     return(
         
-        <div class="ert-container">
-            <div id="ert-h1">
+        <div className="alpha">
+            <div className="title">
             <h1>Crosshole Seismic</h1>
             </div>
         
-        <div class="ert-item">
-            
-            <p id="ert-p">
+        <div className="landing">
+        <div className="img1">
+            <img id="ert-img" src="img/services/crosshole.jpg"
+                alt="No image found"  />
+            </div>
+            <div className="gama">
+            <h2>Introduction</h2>
+            <p className="para-text">
                 Crosshole Seismic method is uses for 1D profiling of seismic velocity in set of borehole which consist
                 two or three number of borehole for precise assessment of different engineering parameters. The
                 Crosshole Seismic Test makes direct measurements of P-wave velocities, or/and S-wave velocities, in
@@ -25,8 +30,8 @@ const Crosshole=()=>{
                 By the crosshole data, P and S Wave Velocities are calculated and other engineering parameters (i.e.,
                 Elastic moduli, Poison’s ration) could be calculated by incorporating density values of the strata.
             </p>
-            <img id="ert-img" src="https://www.ocsa-geofisica.com/images/crosshole2.jpg"
-                alt="No image found" width="600px" height="400px" />
+            </div>
+            
         </div>
         </div>
     );

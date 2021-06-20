@@ -1,61 +1,107 @@
+html{
+    font-size:62.5%;
+}
+
 .noHover{
     pointer-events: none;
 }
 .alpha{
+    width:100%;
+    height:80rem;
     position: relative;
-    top: 90px;
-    background-color: white;
+    top: 9rem;
+    overflow: auto;
+    
+    /* background-color: white; */
 }
 .title{
-    height: 140px;
-    border: 1px solid black;
+    /* margin-top:2rem; */
+    height: 14rem;
+    border: .1rem solid black;
     background-color: #3C3950F0;
     color:white;
     text-align: center;
-    padding:15px 0px;
-    font-size: 30px;
+    padding:1.5rem 0;
+    font-size: 3rem;
+    overflow:auto;
+}
+.intro-part{
+    margin-top: 2rem;
+    /* border:2px solid green; */
+    height:5rem;
+    text-align: center;
+    overflow:auto;
 }
 .landing{
-    position: relative;
-    top: 0px;
-    /* height: 100px; */
+    
+    margin-top: 4rem;
+    /* border: 2px solid grey; */
+    height: 60vh;
+    padding: 5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     background-color:white;
-    padding-bottom:40px;
-}
-#intro-part{
-    padding-top: 100px;
-    padding-bottom: 50px;
-    text-align: center;
-    font-size:30px;
     
+    /* overflow: auto; */
 }
-
 .gama{
-    padding-left: 200px;
-    height: 340px;
-    padding-top: 0px;
-    margin-bottom: 30px;
-    
+    margin:0 4rem;
+    /* border: 2px solid grey; */
+    /* overflow: auto; */
 }
- .img1{
-    float: right;
-    padding-right: 120px;
-    margin-bottom: 100px;
-}
-.content{
-    padding-top: 150px;
-    height: 750px;
-    background-color: #F5F5FC;
-    padding-left: 100px;
-}
- .img2{
-    float: left;
-    padding-right: 120px;
-}
-.content-text{
-    padding-right:100px;
+.img1{
+    margin:0 4rem;
+    /* border: 2px solid grey; */
+    max-width: 100%;
+    height:auto;
 }
 
+.content-data{
+    /* margin-top: 4rem; */
+    /* padding: 8rem 2rem; */
+    /* border: 2px solid grey; */
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #F5F5FC;
+    padding-top: 14rem;
+    overflow: auto;
+    
+}
+ 
+ .img2{
+    margin:0 4rem;
+    overflow: auto;
+} 
+.content-text{
+    /* border: 2px solid grey; */
+    margin:0 4rem;
+    height:33rem;
+    overflow: auto;
+} 
+.para-text{
+    font-size: 2rem;
+    width: 60rem;
+    height:40rem;
+    max-width: 100%;
+    height:auto;
+    /* overflow: auto; */
+} 
+
+@media(max-width:998px){
+	html{
+		font-size: 55%;
+	}
+}
+
+
+@media (max-width: 768px) {
+	html{
+		font-size: 45%;
+	}
+}
 
 
 

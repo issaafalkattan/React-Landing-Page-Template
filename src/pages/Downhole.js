@@ -1,17 +1,21 @@
 
-import './ERT.css';
+import '../pages/Engineering.css';
 const Downhole=()=>{
     return(
         
-        <div class="ert-container">
-            <div id="ert-h1">
+        <div className="alpha">
+            <div className="title">
             <h1>Downhole</h1>
             </div>
         
-        <div class="ert-item">
-            <img id="ert-img" src="https://tse4.mm.bing.net/th?id=OIP.keKbLXAdPuAxg0Rp3Xyr8gHaEK&pid=Api&P=0&w=309&h=174"
-                alt="No image found" width="600px" height="400px" />
-            <p id="ert-p">
+        <div className="landing">
+            <div className="img1">
+            <img src="img/services/downhole.jpg"
+                alt="No image found"  />
+            </div>
+            <div className="gama">
+            <h2>Introduction</h2>
+            <p className="para-text">
                 Dynamic geo-technical properties of soil and rock are determined by various in-situ test methods.
                 Dynamic problems are related to earthquakes (liquefaction, ground response and slope stability),
                 vibrating machinery, pile driving, dynamic compaction and other techniques for ground improvement and
@@ -31,6 +35,8 @@ const Downhole=()=>{
                 test advances. All receivers are connected to high-speed recording system and the output is measured as
                 a function of time.
             </p>
+            </div>
+            
         </div>
         </div>
     );
