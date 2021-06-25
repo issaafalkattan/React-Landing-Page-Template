@@ -11,7 +11,8 @@ body, html {
 
 
 h2, h3, h4 {
-	font-family: 'Raleway', sans-serif;
+	/* font-family: 'Raleway', sans-serif; */
+	font-family: Georgia, serif;
 }
 h2 {
 	text-transform: uppercase;
@@ -68,6 +69,10 @@ hr {
 	margin-bottom: 2rem;
 	border: 0;
 }
+.home-content{
+	margin: 0;
+	padding: 0;
+}
 /* Navigation */
 #menu {
 	padding: .5rem;
@@ -79,14 +84,16 @@ hr {
 	box-shadow: 0 0 1rem rgba(0,0,0,0.15)
 }
 #menu a.navbar-brand {
-	font-family: 'Raleway';
+	/* font-family: 'Raleway'; */
+	font-family: Georgia, serif;
 	font-size: 4.4rem;
 	font-weight: 800;
 	color: cadetblue;
 	text-transform: uppercase;
 }
 #menu a.navbar-brand .ayush {
-	font-family: 'Raleway';
+	/* font-family: 'Raleway'; */
+	font-family: Georgia, serif;
 	font-size: 4.4rem;
 	font-weight: 800;
 	color: #555;
@@ -95,7 +102,8 @@ hr {
 #menu a.navbar-brand .ayushk{
 	 margin-top: .1rem;
 	padding-top: 4rem; 
-	font-family: 'Italianno', cursive;
+	/* font-family: 'Raleway'; */
+	font-family: Georgia, serif;
 	font-size: 1.2rem;
 	color: #1E7A46;
 	text-transform: lowercase;
@@ -283,19 +291,38 @@ header .intro-text {
 	font-weight: 300;
 	padding-right: .8rem;
 }
-#about img {
-	width: 52rem;
+
+
+@keyframes example{
+	0% {background-image: url('../img/services/1.jpg');background-repeat: no-repeat;}
+	10% {background-image: url('../img/services/2.jpg') ;background-repeat: no-repeat;}
+	20% {background-image: url('../img/services/3.jpg') ;background-repeat: no-repeat; }
+	30% {background-image: url('../img/services/4.jpg') ;background-repeat: no-repeat;}
+	40% {background-image: url('../img/services/5.jpg') ;background-repeat: no-repeat;}
+	50% {background-image: url('../img/services/6.jpg') ;background-repeat: no-repeat;}
+	60% {background-image: url('../img/services/7.jpg') ;background-repeat: no-repeat;}
+	70% {background-image: url('../img/services/8.jpg') ;background-repeat: no-repeat;}
+	80% {background-image: url('../img/services/9.jpg') ;background-repeat: no-repeat;}
+	100% {background-image: url('../img/services/5.jpg') ;background-repeat: no-repeat;}
+}
+#about .img-container{
+	width: 55rem;
+	height:40rem;
 	margin-top: 1rem;
-	background: #fff;
+	/* background: #fff; */
 	border-right: 0;
 	box-shadow: 0 0 5rem rgba(0,0,0,0.06);
 	max-width: 100%;
-    height:auto;
+    animation-name: example; 
+	animation-duration:100s;
+	/* animation-delay: 2s; */
+	animation-iteration-count: infinite;
 }
 #about p {
 	line-height: 2.4rem;
 	margin: 3rem 0;
 }
+
 /* Services Section */
 #services {
 	padding: 14rem 0;
@@ -384,6 +411,13 @@ header .intro-text {
 }
 .hover-bg:hover .hover-text {
 	opacity: 1;
+}
+/* .col-sm-6 img{
+	width: 46rem;
+	height: 30rem;
+} */
+.img-responsive{
+	width:-webkit-fill-available;
 }
 /* Testimonials Section */
 #testimonials {
@@ -577,6 +611,15 @@ color: #777;
 	border-bottom: .2rem solid #608dfd;
 }
 
+
+@media only screen and (max-width: 600px) {
+    
+    img > #logo-nav{
+		margin:auto;
+		height: 10rem;
+	}
+  }
+
 @media(max-width:998px){
 	html{
 		font-size: 55%;
@@ -588,8 +631,32 @@ color: #777;
 	html{
 		font-size: 45%;
 	}
+	
 /* #about img {
 	margin: 50px 0;
 } */
 }
+@media only screen and (max-width: 600px) {
+    
+     #logo-nav{
+		margin:-1.8rem;
+		width:100%;
+	}
+	.home-content{
+		width: fit-content;
+	}
+	#services{
+		width: fit-content;
+	}
+	#portfolio{
+		width:fit-content;
+	}
+	
+  }
+  @media (max-width:400px){
+	#about .image-container{
+		width: 30rem;
+	}
+  }
+
 

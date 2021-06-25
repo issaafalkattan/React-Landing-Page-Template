@@ -42,7 +42,7 @@ export const Contact = (props) => {
                 <p style={{"font-size":"20px"}}>
                   Whether you want to get in touch, talk about a project
                   collaboration, or just say hi, I'd love to hear from you.
-                  Simply fill the from and send me an email.
+                  Simply fill the form and send me an email.
                 </p>
               </div>
               <form name="sentMessage" validate onSubmit={handleSubmit}>

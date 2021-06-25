@@ -21,6 +21,7 @@ import Crosshole from "./pages/Crosshole";
 import Refraction from "./pages/Refraction";
 import Ground from "./pages/Ground";
 import ElectroMagnetic from "./pages/ElectroMagnetic";
+import Home from './components/Home';
 export const scroll = new SmoothScroll('a[href*="/"]', {
   speed: 1000,
   speedAsDuration: true,
@@ -43,7 +44,7 @@ const App = () => {
           <Redirect to='/page-top' />
         </Route>
         <Route  exact path="/page-top">
-          <Header />
+          <Home />
         </Route>
         <Route exact path="/about">
           <About data={landingPageData.About} />

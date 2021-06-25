@@ -18,6 +18,8 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
+            
+        
           <NavLink
             className="navbar-brand page-scroll"
             // style={{
@@ -26,7 +28,9 @@ export const Navigation = (props) => {
             // }}
             to="/page-top"
           >
-            <span className="ayush">Geo</span>Magnify
+            <img src="img/logo.png" alt="logo"  id="logo-nav" style={{"width":"30rem","height":"8rem","position":"absolute","top":".9rem","mix-blend-mode":"multiply"}}/>
+           
+            {/* <span className="ayush">Geo</span>Magnify */}
           </NavLink>{" "}
           {/* <h5 style={{ color: "green", textTransform: "none" }}>
             Understand earth better
@@ -43,7 +47,7 @@ export const Navigation = (props) => {
                 Home
               </NavLink>
             </li>
-            <li style={{ "font-weight": "bolder", color: "black" }}>
+            <li>
               <NavLink to="/page-top" id="a" className="page-scroll visible-xs" data-toggle="collapse" data-target=".navbar-collapse">
                 Home
               </NavLink>
