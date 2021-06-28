@@ -293,18 +293,27 @@ header .intro-text {
 }
 
 
-@keyframes example{
-	0% {background-image: url('../img/services/1.jpg');background-repeat: no-repeat;}
-	10% {background-image: url('../img/services/2.jpg') ;background-repeat: no-repeat;}
-	20% {background-image: url('../img/services/3.jpg') ;background-repeat: no-repeat; }
-	30% {background-image: url('../img/services/4.jpg') ;background-repeat: no-repeat;}
-	40% {background-image: url('../img/services/5.jpg') ;background-repeat: no-repeat;}
-	50% {background-image: url('../img/services/6.jpg') ;background-repeat: no-repeat;}
-	60% {background-image: url('../img/services/7.jpg') ;background-repeat: no-repeat;}
-	70% {background-image: url('../img/services/8.jpg') ;background-repeat: no-repeat;}
-	80% {background-image: url('../img/services/9.jpg') ;background-repeat: no-repeat;}
-	100% {background-image: url('../img/services/5.jpg') ;background-repeat: no-repeat;}
-}
+	@keyframes example{
+		0% {background-image: url('../img/services/1.jpg');background-repeat: no-repeat;}
+		5% {background-image: url('../img/services/2.jpg') ;background-repeat: no-repeat;}
+		10% {background-image: url('../img/services/2.jpg') ;background-repeat: no-repeat;}
+		15% {background-image: url('../img/services/3.jpg') ;background-repeat: no-repeat; }
+		20% {background-image: url('../img/services/3.jpg') ;background-repeat: no-repeat; }
+		25% {background-image: url('../img/services/4.jpg') ;background-repeat: no-repeat;}
+		30% {background-image: url('../img/services/4.jpg') ;background-repeat: no-repeat;}
+		35% {background-image: url('../img/services/5.jpg') ;background-repeat: no-repeat;}
+		40% {background-image: url('../img/services/5.jpg') ;background-repeat: no-repeat;}
+		45% {background-image: url('../img/services/6.jpg') ;background-repeat: no-repeat;}
+		50% {background-image: url('../img/services/6.jpg') ;background-repeat: no-repeat;}
+		55% {background-image: url('../img/services/7.jpg') ;background-repeat: no-repeat;}
+		60% {background-image: url('../img/services/7.jpg') ;background-repeat: no-repeat;}
+		65% {background-image: url('../img/services/8.jpg') ;background-repeat: no-repeat;}
+		70% {background-image: url('../img/services/8.jpg') ;background-repeat: no-repeat;}
+		75% {background-image: url('../img/services/9.jpg') ;background-repeat: no-repeat;}
+		80% {background-image: url('../img/services/9.jpg') ;background-repeat: no-repeat;}
+		100% {background-image: url('../img/services/5.jpg') ;background-repeat: no-repeat;}
+	}
+
 #about .img-container{
 	width: 55rem;
 	height:40rem;

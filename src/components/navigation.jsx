@@ -43,43 +43,43 @@ export const Navigation = (props) => {
         >
           <ul className="nav navbar-nav navbar-right">
             <li style={{ "font-weight": "bolder", color: "black" }}>
-              <NavLink to="/page-top" id="a" className="page-scroll hidden-xs">
+              <NavLink to="/home"  className="page-scroll hidden-xs">
                 Home
               </NavLink>
             </li>
             <li>
-              <NavLink to="/page-top" id="a" className="page-scroll visible-xs" data-toggle="collapse" data-target=".navbar-collapse">
+              <NavLink to="/home"  className="page-scroll visible-xs" data-toggle="collapse" data-target=".navbar-collapse">
                 Home
               </NavLink>
             </li>
             <li>
-              <NavLink to="/about" id="a" className="page-scroll hidden-xs">
+              <NavLink to="/about"  className="page-scroll hidden-xs">
                 About
               </NavLink>
             </li>
             <li>
-              <NavLink to="/about" id="a" className="page-scroll visible-xs" data-toggle="collapse" data-target=".navbar-collapse">
+              <NavLink to="/about"  className="page-scroll visible-xs" data-toggle="collapse" data-target=".navbar-collapse">
                 About
               </NavLink>
             </li>
 
             <li>
-              <NavLink to="/services" id="a" className="page-scroll hidden-xs">
+              <NavLink to="/services"  className="page-scroll hidden-xs">
                 Services
               </NavLink>
             </li>
             <li>
-              <NavLink to="/services" id="a" className="page-scroll visible-xs" data-toggle="collapse" data-target=".navbar-collapse">
+              <NavLink to="/services"  className="page-scroll visible-xs" data-toggle="collapse" data-target=".navbar-collapse">
                 Services
               </NavLink>
             </li>
             <li>
-              <NavLink to="/portfolio" id="a" className="page-scroll hidden-xs">
+              <NavLink to="/portfolio"  className="page-scroll hidden-xs">
                 Gallery
               </NavLink>
             </li>
             <li>
-              <NavLink to="/portfolio" id="a" className="page-scroll visible-xs" data-toggle="collapse" data-target=".navbar-collapse">
+              <NavLink to="/portfolio"  className="page-scroll visible-xs" data-toggle="collapse" data-target=".navbar-collapse">
                 Gallery
               </NavLink>
             </li>
@@ -89,12 +89,12 @@ export const Navigation = (props) => {
               </NavLink>
             </li> */}
             <li>
-              <NavLink to="/contact" id="a" className="page-scroll hidden-xs">
+              <NavLink to="/contact"  className="page-scroll hidden-xs">
                 Contact
               </NavLink>
             </li>
             <li>
-              <NavLink to="/contact" id="a" className="page-scroll visible-xs" data-toggle="collapse" data-target=".navbar-collapse">
+              <NavLink to="/contact"  className="page-scroll visible-xs" data-toggle="collapse" data-target=".navbar-collapse">
                 Contact
               </NavLink>
             </li>

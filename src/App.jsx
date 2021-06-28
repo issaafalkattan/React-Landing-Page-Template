@@ -12,8 +12,8 @@ import SmoothScroll from "smooth-scroll";
 import { Switch, Route, Redirect } from "react-router-dom";
 import Engineering from "./pages/Engineering-demo";
 import Environment from "./pages/Environment";
-import ERT from './pages/ERT';
-import Microgravity from './pages/Microgravity';
+import ERT from "./pages/ERT";
+import Microgravity from "./pages/Microgravity";
 import Multichannel from "./pages/Multichannel";
 import Seismic from "./pages/Seismic";
 import Downhole from "./pages/Downhole";
@@ -21,7 +21,7 @@ import Crosshole from "./pages/Crosshole";
 import Refraction from "./pages/Refraction";
 import Ground from "./pages/Ground";
 import ElectroMagnetic from "./pages/ElectroMagnetic";
-import Home from './components/Home';
+import Home from "./components/Home";
 export const scroll = new SmoothScroll('a[href*="/"]', {
   speed: 1000,
   speedAsDuration: true,
@@ -33,17 +33,15 @@ const App = () => {
     setLandingPageData(JsonData);
   }, []);
 
-
   return (
     <div>
-      
       <Navigation />
       <Switch>
-        
         <Route exact path='/' >
-          <Redirect to='/page-top' />
+          <Redirect to='/home' />
         </Route>
-        <Route  exact path="/page-top">
+        
+        <Route exact path="/home">
           <Home />
         </Route>
         <Route exact path="/about">
@@ -53,39 +51,39 @@ const App = () => {
           <Services data={landingPageData.Services} />
         </Route>
         <Route exact path="/ert">
-          <ERT/>
+          <ERT />
         </Route>
         <Route exact path="/microgravity">
-          <Microgravity/>
+          <Microgravity />
         </Route>
         <Route exact path="/multichannel">
-          <Multichannel/>
+          <Multichannel />
         </Route>
         <Route exact path="/seismic">
-          <Seismic/>
+          <Seismic />
         </Route>
         <Route exact path="/downhole">
-          <Downhole/>
+          <Downhole />
         </Route>
         <Route exact path="/crosshole">
-          <Crosshole/>
+          <Crosshole />
         </Route>
         <Route exact path="/refraction">
-          <Refraction/>
+          <Refraction />
         </Route>
         <Route exact path="/ground">
-          <Ground/>
+          <Ground />
         </Route>
         <Route exact path="/electromagnetic">
-          <ElectroMagnetic/>
+          <ElectroMagnetic />
         </Route>
-        <Route exact path="/engineering" >
+        <Route exact path="/engineering">
           <Engineering />
         </Route>
-        <Route exact path="/environment" >
+        <Route exact path="/environment">
           <Environment />
         </Route>
-        
+
         <Route exact path="/portfolio">
           <Gallery />
         </Route>
