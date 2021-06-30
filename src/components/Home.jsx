@@ -25,7 +25,7 @@ const Home=()=>{
     }, []);
     return (
          <div className="home-content">
-             <Navigation />
+             {/* <Navigation /> */}
              <Header />
              <About data={landingPageData.About} />
              <Services data={landingPageData.Services} />

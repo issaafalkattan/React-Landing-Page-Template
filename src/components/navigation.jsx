@@ -48,7 +48,7 @@ export const Navigation = (props) => {
               </NavLink>
             </li>
             <li>
-              <NavLink to="/home"  className="page-scroll visible-xs" data-toggle="collapse" data-target=".navbar-collapse">
+              <NavLink to="/home"  className="page-scroll visible-xs"  data-toggle="collapse" data-target=".navbar-collapse">
                 Home
               </NavLink>
             </li>
