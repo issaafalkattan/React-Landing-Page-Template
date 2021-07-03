@@ -39,7 +39,7 @@ export const Contact = (props) => {
             <div className="row">
               <div className="section-title">
                 <h2>Get In Touch</h2>
-                <p style={{"font-size":"20px"}}>
+                <p style={{"font-size":"20px","font-family":"san-serif"}}>
                   Whether you want to get in touch, talk about a project
                   collaboration, or just say hi, I'd love to hear from you.
                   Simply fill the form and send me an email.

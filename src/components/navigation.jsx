@@ -26,7 +26,7 @@ export const Navigation = (props) => {
             //   "text-shadow": "5px 2px 4px skyblue",
             //   "font-style": "oblique",
             // }}
-            to="/page-top"
+            to="/home"
           >
             <img src="img/logo.png" alt="logo"  id="logo-nav" style={{"width":"30rem","height":"8rem","position":"absolute","top":".9rem","mix-blend-mode":"multiply"}}/>
            

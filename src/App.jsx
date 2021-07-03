@@ -22,6 +22,7 @@ import Refraction from "./pages/Refraction";
 import Ground from "./pages/Ground";
 import ElectroMagnetic from "./pages/ElectroMagnetic";
 import Home from "./components/Home";
+import FixedSocialBar from "./components/FixedSocialBar";
 export const scroll = new SmoothScroll('a[href*="/"]', {
   speed: 1000,
   speedAsDuration: true,
@@ -36,6 +37,7 @@ const App = () => {
   return (
     <div>
       <Navigation />
+      <FixedSocialBar/>
       <Switch>
         <Route exact path='/' >
           <Redirect to='/home' />
