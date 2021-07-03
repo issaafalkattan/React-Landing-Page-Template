@@ -22,7 +22,7 @@ export const About = (props) => {
               <h4>“We are committed to quality service delivery”</h4>
               <p>GeoMagnify is a cohort of highly experienced geoscience engineers
                  who have conducted different field surveys in several countries. 
-                 Geomanify is an umbrella organisation, which brings together the wide
+                 Geomagnify is an umbrella organisation, which brings together the wide
                   spectrum of experiences of geoscience people with the vision to deliver
                    high end services in order to enhance the understanding of our earth for
                     our clients so that they can achieve their objectives with greater efficiency.
