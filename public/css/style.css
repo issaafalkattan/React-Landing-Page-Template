@@ -12,7 +12,7 @@ h2, h3, h4 {
 }
 h2 {
 	text-transform: uppercase;
-	margin: 0 0 20px 0;
+	margin: 0 0 20px;
 	font-weight: 800;
 	font-size: 36px;
 	color: #333;
@@ -89,7 +89,7 @@ hr {
 	font-weight: 400;
 	padding: 8px 2px;
 	border-radius: 0;
-	margin: 9px 20px 0 20px;
+	margin: 9px 20px 0;
 }
 #menu.navbar-default .navbar-nav > li > a:after {
 	display: block;
@@ -245,7 +245,7 @@ header .intro-text {
 }
 #about h3 {
 	font-size: 22px;
-	margin: 0 0 20px 0;
+	margin: 0 0 20px;
 }
 #about h2 {
 	position: relative;
@@ -348,7 +348,7 @@ header .intro-text {
 	margin: 0 auto;
 	color: #fff;
 	background: linear-gradient(to right, rgba(99,114,255,0.8) 0%, rgba(92,169,251,0.8) 100%);
-	padding: 30% 0 0 0;
+	padding: 30% 0 0;
 	height: 100%;
 	width: 100%;
 	opacity: 0;
@@ -428,12 +428,12 @@ header .intro-text {
 	border: 0;
 }
 #team .thumbnail .caption {
-	padding: 10px 0 0 0;
+	padding: 10px 0 0;
 	color: #888;
 }
 /* Contact Section */
 #contact {
-	padding: 100px 0 60px 0;
+	padding: 100px 0 60px;
 	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
 	color: rgba(255,255,255,.75);
 }
