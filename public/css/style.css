@@ -604,3 +604,37 @@ label {
     margin: 50px 0;
   }
 }
+.bglogin{
+  background-image:url('./../img/diving.jpg') ;
+  opacity:0.8;
+  z-index:-1;
+  position:absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.login{
+  z-index:2;
+  position:relative;
+  width: 100%;
+  min-height: 100%;
+  height:auto;
+  }
+  .logintitle{
+    padding-bottom: 3%;
+    text-align: center;
+  }
+  .loginCard{
+    margin:10% 30%;
+    padding:5% 9%;
+    border-radius: 25px;
+  
+  }
+  .loginbut{
+    text-align: right;
+  }
+  .wrapper{
+    width: 100%;
+    min-height: 100%;
+  }
