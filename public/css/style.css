@@ -1,6 +1,6 @@
 body,
 html {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Spartan', sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
   color: #777;
@@ -607,7 +607,7 @@ label {
 .bglogin{
   background-image:url('./../img/diving.jpg') ;
   opacity:0.8;
-  z-index:-1;
+  z-index:-2;
   position:absolute;
   top: 0;
   bottom: 0;
@@ -622,14 +622,32 @@ label {
   height:auto;
   }
   .logintitle{
-    padding-bottom: 3%;
+    padding-bottom:8%;
+    color:#1f5bca;
     text-align: center;
+    font-size: 3.5rem;
   }
   .loginCard{
-    margin:10% 30%;
-    padding:5% 9%;
+    margin:10% 31%;
+    padding:5% 8%;
     border-radius: 25px;
-  
+    position: relative;
+  }
+  .loginCardbg::before{
+    content:"";
+    background-size:cover;
+    background-color: white;
+    border-radius: 25px;
+    opacity:0.6;
+  z-index:-1;
+
+  position:absolute;
+  top: 0;
+  bottom: 0;
+  right:0;
+  left: 0;
+
+  right: 0;
   }
   .loginbut{
     text-align: right;
@@ -638,3 +656,28 @@ label {
     width: 100%;
     min-height: 100%;
   }
+.logingroup{
+  padding: 2% 0;
+  border-radius:25px ;
+}
+.logininput{
+  height: 5%;
+  font-size:1.3rem;
+}
+.logingroup{
+  border-radius: 13px;
+}
+
+.texto{
+  font-size: 2rem;
+  border-radius: 13px;
+}
+
+.d-grid{
+  height: 8%;
+}
+
+#test{
+  border-radius: 15px;
+  height: 100%;
+}
