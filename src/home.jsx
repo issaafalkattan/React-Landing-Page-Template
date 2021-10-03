@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import { Navigation } from "./components/navigation";
 import { Header } from "./components/header";
 import { Features } from "./components/features";
 import { About } from "./components/about";
@@ -10,6 +9,7 @@ import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
+import Navigation from "./components/navigate";
 import "./App.css";
 
 
@@ -27,6 +27,7 @@ const Home = () => {
   return (
     <div>
       {/* <Navigation /> */}
+      <Navigation />
       <Gallery data={landingPageData.Gallery}/>
 
     </div>

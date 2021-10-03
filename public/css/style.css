@@ -18,7 +18,7 @@ h2 {
   margin: 0 0 20px;
   font-weight: 800;
   font-size: 36px;
-  color: #333;
+  color: rgb(255, 255, 255);
 }
 h3 {
   font-size: 20px;
@@ -37,6 +37,7 @@ h5 {
 }
 p {
   font-size: 15px;
+  color: white;
 }
 p.intro {
   margin: 12px 0 0;
@@ -353,6 +354,7 @@ header .intro-text {
 /* Portfolio Section */
 #portfolio {
   padding: 100px 0;
+  background-color: rgba(68, 68, 68, 0.945);
 }
 .portfolio-item {
   margin: 1px -15px 0 -14px;
@@ -681,3 +683,16 @@ label {
   border-radius: 15px;
   height: 100%;
 }
+.pages-name{
+  font-size: 1.5rem;
+  position: absolute;
+  right: 5%;   
+}
+.search-box{
+  height: 13%;    
+}
+.search-all{
+  position: absolute;
+  right: 15%;
+}
+
