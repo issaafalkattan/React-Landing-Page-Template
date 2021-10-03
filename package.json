@@ -1,6 +1,7 @@
 {
   "name": "landingpage-react-template",
   "private": true,
+  "proxy": "http://localhost:9999",
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "@mui/material": "^5.0.1",
