@@ -42,9 +42,12 @@ function Login() {
     if (isRegistered){
       Axios.post('/api/login',user).then(function(response){
         if(response.data.status=="error"){
+          console.log(response.data);
+          console.log(response.data.error);
           setErrMessage(response.data.error);
         }
-        history.push("/");
+        else{
+        history.push("/");}
       })
     }
     else{
@@ -52,6 +55,7 @@ function Login() {
       console.log(response);
       if (response.data.status=='error'){
         setErrMessage(response.data.error);
+        setRegisterState(true);
       }
     });
   }
