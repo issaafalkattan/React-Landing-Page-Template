@@ -8,7 +8,9 @@ function navigate() {
     
   <Navbar bg="dark" expand="lg" variant="dark" style={{margin:0}}>
   <Container>
-    <Navbar.Brand className="bartitle" href="/">Arc</Navbar.Brand>
+    <Navbar.Brand className="bartitle" href="/">
+      <img src="img/logowhite.png" width='35' height='35' style={{marginTop:"20%"}}/>
+      </Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="pages-name">
