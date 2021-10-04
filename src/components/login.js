@@ -1,4 +1,5 @@
 import React, { useState, useContext } from "react";
+import {useHistory} from "react-router-dom";
 // import Box from "@material-ui/core/Box";
 // import Button from "@material-ui/core/Button";
 import Container from "@material-ui/core/Container";
@@ -17,16 +18,19 @@ import { makeStyles } from "@material-ui/core/styles";
 
 
 function Login() {
-  
+  const[errorMessage,setErrMessage]=useState('');
   var UserisRegistered = false;
   const [isRegistered, setRegisterState] = useState(true);
+  const history=useHistory();
   const [UserName, setUserName] = useState("");
   const [password, setPassword] = useState("");
+  // console.log(loginMessage);
   // const history = useHistory();
   // const { setSession } = useContext(SessionContext);
   function handleClicked(){
     setRegisterState(!isRegistered);
   }
+
   async function login(event){
     event.preventDefault();
     console.log("signup is called");
@@ -35,20 +39,42 @@ function Login() {
       username:document.getElementById("username").value,
       password:document.getElementById("password").value
     }
-    Axios.post('/api/register',user);
+    if (isRegistered){
+      Axios.post('/api/login',user).then(function(response){
+        if(response.data.status=="error"){
+          setErrMessage(response.data.error);
+        }
+        history.push("/");
+      })
+    }
+    else{
+    Axios.post('/api/register',user).then(function(response){
+      console.log(response);
+      if (response.data.status=='error'){
+        setErrMessage(response.data.error);
+      }
+    });
+  }
   }
   return (
 
     <div className="login">
 <div className="bglogin"></div>
     <p>Arc</p>
+
    <div className="loginCard" bg='light' >
    <div className="loginCardbg"></div>
     <form>
   <Form.Group className="mb-3 logingroup textfield" controlId="formBasicEmail">
+  {/* <div class="alert alert-danger"><%= message %></div> */}
   <h1 className="logintitle">
                 {isRegistered ? "Log In" : "Register"}
               </h1>
+              
+              <Form.Text style={{color:'red'}}>
+          {errorMessage!=""?errorMessage:''}
+          </Form.Text>
+    
     {/* <Form.Label className="loginsubtitle">Email address</Form.Label> */}
     <Form.Control style={{borderRadius:"10px"}} id='username' className="logininput" size="lg" as='input' htmlSize='3' type="email" placeholder="Enter email" />
     <Form.Text className="texto">
@@ -62,9 +88,12 @@ function Login() {
   </Form.Group>
   <Form.Group className="mb-3" controlId="formBasicCheckbox">
     <Form.Check type="checkbox" style={{color:"#1f5bca"}}label="Click this button to agree on the disclaimer" />
+    
   </Form.Group>
-  <div className="d-grid gap-2">
-  <Button  onClick={login} style={{fontSize:"1.5rem"}} className="roundCorner" id="test" variant="primary" type="submit" size="lg">
+
+  <Form.Group className="mb-3">
+  <div style={{textAlign:'center',minWidth:'100%'}}>
+  <Button  onClick={login} style={{fontSize:"1.5rem",minWidth:'100%'}} id="test" variant="primary" type="submit" size="lg">
   {isRegistered ? "Log In" : "Register"}
   </Button>
   <div className="link">
@@ -72,7 +101,8 @@ function Login() {
                     {isRegistered ? "Register" : "Login"}
                   </Link>
                 </div>
-                </div>
+  </div>
+  </Form.Group>
 </form>
 </div>
     </div>

@@ -651,9 +651,6 @@ label {
 
   right: 0;
   }
-  .loginbut{
-    text-align: right;
-  }
   .wrapper{
     width: 100%;
     min-height: 100%;
@@ -675,13 +672,8 @@ label {
   border-radius: 13px;
 }
 
-.d-grid{
-  height: 8%;
-}
-
 #test{
   border-radius: 15px;
-  height: 100%;
 }
 .pages-name{
   font-size: 1.5rem;
