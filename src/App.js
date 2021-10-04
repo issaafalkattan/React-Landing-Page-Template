@@ -8,7 +8,6 @@ import {
   } from "react-router-dom";
   import Home from "./home";
   import Login from "./components/login";
-  import Navigation from "./components/navigate";
   import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
   
   export default function App() {
@@ -25,7 +24,6 @@ import {
            <Link to="/Login"> Login</Link> */}
             <Route exact path="/" component={Home} />
             <Route path="/Login" component={Login} />
-            <Route path="/Nav" component={Navigation} />
            
           </Router>
         </div>

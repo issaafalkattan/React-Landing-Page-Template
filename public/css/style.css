@@ -14,6 +14,7 @@ h4 {
   font-family: "Raleway", sans-serif;
 }
 h2 {
+  font-family: 'Spartan', sans-serif;
   text-transform: uppercase;
   margin: 0 0 20px;
   font-weight: 800;
@@ -36,6 +37,7 @@ h5 {
   line-height: 20px;
 }
 p {
+  font-family: 'Spartan', sans-serif;
   font-size: 15px;
   color: white;
 }

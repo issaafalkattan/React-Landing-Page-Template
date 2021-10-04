@@ -7,8 +7,7 @@ export const Gallery = (props) => {
         <div className='section-title'>
           <h2>Gallery</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+          To help an artist gather and give genuine critique anonymously from other artists<br></br>in order to replenish creativity and create better art
           </p>
         </div>
         <div className='row'>
