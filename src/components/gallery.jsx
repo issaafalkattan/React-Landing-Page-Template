@@ -1,7 +1,12 @@
 import { Image } from "./image";
-
+import plus from './../plus.png';
+import {Button} from 'react-bootstrap';
+import React, { useState, useContext } from "react";
+import AddPost from './addPost';
 export const Gallery = (props) => {
+  const [addState,setAddState]=useState(false);
   return (
+    <div>
     <div id='portfolio' className='text-center'>
       <div className='container'>
         <div className='section-title'>
@@ -11,7 +16,16 @@ export const Gallery = (props) => {
           </p>
         </div>
         <div className='row'>
-          <div className='portfolio-items'>
+        <div className='portfolio-items'>
+        <div className='col-sm-6 col-md-4 col-lg-4'>
+          
+          <Button >
+          <img style={{width:'10%'}} onClick={()=>setAddState(true)} src={plus} style={{position:'relative'}}/>
+          </Button>
+          </div>
+
+       
+
             {props.data
               ? props.data.map((d, i) => (
                 <div key={`${d.title}-${i}`} className='col-sm-6 col-md-4 col-lg-4'>
@@ -22,6 +36,10 @@ export const Gallery = (props) => {
           </div>
         </div>
       </div>
+      
+    </div>
+    <AddPost show={addState} 
+          onHide={()=>setAddState(false)}/>
     </div>
   )
 }

@@ -1,4 +1,5 @@
-import React, { useState, useContext } from "react";
+import React, { useState, useEffect, useContext } from "react";
+
 import {useHistory} from "react-router-dom";
 // import Box from "@material-ui/core/Box";
 // import Button from "@material-ui/core/Button";
@@ -22,6 +23,7 @@ function Login() {
   var UserisRegistered = false;
   const [isRegistered, setRegisterState] = useState(true);
   const history=useHistory();
+  const [loggedInUser,setLoggedInUser]=useState(false);
   const [UserName, setUserName] = useState("");
   const [password, setPassword] = useState("");
   // console.log(loginMessage);
@@ -30,7 +32,13 @@ function Login() {
   function handleClicked(){
     setRegisterState(!isRegistered);
   }
-
+useEffect(()=>{
+  Axios.get("/api/login").then((response)=>{
+    if(response.data.loggedIn==true){
+      setLoggedInUser(response.data.user[0].username);
+    };
+  })
+},[]);
   async function login(event){
     event.preventDefault();
     console.log("signup is called");
@@ -40,10 +48,12 @@ function Login() {
       password:document.getElementById("password").value
     }
     if (isRegistered){
+      Axios.defaults.withCredentials=true;
       Axios.post('/api/login',user).then(function(response){
         if(response.data.status=="error"){
           console.log(response.data);
           console.log(response.data.error);
+          setLoggedInUser(response.data.user[0].username);
           setErrMessage(response.data.error);
         }
         else{

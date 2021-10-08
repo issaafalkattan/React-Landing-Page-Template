@@ -22,6 +22,7 @@ import {
             {/* <Link to="/">Home</Link>
            <Link to="/Posts">Posts</Link>
            <Link to="/Login"> Login</Link> */}
+           
             <Route exact path="/" component={Home} />
             <Route path="/Login" component={Login} />
            
