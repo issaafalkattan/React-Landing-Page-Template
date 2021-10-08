@@ -3,7 +3,7 @@ import plus from './../plus.png';
 import {Button} from 'react-bootstrap';
 import React, { useState, useContext } from "react";
 import AddPost from './addPost';
-export const Gallery = (props) => {
+export function Gallery(props){
   const [addState,setAddState]=useState(false);
   return (
     <div>
