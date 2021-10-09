@@ -19,7 +19,7 @@ export function Gallery(props){
         <div className='portfolio-items'>
         <div className='col-sm-6 col-md-4 col-lg-4'>
           
-          <Button >
+          <Button variant='Light'>
           <img style={{width:'10%'}} onClick={()=>setAddState(true)} src={plus} style={{position:'relative'}}/>
           </Button>
           </div>

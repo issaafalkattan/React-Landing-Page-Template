@@ -35,7 +35,8 @@ function Login() {
 useEffect(()=>{
   Axios.get("/api/login").then((response)=>{
     if(response.data.loggedIn==true){
-      setLoggedInUser(response.data.user[0].username);
+      console.log(response.data.user);
+      setLoggedInUser(response.data.user.username);
     };
   })
 },[]);
@@ -53,10 +54,11 @@ useEffect(()=>{
         if(response.data.status=="error"){
           console.log(response.data);
           console.log(response.data.error);
-          setLoggedInUser(response.data.user[0].username);
+         
           setErrMessage(response.data.error);
         }
         else{
+          setLoggedInUser(response.data.user);
         history.push("/");}
       })
     }

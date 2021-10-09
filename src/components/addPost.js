@@ -1,8 +1,26 @@
 import React, { useState, useContext } from "react";
-import {Modal} from 'react-bootstrap';
+import {Modal,FloatingLabel,Form,Row,Col,ToggleButton,ButtonGroup} from 'react-bootstrap';
 import {Button} from 'react-bootstrap';
 
-function addPost(props){
+function AddPost(props){
+  const [artType,setartType]=useState('artwork');
+  const [photoURL,setPhotoURL]=useState(null);
+  const type=[
+    {id:'1',value:'artwork'},
+    {id:'2',value:'photography'}
+  ]
+  function uploadImage(e){
+    setPhotoURL(URL.createObjectURL(e.target.files[0]));
+  }
+  function upload(){
+    console.log(document.getElementById("photoID").value);
+    console.log(document.getElementById("description").value);
+    console.log(artType);
+    console.log(photoURL);
+    console.log(document.getElementById('uploadedWork'))
+    console.log('uploaded');
+
+  }
     return (
     <Modal
     {...props}
@@ -16,16 +34,59 @@ function addPost(props){
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <h4>Centered Modal</h4>
-        <p>
-          Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-          dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
-          consectetur ac, vestibulum at eros.
-        </p>
+        <h4>Upload Your Art Here</h4>
+        <FloatingLabel  controlId="floatingTextarea" label="Title" className="mb-3">
+    <Form.Control id='photoID' as="textarea" placeholder="Leave a comment here" />
+  </FloatingLabel>
+  <FloatingLabel controlId="floatingTextarea2" label="Description">
+    <Form.Control
+      id='description'
+      as="textarea"
+      placeholder="Leave a comment here"
+      style={{ height: '100px' }}
+    />
+  </FloatingLabel>
+  <fieldset>
+    <Form.Group as={Row} className="mb-3">
+        <Form.Check
+          type="radio"
+          label="Upload an Artwork"
+          name="artwork"
+          id="artwork"
+        />
+        <Form.Check
+          type="radio"
+          label="Upload a Photography"
+          name="photography"
+          id="photography"
+        />
+    </Form.Group>
+    <ButtonGroup className="mb-2">
+    {type.map((choice) => (
+    <ToggleButton
+            key={choice.id}
+            id={`radio-${choice.id}`}
+            type="radio"
+            variant='outline-primary'
+            name="artType"
+  
+            value={choice.value}
+            checked={artType === choice.value}
+            onChange={(e) => setartType(e.currentTarget.value)}
+          >
+            {choice.value}
+          </ToggleButton>
+          ))}
+          </ButtonGroup>
+    <Form.Group>
+    <input type="file" id='uploadedWork' className="form-control" onChange={uploadImage} />
+    </Form.Group>
+  </fieldset>
       </Modal.Body>
     <Modal.Footer>
         <Button onClick={props.onHide}>Close</Button>
+        <Button onClick={upload} type='submit'>Upload</Button>
       </Modal.Footer>
    </Modal>);
 }
-export default addPost;
+export default AddPost;
