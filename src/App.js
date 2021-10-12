@@ -9,7 +9,6 @@ import {
   import Home from "./home";
   import Login from "./components/login";
   import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-  
   export default function App() {
     // const [session, setSession] = useState(getSessionCookie());
   
@@ -25,7 +24,6 @@ import {
            
             <Route exact path="/" component={Home} />
             <Route path="/Login" component={Login} />
-           
           </Router>
         </div>
       /* </SessionContext.Provider> */

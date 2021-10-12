@@ -689,4 +689,11 @@ label {
   position: absolute;
   right: 15%;
 }
+.fab {
 
+  
+  right: 20px;
+  
+  
+  position: fixed;
+};

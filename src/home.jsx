@@ -10,6 +10,9 @@ import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import Navigation from "./components/navigate";
+import Add from "./components/add";
+
+
 import "./App.css";
 
 
@@ -23,14 +26,17 @@ const Home = () => {
   useEffect(() => {
     setLandingPageData(JsonData);
   }, []);
-
+ 
   return (
+
     <div>
       {/* <Navigation /> */}
       <Navigation />
       <Gallery data={landingPageData.Gallery}/>
-
+      <Add />
+      
     </div>
+    
   );
 };
 
