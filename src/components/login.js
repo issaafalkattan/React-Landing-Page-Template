@@ -44,9 +44,10 @@ useEffect(()=>{
 },[]);
 async function Googlelogin(event){
   event.preventDefault();
-  Axios.get('auth/google').then((response)=>{
-    console.log(response);
-  })
+  // Axios.get('auth/google').then((response)=>{
+  //   console.log(response);
+  // })
+  window.open("http://localhost:9999/auth/google");
 }
   async function login(event){
     event.preventDefault();
