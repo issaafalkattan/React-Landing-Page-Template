@@ -13,6 +13,8 @@ import FormGroup from "@material-ui/core/FormGroup";
 import Link from "@material-ui/core/Link";
 import { Button,Form,Card } from 'react-bootstrap';
 import { makeStyles } from "@material-ui/core/styles";
+import GoogleLogo from "./../Google.png";
+
 // import Axios from "axios";
 // import { SessionContext, setSessionCookie } from "../components/UserContext";
 // import { useHistory } from "react-router";
@@ -40,6 +42,12 @@ useEffect(()=>{
     };
   })
 },[]);
+async function Googlelogin(event){
+  event.preventDefault();
+  Axios.get('auth/google').then((response)=>{
+    console.log(response);
+  })
+}
   async function login(event){
     event.preventDefault();
     console.log("signup is called");
@@ -107,9 +115,12 @@ useEffect(()=>{
     
   </Form.Group>
 
-  <Form.Group className="mb-3">
+  <Form.Group style={{textAlign:'center'}} className="mb-3">
+  <Button onClick={Googlelogin} variant='light' size="lg" style={{padding:0, margin:"3%"}}>
+    <img src={GoogleLogo}></img>
+  </Button>
   <div style={{textAlign:'center',minWidth:'100%'}}>
-  <Button  onClick={login} style={{fontSize:"1.5rem",minWidth:'100%'}} id="test" variant="primary" type="submit" size="lg">
+  <Button  onClick={login} style={{fontSize:"1.5rem",minWidth:'70%'}} id="test" variant="primary" type="submit" size="lg">
   {isRegistered ? "Log In" : "Register"}
   </Button>
   <div className="link">
