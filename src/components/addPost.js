@@ -1,6 +1,7 @@
 import React, { useState, useContext } from "react";
 import {Modal,FloatingLabel,Form,Row,Col,ToggleButton,ButtonGroup} from 'react-bootstrap';
 import {Button} from 'react-bootstrap';
+import Axios from "axios";
 
 function AddPost(props){
   const [artType,setartType]=useState('artwork');
@@ -13,12 +14,17 @@ function AddPost(props){
     setPhotoURL(URL.createObjectURL(e.target.files[0]));
   }
   function upload(){
-    console.log(document.getElementById("photoID").value);
-    console.log(document.getElementById("description").value);
-    console.log(artType);
-    console.log(photoURL);
-    console.log(document.getElementById('uploadedWork'))
-    console.log('uploaded');
+   
+    let post={
+      title:document.getElementById('photoID').value,
+      description:document.getElementById('description').value,
+      artType:artType,
+      photoURL:photoURL
+    }
+    console.log(post);
+    Axios.post('/posts',post).then(function(response){
+      console.log(response);
+    });
 
   }
     return (
