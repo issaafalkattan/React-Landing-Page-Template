@@ -7,16 +7,15 @@ export const Navigation = (props) => {
             type='button'
             className='navbar-toggle collapsed'
             data-toggle='collapse'
-            data-target='#bs-example-navbar-collapse-1'
-          >
+            data-target='#bs-example-navbar-collapse-1'>
             {' '}
             <span className='sr-only'>Toggle navigation</span>{' '}
             <span className='icon-bar'></span>{' '}
             <span className='icon-bar'></span>{' '}
             <span className='icon-bar'></span>{' '}
           </button>
-          <a className='navbar-brand page-scroll' href='#page-top'>
-            React Landing Page
+          <a className='navbar-brand page-scroll' href='#'>
+            WhatiBuy
           </a>{' '}
         </div>
 
@@ -26,23 +25,8 @@ export const Navigation = (props) => {
         >
           <ul className='nav navbar-nav navbar-right'>
             <li>
-              <a href='#features' className='page-scroll'>
-                Features
-              </a>
-            </li>
-            <li>
               <a href='#about' className='page-scroll'>
-                About
-              </a>
-            </li>
-            <li>
-              <a href='#services' className='page-scroll'>
-                Services
-              </a>
-            </li>
-            <li>
-              <a href='#portfolio' className='page-scroll'>
-                Gallery
+                About Us
               </a>
             </li>
             <li>
@@ -56,8 +40,13 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li>
-              <a href='#contact' className='page-scroll'>
-                Contact
+              <a href="#sellform" className="page-scroll">
+                Sell
+              </a>
+            </li>
+            <li>
+              <a href='#'>
+                Buy
               </a>
             </li>
           </ul>

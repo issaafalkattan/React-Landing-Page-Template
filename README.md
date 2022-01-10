@@ -1,34 +1,36 @@
-# React JS Landing Page Template
+# WHATIBUY API
 
-**
+## Information
 
-# 🛎️🛎️ Good news! New & improved [V2](https://github.com/issaafalkattan/react-landing-page-template-2021) is out  
+WHATiBuy is a webproject from Maximilian Schmid, Leonardo D'Avanzo and Julian Dobrick.
+https://github.com/McSchmiddy/wwi2020b-ebay-api
 
-**
+## Install
+
+* First, you have to install node.js on your computer.
+
+* Then run the following install code inside this folder ("express-ebay-api")
+
+```bash
+--> COMMAND: "npm install"
+```
+
+## Using
+
+* To start / use the API simply run the following command
+
+```bash
+--> COMMAND: "node ebay-api.js"
+```
+
+## Database
+
+For the database we used PostgreSQL in the version 14.1.
+You can download PostgreSQL here: https://www.postgresql.org/download/ 
+
+* For testing the database, you can use the XXX-file. It's an export from the database with some testarticles.
 
 
-### <a href="https://react-landing-page-template.herokuapp.com">LIVE DEMO</a> 
+## Postman Collection
 
-## Description
-This is a ReactJS based landing page template, fit for a startup company/service with a one page view. The design is inspired by a template from <a href="https://www.free-css.com/assets/files/free-css-templates/preview/page234/interact/">Free-CSS.com </a>
-All 'visual' data can be easily modified by changing the data.json file.
-
-## Make it Yours!
-### 1. Preps
-You will need to have <a href="https://nodejs.org/">Node JS</a> installed on your pc. 
-
-### 2. Clone Files
-After cloning the files, you will have to run ```yarn``` followed by ```yarn start``` in the CLI
-### 3. Add your own data 
-Change the data in the ```data.json``` file as well as add any images to ```public/img/```
-You can also change styles by modifying the ```public/css``` files.
-
-
-## Like this project?
-<a href="https://www.buymeacoffee.com/issaaf">Buy my a coffee ☕️</a>
-
-## Credits
-##### Free CSS 
-<a href="https://www.free-css.com/assets/files/free-css-templates/preview/page234/interact/">Free-CSS.com </a>
-
-##### Issaaf kattan
+* For testing the API you can use the postman collection json file that you can import in postman (IN-WORK)

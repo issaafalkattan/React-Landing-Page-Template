@@ -1,11 +1,11 @@
 import { Image } from "./image";
 
-export const Gallery = (props) => {
+export const Examples = (props) => {
   return (
-    <div id='portfolio' className='text-center'>
+    <div id='examples' className='text-center'>
       <div className='container'>
         <div className='section-title'>
-          <h2>Gallery</h2>
+          <h2>Example Articles</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
             dapibus leonec.
