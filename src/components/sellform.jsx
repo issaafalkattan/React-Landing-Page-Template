@@ -1,9 +1,9 @@
 import React from "react";
-import "../sellform.css"
+import "../sellform.css";
 
 export const Sellform = (props) => {
   return (
-  <div id="sellform" className='text-center'>
+  <div id="testimonials" className='text-center'>
     <div className='section-title text-center'>
      <div className='container'>
         <h2> advertise an article </h2> 
@@ -45,13 +45,6 @@ export const Sellform = (props) => {
       </div>
     </div>
 
-  <div id='footer'>
-  <div className='container text-center'>
-    <p>
-      &copy; 2021 WhatiBuy Webprogrammierung.
-    </p>
-  </div>
-  </div>
 </div>
 );
 }
