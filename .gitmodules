@@ -1,0 +1,3 @@
+[submodule "wwi2020b-ebay-api"]
+	path = wwi2020b-ebay-api
+	url = https://github.com/McSchmiddy/backend.git
