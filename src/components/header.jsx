@@ -12,10 +12,10 @@ export const Header = (props) => {
                 </h1>
                 <p>{props.data ? props.data.paragraph : 'Loading'}</p>
                 <a
-                  href='#features'
+                  href='#about'
                   className='btn btn-custom btn-lg page-scroll'
                 >
-                  Learn More
+                  benefits with WhatIBuy
                 </a>{' '}
               </div>
             </div>

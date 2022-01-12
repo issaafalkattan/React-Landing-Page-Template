@@ -1,0 +1,94 @@
+ /* CSS-File for the sellform */
+
+ h2 {
+  text-transform: uppercase;
+  margin: 0 0 20px;
+  font-weight: 800;
+  font-size: 36px;
+  color: #333;
+  text-align: center;
+   
+ }
+
+ p {
+  font-size: 15px;
+  text-align: center;
+}
+
+ form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .form {
+    background: #000000;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  
+  input,
+  textarea
+   {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  label {
+    line-height: 2;
+    text-align: left;
+    display: block;
+    margin-bottom: 13px;
+    margin-top: 20px;
+    color: rgb(3, 3, 3);
+    font-size: 14px;
+    font-weight: 200;
+  }
+  
+  button[type="submit"],
+  input[type="submit"] {
+    background: #000000;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    margin-top: 40px;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 10px;
+  }
+  
+  button[type="submit"]:active,
+  input[type="button"]:active,
+  input[type="submit"]:active {
+    transition: 0.3s all;
+    transform: translateY(3px);
+    border: 1px solid transparent;
+    opacity: 0.8;
+  }
+  
+  input:disabled {
+    opacity: 0.4;
+  }
+  
+  input[type="button"]:hover {
+    transition: 0.3s all;
+  }
+  
+  button[type="submit"],
+  input[type="button"],
+  input[type="submit"] {
+    -webkit-appearance: none;
+  }
+  
+  .App {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
