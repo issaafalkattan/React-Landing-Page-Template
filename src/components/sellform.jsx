@@ -3,7 +3,7 @@ import "../sellform.css";
 
 export const Sellform = (props) => {
   return (
-  <div id="testimonials" className='text-center'>
+  <div id="sellform" className='text-center'>
     <div className='section-title text-center'>
      <div className='container'>
         <h2> advertise an article </h2> 
@@ -29,12 +29,7 @@ export const Sellform = (props) => {
           <div className="description">
             <label for="description">Description</label>
             <textarea name="description" placeholder="Description for the new article" cols="30" rows="5" id="description" required> </textarea>
-          </div>
-
-          <div className="timeslot">
-            <label for="timeslot">Timeslot (date and time)</label>
-            <input type="datetime-local" name="timeslot" id="timeslot" required />
-          </div>          
+          </div>      
 
           <div className="submit">
             <input type="submit" value="Create article" />

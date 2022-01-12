@@ -1,6 +1,6 @@
 /* Zur Darstellung eines einzelnen Artikels */
 
-import "../sellform.css"
+import "../articlegrid.css"
 
 const Article = ({article, history}) => {
 
@@ -9,15 +9,12 @@ const Article = ({article, history}) => {
     <>
         { /*console.log('article') */}
         { /* console.log(article) */}
-
-      <div id='team' className='text-center'>
-          <div> 
+          <div className="article-column"> 
               <p> UUID: {article.uuid} </p>
               <p> TITLE: {article.title} </p>
               <p> START_PRICE: {article.start_price} </p>
               <p> DESCRIPTION: {article.description} </p>
           </div> 
-      </div>
     </>
   );
 }

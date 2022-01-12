@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Article from "./article.jsx";
-import "../sellform.css";
+import "../articlegrid.css";
 
 const ArticleList = ({history}) => {
 
@@ -28,16 +28,14 @@ const ArticleList = ({history}) => {
     <>
         <div id="buyarticle" className='text-center'> 
             <div className='section-title text-center'>
-                <div className='container'>
-                    <h2> buy an article </h2>
-                        {console.log('articles')}
-                        {console.log(articles)}
-                        
-                        {articles.map((article) => (
-                            <Article article={article} />
-                        ))}
-                </div>
+                 <h2> buy an article </h2>
             </div>
+                {console.log('articles')}
+                {console.log(articles)}
+                        
+                {articles.map((article) => (
+                    <Article article={article} />
+                ))}
         </div>
 
         <div id='footer'>
