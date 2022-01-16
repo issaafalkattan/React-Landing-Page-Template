@@ -10,7 +10,7 @@ export const Sellform = (props) => {
         <p> If you would like to advertise an article, please fill in the form below. The article must have a title, an ID, a description and a picture. </p>
          <p> Please notice that an <strong> article </strong> is only <strong> available </strong> for <strong> 15 Minutes </strong>. </p>
 
-        <form action="/article" method="Post">
+        <form action="/article" method="post">
           <div className="uuid">
             <label for="uuid">Unique ID </label>
             <input type="number" placeholder="UUID" name="uuid" id="uuid" required />

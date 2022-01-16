@@ -17,6 +17,7 @@
     "react-scroll-up-button": "^1.6.4",
     "smooth-scroll": "^16.1.3"
   },
+  "proxy": "http://localhost:8080",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
