@@ -26,24 +26,16 @@ const ArticleList = ({history}) => {
   
   return(
     <>
-        <div id="buyarticle" className='text-center'> 
+        <div id="buyarticle"> 
             <div className='section-title text-center'>
-                 <h2> buy an article </h2>
+                    <h2> buy an article </h2>
             </div>
-                {console.log('articles')}
-                {console.log(articles)}
-                        
-                {articles.map((article) => (
-                    <Article article={article} />
-                ))}
-        </div>
 
-        <div id='footer'>
-            <div className='container text-center'>
-                <p>
-                &copy; 2021 WhatiBuy Webprogrammierung.
-                </p>
-            </div>
+            {console.log('articles')}
+            {console.log(articles)}    
+            {articles.map((article) => (
+                <Article article={article} />
+            ))}
         </div>
     </>
     
