@@ -9,11 +9,13 @@ const Article = ({article, history}) => {
     <>
         { /*console.log('article') */}
         { /* console.log(article) */}
-          <div className="article-column"> 
+          <div className="col-md-4"> 
+            <div className="article-item"> 
               <p> UUID: {article.uuid} </p>
-              <p> TITLE: {article.title} </p>
+              <p> TITLE: {article.title} </p> 
               <p> START_PRICE: {article.start_price} </p>
-              <p> DESCRIPTION: {article.description} </p>
+              <p> DESCRIPTION: {article.description} </p> 
+            </div>
           </div> 
     </>
   );

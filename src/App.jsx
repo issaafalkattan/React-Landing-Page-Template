@@ -10,6 +10,7 @@ import { Sellform } from "./components/sellform";
 import SmoothScroll from "smooth-scroll"; // SmoothScroll 
 import "./App.css"; // CSS-File
 import ArticleList from "./components/articles";
+import { Footer } from "./components/footer";
  
 
 
@@ -36,7 +37,8 @@ const App = () => {
       <Team data={landingPageData.Team} />
       <Sellform />
       <ArticleList />
-
+      <Footer />
+    
       <ScrollUpButton/>
     </div>
 
