@@ -3,42 +3,50 @@ import axios from 'axios';
 import Article from "./article.jsx";
 import "../articlegrid.css";
 
-const ArticleList = ({history}) => {
+const ArticleList = ({ history }) => {
 
-  const [articles, setArticles] = useState([])
+    const [articles, setArticles] = useState([])
 
-  useEffect(() => {
-      const getArticles = async () => {
+    useEffect(() => {
+        const getArticles = async () => {
 
-          try {
-              const {data} = await axios.get('http://localhost:8080/articles')
-              console.log('data')
-              console.log(data)
-              setArticles(data)
+            try {
+                const { data } = await axios.get('http://localhost:8080/articles');
+                console.log('data');
+                console.log(data);
+                data.rows.map(row => {
+                    let images = [];
+                    for(let pic of data.images){
+                        if(row.uuid == pic.substr(0, pic.indexOf('/'))) images.push(pic);
+                    }
+                    row["images"] = images;
+                })
+                console.log(data);
+                setArticles(data.rows);
 
-          } catch (error) {
-              console.log(error)
-          }
+            } catch (error) {
+                console.log(error);
+            }
 
-      };
-      getArticles()
-  }, [history])
-  
-  return(
-    <>
-        <div id="buyarticle"> 
-            <div className='section-title text-center'>
+        };
+        getArticles()
+    }, [history])
+
+    return (
+        <>
+            <div id="buyarticle">
+                <div className='section-title text-center'>
                     <h2> buy an article </h2>
-            </div>
+                </div>
 
-            {console.log('articles')}
-            {console.log(articles)}    
-            {articles.map((article) => (
-                <Article article={article} />
-            ))}
-        </div>
-    </>
-    
-  );
+                {console.log('articles')}
+                {console.log(articles)}
+                {articles.map((article) => (
+                    <Article article={article} />
+                ))}
+            </div>
+        </>
+
+    );
 }
 export default ArticleList;

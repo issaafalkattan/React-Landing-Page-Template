@@ -5,7 +5,9 @@ export const Footer = (props) => {
         <div id='footer'>
             <div className='container text-center'>
                 <p>
-                &copy; 2021 WhatiBuy Webprogrammierung.
+                &copy;
+        
+                 2022 WhatiBuy Webprogrammierung.
                 </p>
             </div>
         </div>

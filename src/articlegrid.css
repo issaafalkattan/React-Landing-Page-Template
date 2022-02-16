@@ -1,19 +1,24 @@
   
 /* Create four equal columns that sits next to each other */
 .article-item {
-border: 5px solid rgba(0, 0, 0, 0.8);
+border: 0px solid rgba(0, 38, 255, 0.8);
 padding: 10px;
 margin-top: 10px;
 text-align: center;
 }
+
+.article-item img {
+  width: 40%;
+
+}
   
 /* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 500px) {
   .column {
     flex: 50%;
     max-width: 50%;
   }
-}
+} 
   
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
