@@ -5,10 +5,9 @@ export const Gallery = (props) => {
     <div id='portfolio' className='text-center'>
       <div className='container'>
         <div className='section-title'>
-          <h2>Gallery</h2>
+          <h2>客户案例</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            草船科技在仪器仪表、汽配零件、纺织印染、3C电子等众多行业已有诸多成熟案例，有着丰富的行业经验与快速复制能力。
           </p>
         </div>
         <div className='row'>

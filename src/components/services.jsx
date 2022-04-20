@@ -3,10 +3,12 @@ export const Services = (props) => {
     <div id='services' className='text-center'>
       <div className='container'>
         <div className='section-title'>
-          <h2>Our Services</h2>
+          <h2>解决方案</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            基于人工智能、大数据、IoT等技术，融合草船科技在垂直行业的既有经验，
+          </p>
+          <p>
+            草船科技在各垂直领域提供有效的解决方案，切实帮助客户实现提质增效。
           </p>
         </div>
         <div className='row'>
