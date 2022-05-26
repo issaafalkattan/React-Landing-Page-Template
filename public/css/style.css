@@ -599,6 +599,12 @@ label {
   border-bottom: 2px solid #608dfd;
 }
 
+.copyright_content {
+  width: auto;
+  text-align: center;
+  align-items: center;
+}
+
 @media (max-width: 768px) {
   #about img {
     margin: 50px 0;
