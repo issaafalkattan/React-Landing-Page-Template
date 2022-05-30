@@ -227,10 +227,26 @@ a:focus,
   margin-top: 0;
   margin-bottom: 10px;
 }
+
+.intro h2 {
+  font-family: "微软雅黑", sans-serif;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
 .intro h1 span {
   font-weight: 800;
   color: #5ca9fb;
 }
+
+.intro h2 span {
+  font-weight: 800;
+  color: #5ca9fb;
+}
+
 .intro p {
   color: #fff;
   font-size: 22px;
