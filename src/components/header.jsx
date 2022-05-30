@@ -10,6 +10,10 @@ export const Header = (props) => {
                   {props.data ? props.data.title : 'Loading'}
                   <span></span>
                 </h1>
+                <h2 >
+                  {props.data ? props.data.subTitle : 'Loading'}
+                  <span></span>
+                </h2>
                 <p>{props.data ? props.data.paragraph : 'Loading'}</p>
                 {/*<a*/}
                 {/*  href='#features'*/}
