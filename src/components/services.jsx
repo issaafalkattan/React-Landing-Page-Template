@@ -5,8 +5,8 @@ export const Services = (props) => {
         <div className='section-title'>
           <h2>Our Services</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            We have a state-of-the-art and innovative infrastructural facility sprawling over an extensive area of land.
+            In order to maintain smooth and hassle-free work-flow, we have carefully segregated our infrastructural facility.
           </p>
         </div>
         <div className='row'>

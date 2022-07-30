@@ -68,7 +68,7 @@ export const Contact = (props) => {
                         id='email'
                         name='email'
                         className='form-control'
-                        placeholder='Email'
+                        placeholder='Phone Number'
                         required
                         onChange={handleChange}
                       />
@@ -82,7 +82,7 @@ export const Contact = (props) => {
                     id='message'
                     className='form-control'
                     rows='4'
-                    placeholder='Message'
+                    placeholder='Requirement Details'
                     required
                     onChange={handleChange}
                   ></textarea>
@@ -132,8 +132,8 @@ export const Contact = (props) => {
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.twitter : '/'}>
-                      <i className='fa fa-twitter'></i>
+                    <a href={'https://www.linkedin.com/company/sbr-techno-trade2005/about/'}>
+                      <i className='fa fa-linkedin'></i>
                     </a>
                   </li>
                   <li>
@@ -150,10 +150,7 @@ export const Contact = (props) => {
       <div id='footer'>
         <div className='container text-center'>
           <p>
-            &copy; 2020 Issaaf Kattan React Land Page Template. Design by{' '}
-            <a href='http://www.templatewire.com' rel='nofollow'>
-              TemplateWire
-            </a>
+            &copy; 2022 Designed By Amit Yadav
           </p>
         </div>
       </div>

@@ -1,100 +1,78 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "SBR TECHNO TRADE",
+    "paragraph": "Manufacturer of a wide variety of Conveyor Type Fusing Machine, Shoe Shine Polishing Machine, Automatic Conveyor Shoe Making Machine, Industrial Chiller, Seat Lasting Machine, Pneumatic Sole Press Machine, Toe Lasting Machine, etc."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Our company is the result of our willingness to never feel satisfied. Founded in 2001, its history has seen a series of professionals who have always been able to find the most advanced technological solutions, meeting the footwear manufacturers’ needs.\n\nEven today, the passion that animated us in 2001 stays alive and pushes us to overcome the existing limits, reaching goals and objectives for and together with our customers.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Performance",
+      "Design",
+      "Operational life"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Efficiency",
+      "Maintenance level",
+      "Availability"
     ]
   },
   "Gallery": [
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
-    },
-    {
-      "title": "Project Title",
+      "title": "Seat Lasting Machine",
       "largeImage": "img/portfolio/05-large.jpg",
       "smallImage": "img/portfolio/05-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Conveyor Fusing Machine",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "Leather Cutting Machine",
       "largeImage": "img/portfolio/06-large.jpg",
       "smallImage": "img/portfolio/06-small.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
+      "title": "Seat Lasting Machine",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "title": "Toe Lasting Machine",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/01-small.jpg"
     }
   ],
   "Services": [
     {
       "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "TOE LASTING MACHINE",
+      "text": "Toe Moulding Machine, Hydraulic Toe Lasting Machine, Toe Lasting Industrial Machine, Toe Lasting Machine CERIM ITaly K78"
     },
     {
       "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "PNEUMATIC SOLE PRESS MACHINE",
+      "text": "Sole Marking Press Machine, Hydraulic Sole Press Machine, Sole Press Machine, Pneumatic Sole Press Machine"
     },
     {
       "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "CONVEYOR TYPE FUSING MACHINES",
+      "text": "mLEATHER Fusing Machine, Conveyor Fusing Machine, Conveyor Type Leather Fusing Machine"
     },
     {
       "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "INDUSTRIAL CHILLER",
+      "text": "Chiller Machine, Glycol Chillers, Shoe Chiller"
     },
     {
       "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Seat Lasting Machine",
+      "text": "Seat Lasting Machine, Seat Lasting Machine"
     },
     {
       "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Shoe Shine Polishing Machine",
+      "text": "Roughing Machine With Dust Factlor, Shoe Shine Machine With Dust Collector"
     }
   ],
   "Testimonials": [
@@ -132,53 +110,50 @@
   "Team": [
     {
       "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "name": "S.P. Sikarwar",
+      "job": "CEO"
     },
     {
       "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "name": "Ayush Sikarwar",
+      "job": "COO"
     },
     {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
+      "img": "img/team/03.jpeg",
+      "name": "Amit Yadav",
+      "job": "CFO"
     },
     {
       "img": "img/team/04.jpg",
-      "name": "Karen Doe",
+      "name": "Choudhary Sahab",
       "job": "Project Manager"
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "address": "D135, District G.B. Nagar, Sector 7, Noida, Gautam Budh Nagar-201301, Uttar Pradesh, India",
+    "phone": "9811415870",
+    "email": "info@company.com"
   },
   "Features": [
     {
       "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Customized Machines",
+      "text": " From designing till the end product, we consolidate entire array of activities, which adhere to the requirements of our clients. We have the proficiency to fabricate our machinery as per the specifications detailed by our customers."
     },
     {
       "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Research & Development",
+      "text": "Our research & development unit is an integral part of our company, which has been constantly assisting us to fabricate organization and helps us to produce technologically advanced range of Footwear & Leather Garment Machines and Footwear Testing Machines"
     },
     {
       "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Packaging & Delivery",
+      "text": "In order to ensure that the machinery offered by us, retain its operational efficiency, we package these by using finest quality wooden boxes, which is suitable for the purpose of expert packaging. "
     },
     {
       "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Our Infrastructure",
+      "text": "Our production unit is well-armed with contemporary machinery & technology that aids us in comprehending the exact necessities of the patrons. Furthermore, all the equipped machines are updated at regular interval to enhance the productivity."
     }
   ]
 }
