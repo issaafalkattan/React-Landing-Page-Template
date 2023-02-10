@@ -5,10 +5,9 @@ export const Services = (props) => {
     <div id="services" className="text-center">
       <div className="container">
         <div className="section-title">
-          <h2>Our Services</h2>
+          <h2>For Artists</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+        The Industrys evolving. No ones making it off of fractions of a penny per stream. Learn more about how you can leverage the platform to increase your fan base and revenues to new heights! 
           </p>
         </div>
         <div className="row">

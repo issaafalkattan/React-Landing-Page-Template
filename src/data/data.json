@@ -1,100 +1,54 @@
 {
   "Header": {
-    "title": "It's Bigger Than Streaming!",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "Coming Soon!",
+    "paragraph": "The Music industrys evolving, It's bigger than streaming"
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "A content creation platform based out of San Francisco connecting fans and artists with what they love. MUSIC.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "New Revenue Streams for Artists",
+      "Up to x3 the revenue compared to other streaming platforms per play",
+      "No more sold out shows with Pay Per View hosting up to 100k+ viewers",
+      "Merchandise, Ticket Sales, Influencer Sponsering and Fan Mail are all but a few ways for artists to get paid what there worth."
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Fans can bid to dm direct with there favorite artists.",
+      "Buy Merchandise and show support by purchasing PROPS to give to your favorite Artist",
+      "Artists can offer to perform at events or offer shoutouts such as Birthdays and Weddings ect...",
+      "Advertisers can connect with Available Artists for Influencer Marketing on and off the OnlySpitters platform"
     ]
   },
-  "Gallery": [
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
-    }
-  ],
+  
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-thumbs-up",
+      "name": "Subscriptions",
+      "text": "The more you engage the more likely you'll keep your followers month after month."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": " fa fa-calendar",
+      "name": "Event Shoutouts/Hosting",
+      "text": "Birthdays, Anniversarys, or any special event gathering you name your price for virutal or in person shows."
+        },
+    {
+      "icon": "fa fa-video-camera",
+      "name": "Pay Per View",
+      "text": "Take the camera on the road and enjoy the extra revenue of near limitless seating or skip the road and host a speacial event."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-shopping-cart",
+      "name": "Merchandise",
+      "text": "Tshirts and more Merchandise is one of your biggest money makers. Sell gear to fans."
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-envelope",
+      "name": "Fan Mail",
+      "text": "Your biggest fan  is out there and willing to bid on dming you!"
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-line-chart",
+      "name": "Influencer Endorsements",
+      "text": "Place your availabilty and go with the highest bid cancel if your minimum reserve is not met. Not limited to one platform YOU ARE A BRAND"
     }
   ],
   "Testimonials": [
@@ -120,7 +74,7 @@
     },
     {
       "img": "img/testimonials/05.jpg",
-      "text": "\"The subscription model of buying music is bankrupt. I think you could make available the Second Coming in a subscription model and it might not be successful. Music is changing so quickly and the landscape of the music industry itself is changing so quickly that everything new like Spotify all feels to me a bit like a grand experiment.\"",
+      "text": "\"Music is changing so quickly and the landscape of the music industry itself is changing so quickly that everything new like Spotify all feels to me a bit like a grand experiment.\"",
       "name": "Taylor Swift"
     },
     {
@@ -141,23 +95,23 @@
   "Features": [
     {
       "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Subscriptions",
+      "text": "Subscribe to your favorite Artist for exclusive music and free tickets as a super follower within there group."
     },
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-cloud-download",
+      "title": "Reconginiztion Feed",
+      "text": "Artists drop 15 second shortclip versus videos while connecting with new fans."
     },
     {
       "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Groups",
+      "text": "Fan Groups to connect like minded fans with there favorite artists for exclusive music and more."
     },
     {
       "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "PPV",
+      "text": "Watch your favorite Artist on Tour live from your couch or anywhere."
     }
   ]
 }
