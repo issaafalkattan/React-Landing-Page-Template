@@ -439,28 +439,11 @@ header .intro-text {
   font-weight: 600;
   color: #666;
 }
-/* Team Section */
-#team {
-  padding: 100px 0;
-}
-#team h4 {
-  margin: 5px 0;
-}
-#team .team-img {
-  width: 240px;
-}
-#team .thumbnail {
-  background: transparent;
-  border: 0;
-}
-#team .thumbnail .caption {
-  padding: 10px 0 0;
-  color: #888;
-}
+
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #5ca9fb 0%, #5ca9fb 100%);
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
@@ -492,7 +475,7 @@ header .intro-text {
   font-weight: 400;
 }
 #contact form {
-  padding-top: 20px;
+  padding-top: 40px;
 }
 #contact .text-danger {
   color: #cc0033;
@@ -513,41 +496,8 @@ label {
   font-family: "Open Sans", sans-serif;
   float: left;
 }
-#contact .form-control {
-  display: block;
-  width: 100%;
-  padding: 6px 12px;
-  font-size: 16px;
-  line-height: 1.42857143;
-  color: #444;
-  background-color: #fff;
-  background-image: none;
-  border: 1px solid #ddd;
-  border-radius: 0;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  -webkit-transition: none;
-  -o-transition: none;
-  transition: none;
-}
-#contact .form-control:focus {
-  border-color: #999;
-  outline: 0;
-  -webkit-box-shadow: transparent;
-  box-shadow: transparent;
-}
-.form-control::-webkit-input-placeholder {
-  color: #777;
-}
-.form-control:-moz-placeholder {
-  color: #777;
-}
-.form-control::-moz-placeholder {
-  color: #777;
-}
-.form-control:-ms-input-placeholder {
-  color: #777;
-}
+
+
 #contact .contact-item {
   margin: 20px 0;
 }
@@ -585,8 +535,8 @@ label {
 }
 /* Footer Section*/
 #footer {
-  background: #f6f6f6;
-  padding: 30px 0;
+  background: #5ca9fb;
+  padding: 60px 0;
 }
 #footer p {
   color: #888;
