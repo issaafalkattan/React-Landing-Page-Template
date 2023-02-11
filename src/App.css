@@ -1,12 +1,11 @@
-@media screen and (max-width: 400px) {
-  #features {
+@media screen and (max-width: 768px) {
+  #Fans {
     padding: 20px;
     width: 111%;
   }
   #about,
-  #services,
-  #testimonials,
-  #team,
+  #Artists,
+  #Insights,
   #contact,
   #footer {
     width: 111%;

@@ -1,184 +1,117 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "Coming Soon!",
+    "paragraph": "The Music industrys evolving, It's bigger than streaming"
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "A content creation platform based out of San Francisco connecting fans and artists with what they love. MUSIC.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "New Revenue Streams for Artists",
+      "Up to x3 the revenue compared to other streaming platforms per play",
+      "No more sold out shows with Pay Per View hosting up to 100k+ viewers",
+      "Merchandise, Ticket Sales, Influencer Sponsering and Fan Mail are all but a few ways for artists to get paid what there worth."
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Fans can bid to dm direct with there favorite artists.",
+      "Buy Merchandise and show support by purchasing PROPS to give to your favorite Artist",
+      "Artists can offer to perform at events or offer shoutouts such as Birthdays and Weddings ect...",
+      "Advertisers can connect with Available Artists for Influencer Marketing on and off the OnlySpitters platform"
     ]
   },
-  "Gallery": [
+  
+  "Artists": [
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "icon": "fa fa-thumbs-up",
+      "name": "Subscriptions",
+      "text": "The more you engage the more likely you'll keep your followers month after month."
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
+      "icon": " fa fa-calendar",
+      "name": "Event Shoutouts/Hosting",
+      "text": "Birthdays, Anniversarys, or any special event gathering you name your price for virutal or in person shows."
+        },
+    {
+      "icon": "fa fa-video-camera",
+      "name": "Pay Per View",
+      "text": "Take the camera on the road and enjoy the extra revenue of near limitless seating or skip the road and host a speacial event."
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
+      "icon": "fa fa-shopping-cart",
+      "name": "Merchandise",
+      "text": "Tshirts and more Merchandise is one of your biggest money makers. Sell gear to fans."
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
+      "icon": "fa fa-envelope",
+      "name": "Fan Mail",
+      "text": "Your biggest fan  is out there and willing to bid on dming you!"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "icon": "fa fa-line-chart",
+      "name": "Influencer Endorsements",
+      "text": "Place your availabilty and go with the highest bid cancel if your minimum reserve is not met. Not limited to one platform YOU ARE A BRAND"
     }
   ],
-  "Services": [
+  "Insights": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "img": "img/Insights/01.jpg",
+      "text": "\"Along with more new artists, the business is growing to include more types of royalties.\"",
+      "name": "Heidy Vaquerano"
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "img": "img/Insights/02.jpg",
+      "text": "\"I can remember sitting on panels debating the future of the music business with file sharing We pointed toward streaming as a potential path and no one was interested. It was completely contradictory to what the music industry did for 50 years. Streaming revenue continues to climb and demand remains strong enough for service providers to increase their prices to keep up with inflation.\"",
+      "name": "John Frankenheimer"
+    },
+    {
+      "img": "img/Insights/03.jpg",
+      "text": "\"U.S. recorded-music revenue in the first half of 2022 rose 9% to $7.7 billion in estimated retail value.Paid subscriptions increased to a record high of 90 million, with revenue rising by 10%, to $5 billion.\"",
+      "name": "RIAA"
+    },
+    {
+      "img": "img/Insights/04.jpg",
+      "text": "\"The subscription model of buying music is bankrupt. I think you could make available the Second Coming in a subscription model and it might not be successful.\"",
+      "name": "Steve Jobs"
+    },
+    {
+      "img": "img/Insights/05.jpg",
+      "text": "\"Music is changing so quickly and the landscape of the music industry itself is changing so quickly that everything new like Spotify all feels to me a bit like a grand experiment.\"",
+      "name": "Taylor Swift"
+    },
+    {
+      "img": "img/Insights/06.jpg",
+      "text": "\"In 2022, six music-related funds drew in $1.52 billion in capital commitments, up from four funds that raised $545 million in 2021\"",
+      "name": "Preqin"
+    }
+  ],
+ 
+  
+  "Contact": {
+    "address": "San Francisco, CA 12345 ",
+    "instagram": "https://instagram.com/onlyspitters",
+    "email": "support@onlyspitters.com",
+    "twitter": "twitter.com/onlyspitters"
+    
+  },
+  "Fans": [
+    {
+      "icon": "fa fa-comments-o",
+      "title": "Subscriptions",
+      "text": "Subscribe to your favorite Artist for exclusive content as a super follower within there group."
     },
     {
       "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    }
-  ],
-  "Testimonials": [
-    {
-      "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    }
-  ],
-  "Team": [
-    {
-      "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
-    },
-    {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
-    }
-  ],
-  "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
-  },
-  "Features": [
-    {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Reconginiztion Feed",
+      "text": "Artists drop 15 second shortclip versus videos while connecting with new fans."
     },
     {
       "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Groups",
+      "text": "Fan Groups to connect like minded fans with there favorite artists for exclusive music and more."
     },
     {
       "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "PPV",
+      "text": "Watch your favorite Artist on Tour live from your couch or anywhere."
     }
   ]
 }
