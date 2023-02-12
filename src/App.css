@@ -1,10 +1,10 @@
 @media screen and (max-width: 768px) {
-  #Fans {
+  #connect {
     padding: 20px;
     width: 111%;
   }
   #about,
-  #Artists,
+  #features,
   #Insights,
   #contact,
   #footer {

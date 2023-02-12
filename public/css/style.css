@@ -209,7 +209,7 @@ a:focus,
   width: 100%;
   padding: 0;
   background: url(../img/intro-bg.jpg) center center no-repeat;
-  background-color: #e5e5e5;
+  background-color: #4652fa;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -220,7 +220,7 @@ a:focus,
 }
 .intro h1 {
   font-family: "Raleway", sans-serif;
-  color: #fff;
+  color: rgb(66, 53, 245);
   font-size: 82px;
   font-weight: 700;
   text-transform: uppercase;
@@ -244,11 +244,11 @@ header .intro-text {
   padding-bottom: 200px;
   text-align: center;
 }
-/* Fans Section */
-#Fans {
+/* connect Section */
+#connect {
   background: #f6f6f6;
 }
-#Fans i.fa {
+#connect i.fa {
   font-size: 38px;
   margin-bottom: 20px;
   transition: all 0.5s;
@@ -307,19 +307,19 @@ header .intro-text {
   line-height: 24px;
   margin: 30px 0;
 }
-/* Artists Section */
-#Artists {
+/* features Section */
+#features {
   padding: 100px 0;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   color: #fff;
 }
-#Artists .service-desc {
+#features .service-desc {
   margin: 10px 10px 20px;
 }
-#Artists h2 {
+#features h2 {
   color: #fff;
 }
-#Artists .section-title h2::after {
+#features .section-title h2::after {
   position: absolute;
   content: "";
   background: rgba(255, 255, 255, 0.3);
@@ -329,7 +329,7 @@ header .intro-text {
   margin-left: -30px;
   left: 50%;
 }
-#Artists i.fa {
+#features i.fa {
   font-size: 42px;
   width: 120px;
   height: 120px;
@@ -339,15 +339,15 @@ header .intro-text {
   color: #fff;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
-#Artists h3 {
+#features h3 {
   font-weight: 500;
   padding: 5px 0;
   color: #fff;
 }
-#Artists p {
+#features p {
   color: rgba(255, 255, 255, 0.75);
 }
-#Artists .service-desc {
+#features .service-desc {
   margin-bottom: 40px;
 }
 /* Portfolio Section */

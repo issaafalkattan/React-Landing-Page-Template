@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Navigation } from "./components/navigation";
 import { Header } from "./components/header";
-import { Fans } from "./components/Fans";
+import { Connect } from "./components/Connect";
 import { About } from "./components/about";
-import { Artists } from "./components/Artists";
+import { Features } from "./components/Features";
 import { Insights } from "./components/Insights";
 import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
@@ -25,9 +25,9 @@ const App = () => {
     <div>
       <Navigation />
       <Header data={landingPageData.Header} />
-      <Fans data={landingPageData.Fans} />
+      <Connect data={landingPageData.Connect} />
       <About data={landingPageData.About} />
-      <Artists data={landingPageData.Artists} />
+      <Features data={landingPageData.Features} />
       <Insights data={landingPageData.Insights} />
       <Contact data={landingPageData.Contact} />
     </div>
