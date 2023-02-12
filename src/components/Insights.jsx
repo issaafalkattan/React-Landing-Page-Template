@@ -1,8 +1,8 @@
 import React from "react";
 
-export const Testimonials = (props) => {
+export const Insights = (props) => {
   return (
-    <div id="testimonials">
+    <div id="Insights">
       <div className="container">
         <div className="section-title text-center">
           <h2>Where the industry's heading</h2>

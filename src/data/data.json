@@ -19,7 +19,7 @@
     ]
   },
   
-  "Services": [
+  "Artists": [
     {
       "icon": "fa fa-thumbs-up",
       "name": "Subscriptions",
@@ -51,34 +51,34 @@
       "text": "Place your availabilty and go with the highest bid cancel if your minimum reserve is not met. Not limited to one platform YOU ARE A BRAND"
     }
   ],
-  "Testimonials": [
+  "Insights": [
     {
-      "img": "img/testimonials/01.jpg",
+      "img": "img/Insights/01.jpg",
       "text": "\"Along with more new artists, the business is growing to include more types of royalties.\"",
       "name": "Heidy Vaquerano"
     },
     {
-      "img": "img/testimonials/02.jpg",
+      "img": "img/Insights/02.jpg",
       "text": "\"I can remember sitting on panels debating the future of the music business with file sharing We pointed toward streaming as a potential path and no one was interested. It was completely contradictory to what the music industry did for 50 years. Streaming revenue continues to climb and demand remains strong enough for service providers to increase their prices to keep up with inflation.\"",
       "name": "John Frankenheimer"
     },
     {
-      "img": "img/testimonials/03.jpg",
+      "img": "img/Insights/03.jpg",
       "text": "\"U.S. recorded-music revenue in the first half of 2022 rose 9% to $7.7 billion in estimated retail value.Paid subscriptions increased to a record high of 90 million, with revenue rising by 10%, to $5 billion.\"",
       "name": "RIAA"
     },
     {
-      "img": "img/testimonials/04.jpg",
+      "img": "img/Insights/04.jpg",
       "text": "\"The subscription model of buying music is bankrupt. I think you could make available the Second Coming in a subscription model and it might not be successful.\"",
       "name": "Steve Jobs"
     },
     {
-      "img": "img/testimonials/05.jpg",
+      "img": "img/Insights/05.jpg",
       "text": "\"Music is changing so quickly and the landscape of the music industry itself is changing so quickly that everything new like Spotify all feels to me a bit like a grand experiment.\"",
       "name": "Taylor Swift"
     },
     {
-      "img": "img/testimonials/06.jpg",
+      "img": "img/Insights/06.jpg",
       "text": "\"In 2022, six music-related funds drew in $1.52 billion in capital commitments, up from four funds that raised $545 million in 2021\"",
       "name": "Preqin"
     }
@@ -89,10 +89,10 @@
     "address": "San Francisco, CA 12345 ",
     "instagram": "https://instagram.com/onlyspitters",
     "email": "support@onlyspitters.com",
-    "twitter": "twitter.com/onlyspitters"
+    "twitter": "https://twitter.com/onlyspitters"
     
   },
-  "Features": [
+  "Fans": [
     {
       "icon": "fa fa-comments-o",
       "title": "Subscriptions",

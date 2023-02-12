@@ -244,11 +244,11 @@ header .intro-text {
   padding-bottom: 200px;
   text-align: center;
 }
-/* Features Section */
-#features {
+/* Fans Section */
+#Fans {
   background: #f6f6f6;
 }
-#features i.fa {
+#Fans i.fa {
   font-size: 38px;
   margin-bottom: 20px;
   transition: all 0.5s;
@@ -307,19 +307,19 @@ header .intro-text {
   line-height: 24px;
   margin: 30px 0;
 }
-/* Services Section */
-#services {
+/* Artists Section */
+#Artists {
   padding: 100px 0;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   color: #fff;
 }
-#services .service-desc {
+#Artists .service-desc {
   margin: 10px 10px 20px;
 }
-#services h2 {
+#Artists h2 {
   color: #fff;
 }
-#services .section-title h2::after {
+#Artists .section-title h2::after {
   position: absolute;
   content: "";
   background: rgba(255, 255, 255, 0.3);
@@ -329,7 +329,7 @@ header .intro-text {
   margin-left: -30px;
   left: 50%;
 }
-#services i.fa {
+#Artists i.fa {
   font-size: 42px;
   width: 120px;
   height: 120px;
@@ -339,15 +339,15 @@ header .intro-text {
   color: #fff;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
-#services h3 {
+#Artists h3 {
   font-weight: 500;
   padding: 5px 0;
   color: #fff;
 }
-#services p {
+#Artists p {
   color: rgba(255, 255, 255, 0.75);
 }
-#services .service-desc {
+#Artists .service-desc {
   margin-bottom: 40px;
 }
 /* Portfolio Section */
@@ -399,12 +399,12 @@ header .intro-text {
 .hover-bg:hover .hover-text {
   opacity: 1;
 }
-/* Testimonials Section */
-#testimonials {
+/* Insights Section */
+#Insights {
   padding: 100px 0;
   background: #f6f6f6;
 }
-#testimonials i {
+#Insights i {
   color: #e6e6e6;
   font-size: 32px;
   margin-bottom: 20px;
