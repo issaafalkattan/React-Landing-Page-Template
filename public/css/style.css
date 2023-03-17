@@ -80,7 +80,7 @@ hr {
 }
 #menu a.navbar-brand {
   max-width:110px;
-    max-height:85px;
+  max-height: 80px;
     width: auto;
     height: auto;
 }
