@@ -79,7 +79,7 @@ hr {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 #menu a.navbar-brand {
-  max-width:85px;
+  max-width:120px;
   max-height: 55px;
     width: auto;
     height: auto;
