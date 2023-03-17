@@ -79,8 +79,8 @@ hr {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 #menu a.navbar-brand {
-  max-width:110px;
-  max-height: 80px;
+  max-width:85px;
+  max-height: 55px;
     width: auto;
     height: auto;
 }
@@ -389,7 +389,7 @@ header .intro-text {
 }
 .hover-bg:hover .hover-text > h4 {
   opacity: 1;
-  -webkit-backface-visibility: hidden;
+  /*-webkit-backface-visibility: hidden;*/
   -webkit-transform: translateY(0);
   transform: translateY(0);
 }
