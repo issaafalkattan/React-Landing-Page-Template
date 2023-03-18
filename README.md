@@ -1,34 +1,49 @@
-# React JS Landing Page Template
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-**
+# React Landing Page Template
+A simple react one page landing page templates for startups/companies
 
-# 🛎️🛎️ Good news! New & improved [V2](https://github.com/issaafalkattan/react-landing-page-template-2021) is out  
+## Getting Started
+To get a local copy up and running follow these simple example steps.
 
-**
-
-
-### <a href="https://react-landing-page-template-93ne.vercel.app/">LIVE DEMO</a> 
-
-## Description
-This is a ReactJS based landing page template, fit for a startup company/service with a one page view. The design is inspired by a template from <a href="https://www.free-css.com/assets/files/free-css-templates/preview/page234/interact/">Free-CSS.com </a>
-All 'visual' data can be easily modified by changing the data.json file.
-
-## Make it Yours!
-### 1. Preps
-You will need to have <a href="https://nodejs.org/">Node JS</a> installed on your pc. 
-
-### 2. Clone Files
-After cloning the files, you will have to run ```yarn``` followed by ```yarn start``` in the CLI
-### 3. Add your own data 
-Change the data in the ```data.json``` file as well as add any images to ```public/img/```
-You can also change styles by modifying the ```public/css``` files.
+- Copy this link `https://github.com/ppmarq1/React-Landing-Page-Template.git.
+- Get the directory that you want to clone the repository.
+- Open the command prompt in this directory.
+- Write `https://github.com/ppmarq1/React-Landing-Page-Template.git`.
 
 
-## Like this project?
-<a href="https://www.buymeacoffee.com/issaaf">Buy my a coffee ☕️</a>
+- Follow these steps to run the app:
+  - run `gem install`, then run `rails s`
 
-## Credits
-##### Free CSS 
-<a href="https://www.free-css.com/assets/files/free-css-templates/preview/page234/interact/">Free-CSS.com </a>
+## Live Demo
 
-##### Issaaf kattan
+[Live Demo Link](tbd)
+
+
+
+## Authors
+
+👤 **Pedro Marques**
+
+- GitHub: https://github.com/ppmarq1
+- Twitter: https://twitter.com/ppmarq1
+- LinkedIn: https://br.linkedin.com/in/pedroalmeidamarques/
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
+
+
+

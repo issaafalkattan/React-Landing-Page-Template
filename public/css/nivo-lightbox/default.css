@@ -13,7 +13,7 @@
     box-sizing: initial !important;
  }
 .nivo-lightbox-theme-default.nivo-lightbox-overlay { 
-	background: #666;
+	background: #581b1bd3;
 	background: rgba(0,0,0,0.6); 
 }
 .nivo-lightbox-theme-default .nivo-lightbox-content.nivo-lightbox-loading { background: url(loading.gif) no-repeat 50% 50%; }
