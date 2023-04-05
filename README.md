@@ -23,6 +23,22 @@ After cloning the files, you will have to run ```yarn``` followed by ```yarn sta
 Change the data in the ```data.json``` file as well as add any images to ```public/img/```
 You can also change styles by modifying the ```public/css``` files.
 
+### Docker Alternative to start the app 
+<br>
+
+You will need to have Docker installed. <br> 
+<a href="https://docs.docker.com/docker-for-windows/install/"> Docker for Windows: </a> <br> 
+<a href="https://docs.docker.com/docker-for-mac/install/"> Docker for macOS: </a> <br>
+<a href="https://docs.docker.com/engine/install/"> Docker for Linux: </a>
+ 
+#### Build the image
+``` docker build -t react-landing-page-template . ```
+
+#### Deploy the image 
+``` docker run -p 3000:3000 react-landing-page-template ```
+
+
+
 
 ## Like this project?
 <a href="https://www.buymeacoffee.com/issaaf">Buy my a coffee ☕️</a>
