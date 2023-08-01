@@ -25,7 +25,7 @@ You can also change styles by modifying the ```public/css``` files.
 
 
 ## Like this project?
-<a href="https://www.buymeacoffee.com/issaaf">Buy my a coffee ☕️</a>
+<a href="https://www.buymeacoffee.com/issaaf">Buy me a coffee ☕️</a>
 
 ## Credits
 ##### Free CSS 
