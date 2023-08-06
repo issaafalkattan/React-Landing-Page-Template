@@ -1,6 +1,11 @@
 import React from "react";
-
+import { useAuth0 } from "@auth0/auth0-react";
+import { Button } from "react-bootstrap";
 export const Navigation = (props) => {
+
+  const { loginWithRedirect,logout,isAuthenticated } = useAuth0();
+
+
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container">
@@ -62,6 +67,20 @@ export const Navigation = (props) => {
                 Contact
               </a>
             </li>
+
+            {
+              isAuthenticated ? (   <li>
+                <Button style={{marginTop:'10px'}} variant="primary" onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>
+          Log Out
+        </Button>
+                </li>) : (<li>
+            <Button style={{marginTop:'10px'}} variant="primary" onClick={() => loginWithRedirect()}>Log In</Button>
+            </li>)
+            }
+
+            
+
+         
           </ul>
         </div>
       </div>
