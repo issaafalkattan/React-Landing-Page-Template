@@ -18,10 +18,11 @@ export const Header = (props) => {
                   href="#features"
                   className="broken"
                   style={{
-                    "background-color": "gray",
-                    "color": "gray",
-                    "border-radius":"12px",
-                    "box-shadow": "none",
+                    backgroundColor: "gray",
+                    color: "gray",
+                    borderRadius:"12px",
+                    boxShadow: "none",
+                    padding:"10px"
                   }}
                 >
                   Learn More
