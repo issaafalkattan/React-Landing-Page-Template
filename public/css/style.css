@@ -208,16 +208,15 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background:  #e5e5e5;
   /* background: url(../img/intro-bg.jpg) center center no-repeat; */
-  background-color: #e5e5e5;
+  background-color: #FFFFFF;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
 .intro .overlay {
-  background: rgba(0, 0, 0, 0.2);
+  background: gray;
 }
 .intro h1 {
   font-family: "Raleway", sans-serif;
@@ -598,6 +597,10 @@ label {
 }
 #footer a:hover {
   border-bottom: 2px solid #608dfd;
+}
+
+.broken:hover{
+  border: 2px solid white;
 }
 
 @media (max-width: 768px) {

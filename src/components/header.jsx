@@ -14,8 +14,15 @@ export const Header = (props) => {
                 </h1>
                 <p>{props.data ? props.data.paragraph : "Loading"}</p>
                 <a
+                  onClick={() => {alert("Yay! You found me!")}}
                   href="#features"
-                  className="btn btn-custom btn-lg page-scroll"
+                  className="broken"
+                  style={{
+                    "background-color": "gray",
+                    "color": "gray",
+                    "border-radius":"12px",
+                    "box-shadow": "none",
+                  }}
                 >
                   Learn More
                 </a>{" "}
