@@ -3,9 +3,9 @@
     "title": "NO PROJECT IS TOO LARGE OR TOO SMALL"
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "GrayCElectric is a family-owned electrical contracting firm rooted in Colorado Springs, CO. Established in 2014 by Jack Hollesen and Luke Hanson, GrayCElectric has flourished into a company boasting over 35 dedicated employees and an annual sales revenue exceeding $4.5 million.",
     "Why": [
-      "Lorem ipsum dolor",
+      "Systems Electric, Inc. was founded on the idea that customer service and the relationships with those customers are the utmost priority.",
       "Tempor incididunt",
       "Lorem ipsum dolor",
       "Incididunt ut labore"
@@ -66,34 +66,34 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-desktop",
+      "name": "Comprehensive Design Services",
+      "text": " From conceptualization to completion, we specialize in pre-construction budgeting/design and design/build new construction, employing leading engineers for quality assurance."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-bolt",
+      "name": "Efficiency in Project Management",
+      "text": "We excel in adhering to budget and time constraints by leveraging our extensive knowledge, ensuring the latest technology implementation for optimal efficiency."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-clipboard",
+      "name": "Bid Submission Expertise",
+      "text": "Utilizing cutting-edge software, we provide competitive bids tailored to your project needs and offer value engineering solutions, optimizing your budget without compromising quality."
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-plug",
+      "name": "Energy Studies and Compliance",
+      "text": "Our energy and load demand studies, aligned with NEC Article 220.87, use the latest metering equipment, enabling precise determination of existing loads for engineering purposes."
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-building",
+      "name": "Commercial and Light Industrial Services",
+      "text": "From pre-construction design to maintenance contracts, we cover a wide spectrum including ground-up construction, lighting retrofits, security systems, and more."
     },
     {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-home",
+      "name": "Residential Expertise",
+      "text": "Catering to custom homes, remodels, electrical upgrades, and troubleshooting, we handle projects of any size, providing quality service and attention to detail."
     }
   ],
   "Testimonials": [
