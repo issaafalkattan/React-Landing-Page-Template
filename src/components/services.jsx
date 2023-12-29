@@ -6,17 +6,12 @@ export const Services = (props) => {
       <div className="container">
         <div className="section-title">
           <h2>Our Services</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
-          </p>
         </div>
         <div className="row">
           {props.data
             ? props.data.map((d, i) => (
-                <div key={`${d.name}-${i}`} className="col-md-4">
-                  {" "}
-                  <i className={d.icon}></i>
+                <div key={`${d.name}-${i}`} className="col-xs-12 col-sm-6 col-md-4">
+                  <i className={`${d.icon} fa-3x`}></i> {/* Adjust the size of icons using fa-x classes */}
                   <div className="service-desc">
                     <h3>{d.name}</h3>
                     <p>{d.text}</p>
@@ -29,3 +24,4 @@ export const Services = (props) => {
     </div>
   );
 };
+

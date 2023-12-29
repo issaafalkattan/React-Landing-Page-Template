@@ -1,39 +1,40 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "",
+    "paragraph": ""
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Manna Kitchen is more than just a restaurant; it is a gathering place for the Filipino community and a destination for food enthusiasts alike. We are dedicated to showcasing the best of the Philippines – its food, its people, and its spirit. Join us for an unforgettable dining experience where every meal is a celebration, and every guest is family. Whether it's a quiet dinner for two or a lively gathering with live Filipino entertainment, Manna Kitchen is your home away from home. We invite you to be part of our story as we continue to celebrate and share the true essence of Filipino cuisine and culture.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Authentic Filipino Cuisine - Enjoy a menu curated with the finest traditional dishes, each bursting with flavors from the Philippines.",
+      "Family-Friendly Environment - Our welcoming atmosphere makes for a perfect dining experience for families of all sizes.",
+      "Cultural Hub - Manna Kitchen isn't just a place to eat; it's a vibrant community space where culture, cuisine, and camaraderie meet.",
+      "Exceptional Service - Experience the warm hospitality the Philippines is known for, as our staff treats you with utmost care and respect."
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Live Entertainment - Immerse yourself in the rich Filipino culture with our live entertainment and events.",
+      "Quality Ingredients - We pride ourselves on using only the freshest and highest quality ingredients in all of our dishes.",
+      "Innovative Menus - Our chefs continually push the boundaries with creative twists on classic recipes, providing you with a unique culinary adventure.",
+      "Community Focus - As a local business, we are deeply invested in the community, regularly participating in events and initiatives."
     ]
   },
   "Gallery": [
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "title": "Menu",
+      "largeImage": "img/MenuofFood.jpg",
+      "smallImage": "img/MenuofFood.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
+      "title": "Mains Menu",
+      "largeImage": "img/mains.jpg",
+      "smallImage": "img/mains.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
+      "title": "Opening Hours",
+      "largeImage": "img/Opening Hours.jpg",
+      "smallImage": "img/Opening Hours.jpg"
     },
+
     {
       "title": "Project Title",
       "largeImage": "img/portfolio/04-large.jpg",
@@ -67,36 +68,25 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-cutlery",
+      "name": "Catering Services",
+      "text": "Our catering services bring the essence of Filipino cuisine to your special events. Tailored menus and exceptional service make your gatherings memorable."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-birthday-cake",
+      "name": "Private Events",
+      "text": "Celebrate your milestones with us. Our private event services offer a perfect blend of ambiance and exquisite dining for birthdays, anniversaries, and more."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-motorcycle",
+      "name": "Food Delivery (Under Development)",
+      "text": "Convenient dining at your fingertips. Soon you'll be able to order your favorite Manna Kitchen dishes on DoorDash and UberEats."
     }
+
+
+
   ],
+  
   "Testimonials": [
     {
       "img": "img/testimonials/01.jpg",
@@ -152,33 +142,33 @@
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
+    "address": "240 Ormiston Road FlatBush, Manukau, New Zealand ",
+    "phone": "09-558 3817",
+    "email": "kusinaniperla@gmail.com",
+    "facebook": "https://www.facebook.com/profile.php?id=61554115607382",
     "twitter": "twitter.com",
     "youtube": "youtube.com"
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-leaf",
+      "title": "Authentic Flavors",
+      "text": "Dive into the rich tapestry of flavors with our authentic Filipino dishes, each crafted with traditional recipes and the freshest local ingredients."
     },
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-heart",
+      "title": "Family Recipes",
+      "text": "Experience the comfort of home with our family-inspired recipes passed down through generations, offering a taste of the Philippines' culinary heritage."
     },
     {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-cogs",
+      "title": "Modern Twists",
+      "text": "Savor the innovation as our chefs introduce modern twists to classic dishes, creating a unique dining experience that still feels familiar."
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-lemon-o",
+      "title": "Fresh Ingredients",
+      "text": "Our commitment to quality means sourcing the finest ingredients, ensuring every dish we serve is a celebration of flavor and freshness."
     }
   ]
 }
