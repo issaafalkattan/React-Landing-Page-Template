@@ -2,13 +2,23 @@ import { useState } from "react";
 import emailjs from "emailjs-com";
 import React from "react";
 
+
 const initialState = {
   name: "",
   email: "",
   message: "",
+  contact_number: "",
+  adults: "",
+  kids: "",
+  dietary_requirements: "",
+  date: "",
+  time: "",
+  notes: "",
 };
+
 export const Contact = (props) => {
-  const [{ name, email, message }, setState] = useState(initialState);
+  
+  const [{ name, email, message,}, setState] = useState(initialState);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -20,11 +30,9 @@ export const Contact = (props) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(name, email, message);
-    
-
-    
+  
     emailjs
-      .sendForm("service_ub3ip7b", "template_bqcbu6a", e.target, "s71WJ3jQjEobW5KEF")
+      .sendForm("service_ub3ip7b","template_bqcbu6a", e.target, "s71WJ3jQjEobW5KEF")
       .then(
         (result) => {
           console.log(result.text);
@@ -65,6 +73,36 @@ export const Contact = (props) => {
                       <p className="help-block text-danger"></p>
                     </div>
                   </div>
+
+                  <div className="col-md-6">
+                    <div className="form-group">
+                      <input type="tel" name="contact_number" id="contact_number" placeholder="Contact Number" className="form-control" required onChange={handleChange} />
+                      <p className="help-block text-danger"></p>
+                    </div>
+                  </div>
+                  <div className="col-md-6">
+                    <div className="form-group">
+                    <input type="number" name="adults" id="adults" placeholder="Number of Adults" className="form-control" required onChange={handleChange} />
+                      <p className="help-block text-danger"></p>
+                    </div>
+                  </div>
+                  <div className="col-md-6">
+                    <div className="form-group">
+                    <input type="number" name="kids" id="kids" placeholder="Number of Kids" className="form-control" required onChange={handleChange} />
+                      <p className="help-block text-danger"></p>
+                    </div>
+                  </div>
+                  <div className="col-md-6">
+                    <div className="form-group">
+                    <input type="date" name="date" id="date" placeholder="Date of Booking" className="form-control" required onChange={handleChange} />
+                    </div>
+                  </div>
+                  <div className="col-md-6">
+                    <div className="form-group">
+                    <input type="time" name="time" id="time" placeholder="Time of Arrival" className="form-control" required onChange={handleChange} />
+                    </div>
+                  </div>
+                  
                   <div className="col-md-6">
                     <div className="form-group">
                       <input
@@ -78,6 +116,8 @@ export const Contact = (props) => {
                       />
                       <p className="help-block text-danger"></p>
                     </div>
+
+                  
                   </div>
                 </div>
                 <div className="form-group">

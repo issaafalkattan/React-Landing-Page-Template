@@ -3843,6 +3843,11 @@
   dependencies:
     "domelementtype" "^2.2.0"
 
+"dompurify@^3.0.6":
+  "integrity" "sha512-ilkD8YEnnGh1zJ240uJsW7AzE+2qpbOUYjacomn3AvJ6J4JhKGSZ2nh4wUIXPZrEPppaCLx5jFe8T89Rk8tQ7w=="
+  "resolved" "https://registry.npmjs.org/dompurify/-/dompurify-3.0.6.tgz"
+  "version" "3.0.6"
+
 "domutils@^1.7.0":
   "integrity" "sha512-Lgd2XcJ/NjEw+7tFvfKxOzCYKZsdct5lczQ2ZaQY8Djz7pfAD3Gbp8ySJWtreII/vDlMVmxwa6pHmdxIYgttDg=="
   "resolved" "https://registry.npmjs.org/domutils/-/domutils-1.7.0.tgz"
