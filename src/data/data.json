@@ -25,9 +25,15 @@
       "smallImage": "img/MenuofFood.jpg"
     },
     {
-      "title": "Mains Menu",
+      "title": "Mains ",
       "largeImage": "img/mains.jpg",
       "smallImage": "img/mains.jpg"
+    },
+
+    {
+      "title": "Starters",
+      "largeImage": "img/StartersBrunch.jpg",
+      "smallImage": "img/StartersBrunch.jpg"
     },
     {
       "title": "Opening Hours",
@@ -35,36 +41,19 @@
       "smallImage": "img/Opening Hours.jpg"
     },
 
+
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
+      "title": "",
+      "largeImage": "img/Guests1.jpg",
+      "smallImage": "img/Guests1.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "title": "",
+      "largeImage": "img/Guests4.jpg",
+      "smallImage": "img/Guests4.jpg"
     }
+
+
   ],
   "Services": [
     {
@@ -89,56 +78,56 @@
   
   "Testimonials": [
     {
-      "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "img": "img/CustomerReview1.jpg",
+      "text": "Highly recommended, delicious food",
+      "name": "Jared Tablate"
     },
     {
-      "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "img": "img/CustomerReview2.jpg",
+      "text": "Manna Kitchen's food taste great! especially their Lechon belly and Spare ribs. Nice dining experience.",
+      "name": "Carm Thurlby"
     },
     {
-      "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "img": "img/CustomerReview3.jpg",
+      "text": "An evening to remember. Thank you for the great service",
+      "name": "Lani Larsen"
     },
     {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "img": "img/CustomerReview4.jpg",
+      "text": "The food is really delicious. Every bite brings you back home! Excellent Customer service. Staff are really Friendly. My no.1 Filipino Restaurant in New Zealand. Highly Recommended! 10 Star!! ⭐",
+      "name": "Karl Yparraguirre"
     },
     {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "img": "img/CustomerReview5.jpg",
+      "text": "Food is awesome, love it ❤️",
+      "name": "Lorraine Foster"
     },
     {
-      "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "img": "img/CustomerReview6.jpg",
+      "text": "Crispy pata is great! Thank you!",
+      "name": "Michael Amador"
     }
   ],
   "Team": [
     {
       "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "name": "Joce Lorenz",
+      "job": "Owner"
     },
     {
       "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "name": "JP Pearl",
+      "job": "Owner"
     },
     {
       "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
+      "name": "Juan Dela Cruz",
+      "job": "Chef"
     },
     {
       "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "name": "Juan Dela Cruz",
+      "job": "Chef"
     }
   ],
   "Contact": {
@@ -160,11 +149,7 @@
       "title": "Family Recipes",
       "text": "Experience the comfort of home with our family-inspired recipes passed down through generations, offering a taste of the Philippines' culinary heritage."
     },
-    {
-      "icon": "fa fa-cogs",
-      "title": "Modern Twists",
-      "text": "Savor the innovation as our chefs introduce modern twists to classic dishes, creating a unique dining experience that still feels familiar."
-    },
+
     {
       "icon": "fa fa-lemon-o",
       "title": "Fresh Ingredients",
