@@ -140,7 +140,7 @@ export const Contact = (props) => {
                   <p className="help-block text-danger"></p>
                 </div>
                 <ReCAPTCHA
-           sitekey="6LdPkkEpAAAAABq8M9duugM5c1chF7S2-TB98keF"
+           sitekey="6Lfcj0EpAAAAAMIkOUhRMiZWVyJiRWR04t0ndIBN"
           onChange={(value) => setRecaptchaValue(value)}
             />
                 <div id="success"></div>
