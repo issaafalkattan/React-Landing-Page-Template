@@ -26,6 +26,7 @@ export const Header = (props) => {
   >
     Contact Us
   </a>
+  <script src="//code.tidio.co/pyrul9dl4isngp3ftlgvakecwuj8uxk0.js" async></script>
               </div>
             </div>
           </div>

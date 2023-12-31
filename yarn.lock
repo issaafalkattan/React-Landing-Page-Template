@@ -8247,6 +8247,11 @@
     "regenerator-runtime" "^0.13.9"
     "whatwg-fetch" "^3.6.2"
 
+"react-chatbotify@^1.0.6":
+  "integrity" "sha512-oJrnBSC94CbntMXSRryzP1n8F6fcUEG4SYfIvdb/LGSY9+zEdqcM/bnQpc5s+44ZwR6DdWyovsLFt7evineLsQ=="
+  "resolved" "https://registry.npmjs.org/react-chatbotify/-/react-chatbotify-1.0.6.tgz"
+  "version" "1.0.6"
+
 "react-dev-utils@^12.0.1":
   "integrity" "sha512-84Ivxmr17KjUupyqzFode6xKhjwuEJDROWKJy/BthkL7Wn6NJ8h4WE6k/exAv6ImS+0oZLRRW5j/aINMHyeGeQ=="
   "resolved" "https://registry.npmjs.org/react-dev-utils/-/react-dev-utils-12.0.1.tgz"
