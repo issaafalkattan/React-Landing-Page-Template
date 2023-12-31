@@ -1,6 +1,7 @@
 import { useState } from "react";
 import emailjs from "emailjs-com";
 import React from "react";
+import ReCAPTCHA from "react-google-recaptcha";
 
 
 const initialState = {
@@ -19,6 +20,7 @@ const initialState = {
 export const Contact = (props) => {
   
   const [{ name, email, message,}, setState] = useState(initialState);
+  const [recaptchaValue, setRecaptchaValue] = useState(null);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -30,6 +32,11 @@ export const Contact = (props) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(name, email, message);
+
+    if (!recaptchaValue) {
+      alert("Please verify that you are not a robot.");
+      return;
+    }
   
     emailjs
       .sendForm("service_ub3ip7b","template_bqcbu6a", e.target, "s71WJ3jQjEobW5KEF")
@@ -132,6 +139,10 @@ export const Contact = (props) => {
                   ></textarea>
                   <p className="help-block text-danger"></p>
                 </div>
+                <ReCAPTCHA
+           sitekey="6Lfcj0EpAAAAAMIkOUhRMiZWVyJiRWR04t0ndIBN"
+          onChange={(value) => setRecaptchaValue(value)}
+            />
                 <div id="success"></div>
                 <button type="submit" className="btn btn-custom btn-lg">
                   Send Message
