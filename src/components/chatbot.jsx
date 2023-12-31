@@ -3,14 +3,7 @@ import ChatBot from 'react-chatbotify';
 import 'react-chatbotify/dist/react-chatbotify.css';
 
 // CustomHeader component for the chatbot
-const CustomHeader = () => {
-  return (
-    <div style={{ background: '#4CAF50', color: '#fff', padding: '10px', textAlign: 'center' }}>
-      <h2>Manna Kitchen Chat</h2>
-      <p>Your Virtual Assistant</p>
-    </div>
-  );
-};
+
 
 const MKChatbot = () => {
   // Define custom conversation messages
@@ -35,9 +28,15 @@ const MKChatbot = () => {
 
   return (
     <ChatBot
-      headerComponent={<CustomHeader />} // Use the CustomHeader component as the header
-      subtitle="Your Virtual Assistant"
-      steps={flow}
+      options={{
+        title: "Manna Kitchen Chat",
+        subtitle: "Your Virtual Assistant",
+        theme: {
+          // Add your custom styling here
+        },
+        chatHistory: { storageKey: "example_basic_form" },
+      }}
+      flow={flow}
     />
   );
 };
