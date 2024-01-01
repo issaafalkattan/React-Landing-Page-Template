@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import ChatBot from 'react-chatbotify';
 import 'react-chatbotify/dist/react-chatbotify.css';
 
@@ -8,6 +8,7 @@ import 'react-chatbotify/dist/react-chatbotify.css';
 const MKChatbot = () => {
   // Define custom conversation messages
   const helpOptions = ["Booking", "Contact", "FB Page", "Menu", "Other"];
+  const [isChatbotOpen, setIsChatbotOpen] = useState(false);
   const flow = {
       start: {
           message: "Hello, I'm Manna Kitchen FAQ BOT 👋! I'm excited that you are using our " +
@@ -63,10 +64,17 @@ const MKChatbot = () => {
           transition: {duration: 3000},
           path: "prompt_again"
       },
+      
 }
+const toggleChatbot = () => {
+    setIsChatbotOpen(!isChatbotOpen);
+  };
 
   return (
+    <div>
+        <button onClick={toggleChatbot}>Toggle Chatbot</button>
     <ChatBot
+        isOpen={isChatbotOpen}
       options={{
         title: "Manna Kitchen Chat",
         subtitle: "Your Virtual Assistant",
@@ -77,6 +85,7 @@ const MKChatbot = () => {
       }}
       flow={flow}
     />
+    </div>
   );
 };
 
