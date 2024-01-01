@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import ChatBot from 'react-chatbotify';
 import 'react-chatbotify/dist/react-chatbotify.css';
+import '../../src/components/MKChatbot.css';
 
 // CustomHeader component for the chatbot
 
@@ -38,16 +39,16 @@ const MKChatbot = () => {
               switch (params.userInput) {
               case "Booking":
                 
-                  link = "https://booking-link";
+                  link = "https://manakitchenprototype.vercel.app/#contact";
                   break;
               case "Contact":
-                  link = "https://booking-link";
+                  link = "https://manakitchenprototype.vercel.app/#contact";
                   break;
               case "FB PAGE":
-                  link = "https://booking-link";
+                  link = "https://www.facebook.com/MannaKitchenNZ1";
                   break;
               case "Menu":
-                  link = "https://booking-link";
+                  link = "https://manakitchenprototype.vercel.app/#portfolio";
                   break;
 
               default:
@@ -71,9 +72,10 @@ const toggleChatbot = () => {
   };
 
   return (
-    <div>
+    <div className={isChatbotOpen ? 'chatbot-open' : ''}>
         <button onClick={toggleChatbot}>Toggle Chatbot</button>
     <ChatBot
+    
         isOpen={isChatbotOpen}
       options={{
         title: "Manna Kitchen Chat",
