@@ -45,7 +45,7 @@ const MKChatbot = () => {
                   link = "#contact";
                   break;
               case "FB PAGE":
-                  link = "#contact";
+                  link = "https://www.facebook.com/MannaKitchenNZ1";
                   break;
               case "Menu":
                   link = "#portfolio";
@@ -74,8 +74,8 @@ const toggleChatbot = () => {
   return (
     <div className={isChatbotOpen ? 'chatbot-open' : ''}>
         <button onClick={toggleChatbot}>Toggle Chatbot</button>
-    <ChatBot
-    
+    <ChatBot 
+        
         isOpen={isChatbotOpen}
       options={{
         title: "Manna Kitchen Chat",

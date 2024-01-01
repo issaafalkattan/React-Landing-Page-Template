@@ -35,6 +35,7 @@ const App = () => {
 
   return (
     <div>
+      <MKChatbot/>
       <Navigation />
       <Header data={landingPageData.Header} />
       <Features data={landingPageData.Features} />
@@ -44,7 +45,7 @@ const App = () => {
       <Testimonials data={landingPageData.Testimonials} />
       <Team data={landingPageData.Team} />
       <Contact data={landingPageData.Contact} />
-      <MKChatbot/>
+      
 
     </div>
   );
