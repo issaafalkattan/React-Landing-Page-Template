@@ -8,7 +8,7 @@ import '../../src/components/MKChatbot.css';
 
 const MKChatbot = () => {
   // Define custom conversation messages
-  const helpOptions = ["Booking", "Contact", "FB Page", "Menu", "Other"];
+  const helpOptions = ["Booking", "Contact", "FB Page", "Menu", ];
   const [isChatbotOpen, setIsChatbotOpen] = useState(false);
   const flow = {
       start: {

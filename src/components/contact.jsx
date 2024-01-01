@@ -14,12 +14,13 @@ const initialState = {
   dietary_requirements: "",
   date: "",
   time: "",
+  location: "",
   notes: "",
 };
 
 export const Contact = (props) => {
   
-  const [{ name, email, message,}, setState] = useState(initialState);
+  const [{ name, email, message, location}, setState] = useState(initialState);
   const [recaptchaValue, setRecaptchaValue] = useState(null);
 
   const handleChange = (e) => {
@@ -68,6 +69,7 @@ export const Contact = (props) => {
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">
+                    <label htmlFor="name">Full Name:</label>
                       <input
                         type="text"
                         id="name"
@@ -76,42 +78,67 @@ export const Contact = (props) => {
                         placeholder="Name"
                         required
                         onChange={handleChange}
+                        autoComplete="off"
                       />
                       <p className="help-block text-danger"></p>
                     </div>
                   </div>
-
+                    
                   <div className="col-md-6">
                     <div className="form-group">
-                      <input type="tel" name="contact_number" id="contact_number" placeholder="Contact Number" className="form-control" required onChange={handleChange} />
+                    <label htmlFor="contact_number">Phone Number:</label>
+                      <input type="tel" name="contact_number" id="contact_number" placeholder="Contact Number" className="form-control" required onChange={handleChange} autoComplete="off" />
+                      <p className="help-block text-danger"></p>
+                    </div>
+                  </div>
+                      <div className="col-md-6">
+                      <div className="form-group">
+                        <label htmlFor="location">Select Location of Restaurant:</label>
+                        <select
+                          id="location"
+                          name="location"
+                          className="form-control"
+                          value={location}
+                          onChange={handleChange}
+                          required
+                          autoComplete="off"
+                        >
+                          <option value="">Select Location </option>
+                          <option value="Ormiston">Ormiston</option>
+                          <option value="Onehunga">Onehunga</option>
+                        </select>
+                      </div>
+                    </div>
+                  <div className="col-md-6">
+                    <div className="form-group">
+                    <label htmlFor="adults">Number of Adults in reservation:</label>
+                    <input type="number" name="adults" id="adults" placeholder="Number of Adults" className="form-control" required onChange={handleChange} autoComplete="off" />
                       <p className="help-block text-danger"></p>
                     </div>
                   </div>
                   <div className="col-md-6">
                     <div className="form-group">
-                    <input type="number" name="adults" id="adults" placeholder="Number of Adults" className="form-control" required onChange={handleChange} />
+                    <label htmlFor="kids">Number of Kids in reservation:</label>
+                    <input type="number" name="kids" id="kids" placeholder="Number of Kids" className="form-control" required onChange={handleChange} autoComplete="off" />
                       <p className="help-block text-danger"></p>
                     </div>
                   </div>
-                  <div className="col-md-6">
+                  <div className="col-md-6 col-sm-12">
                     <div className="form-group">
-                    <input type="number" name="kids" id="kids" placeholder="Number of Kids" className="form-control" required onChange={handleChange} />
-                      <p className="help-block text-danger"></p>
+                      <label htmlFor="date">Date of Booking:</label>
+                    <input type="date" name="date" id="date" placeholder="Date of Booking" className="form-control" required onChange={handleChange} autoComplete="off" />
                     </div>
                   </div>
                   <div className="col-md-6">
                     <div className="form-group">
-                    <input type="date" name="date" id="date" placeholder="Date of Booking" className="form-control" required onChange={handleChange} />
-                    </div>
-                  </div>
-                  <div className="col-md-6">
-                    <div className="form-group">
-                    <input type="time" name="time" id="time" placeholder="Time of Arrival" className="form-control" required onChange={handleChange} />
+                    <label htmlFor="time">Time of Arrival:</label>
+                    <input type="time" name="time" id="time" placeholder="Time of Arrival" className="form-control" required onChange={handleChange} autoComplete="off" />
                     </div>
                   </div>
                   
-                  <div className="col-md-6">
+                  <div className="col-md-6 col-sm-12">
                     <div className="form-group">
+                    <label htmlFor="email">Email Address:</label>
                       <input
                         type="email"
                         id="email"
@@ -120,6 +147,7 @@ export const Contact = (props) => {
                         placeholder="Email"
                         required
                         onChange={handleChange}
+                        autoComplete="off"
                       />
                       <p className="help-block text-danger"></p>
                     </div>
@@ -128,6 +156,7 @@ export const Contact = (props) => {
                   </div>
                 </div>
                 <div className="form-group">
+                <label htmlFor="message">Any Request/Occasion would you like us to know?:</label>
                   <textarea
                     name="message"
                     id="message"
@@ -136,6 +165,7 @@ export const Contact = (props) => {
                     placeholder="Message"
                     required
                     onChange={handleChange}
+                    autoComplete="off"
                   ></textarea>
                   <p className="help-block text-danger"></p>
                 </div>
@@ -205,7 +235,7 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy; 2023 Manna Kitchen. Design by{" "}
+            &copy; 2024 Manna Kitchen. Developed by{" "}
             <a href="https://patrick-t-portfolio.vercel.app/" rel="nofollow">
               Patrick Tricenio
             </a>
