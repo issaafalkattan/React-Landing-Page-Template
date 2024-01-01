@@ -207,6 +207,7 @@ a:focus,
 .intro {
   display: table;
   width: 100%;
+  max-width: 100%;
   padding: 0;
   background: url(../img/Manna\ Kitchen\ Banner.jpg) center center no-repeat;
   background-color: #e5e5e5;
