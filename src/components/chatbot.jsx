@@ -39,16 +39,16 @@ const MKChatbot = () => {
               switch (params.userInput) {
               case "Booking":
                 
-                  link = "https://manakitchenprototype.vercel.app/#contact";
+                  link = "#contact";
                   break;
               case "Contact":
-                  link = "https://manakitchenprototype.vercel.app/#contact";
+                  link = "#contact";
                   break;
               case "FB PAGE":
-                  link = "https://www.facebook.com/MannaKitchenNZ1";
+                  link = "#contact";
                   break;
               case "Menu":
-                  link = "https://manakitchenprototype.vercel.app/#portfolio";
+                  link = "#portfolio";
                   break;
 
               default:
@@ -56,7 +56,7 @@ const MKChatbot = () => {
               }
               params.injectMessage("Sit tight! I'll send you right there!");
               setTimeout(() => {
-                  window.open(link);
+                window.location.href = link;
               }, 1000)
               return "repeat"
           },
