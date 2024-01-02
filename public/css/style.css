@@ -91,7 +91,7 @@ hr {
   position: absolute;
   top: 45%;
   transform: translateY(-50%);
-  left: 15px;
+  left: 1px;
   /* Adjust the left positioning as needed */
 }
 
@@ -715,5 +715,14 @@ label {
 @media (max-width: 768px) {
   #about img {
     margin: 50px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logo-img {
+    width: 150px;
+    /* Adjust for smaller screens */
+    left: 10px;
+    /* Adjust positioning for smaller screens */
   }
 }
