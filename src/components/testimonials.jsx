@@ -14,10 +14,10 @@ export const Testimonials = (props) => {
                   <div className="testimonial">
                     <div className="testimonial-image">
                       {" "}
-                      <img src={d.img} alt="" />{" "}
+                      <img src={d.img} alt="" style={{ width: '100%' }} />{" "}
                     </div>
                     <div className="testimonial-content">
-                      <p>"{d.text}"</p>
+                      <p style={{ fontSize: '100%' }}>"{d.text}"</p>
                       <div className="testimonial-meta"> - {d.name} </div>
                     </div>
                   </div>
@@ -29,3 +29,4 @@ export const Testimonials = (props) => {
     </div>
   );
 };
+

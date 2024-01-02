@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import './styles.css';
 import 'react-chatbotify/dist/react-chatbotify.css';
 
 ReactDOM.render(

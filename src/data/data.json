@@ -68,8 +68,8 @@
     },
     {
       "icon": "fa fa-motorcycle",
-      "name": "Food Delivery (Under Development)",
-      "text": "Convenient dining at your fingertips. Soon you'll be able to order your favorite Manna Kitchen dishes on DoorDash and UberEats."
+      "name": "Food Delivery ",
+      "text": "Convenient dining at your fingertips. Order at Doordash for delivery right at your door."
     }
 
 
@@ -134,6 +134,7 @@
     "address": "240 Ormiston Road FlatBush, Manukau, New Zealand",
     "phone": "09-558 3817",
     "email": "kusinaniperla@gmail.com",
+    "openinghours": "Tuesday - Sunday 11:00 AM - 7:00 PM",
     "facebook": "https://www.facebook.com/profile.php?id=61554115607382",
     "twitter": "twitter.com",
     "youtube": "youtube.com"
@@ -154,6 +155,11 @@
       "icon": "fa fa-lemon-o",
       "title": "Fresh Ingredients",
       "text": "Our commitment to quality means sourcing the finest ingredients, ensuring every dish we serve is a celebration of flavor and freshness."
+    },
+    {
+      "icon": "fa fa-coffee",
+      "title": "Café Ambiance",
+      "text": "Indulge in a relaxed café ambiance, perfect for enjoying a cup of artisanal coffee or tea along with our delectable treats."
     }
   ]
 }

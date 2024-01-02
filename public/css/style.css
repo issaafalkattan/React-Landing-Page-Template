@@ -209,8 +209,8 @@ a:focus,
   width: 100%;
   max-width: 100%;
   padding: 0;
-  background: url(../img/Manna\ Kitchen\ Banner.jpg) center center no-repeat;
-  background-color: #e5e5e5;
+  background: url(../img/Ormiston\ Manna\ Kitchen.jpg) center center no-repeat;
+  background-color: none;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -222,9 +222,20 @@ a:focus,
     background-size: contain; /* Use 'contain' for smaller screens */
   }
 }
+
 .intro .overlay {
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255, 0.011);
+
 }
+
+/* Additional styles for better visibility on small screens */
+@media (max-width: 768px) {
+  .intro .overlay {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+
 .intro h1 {
   font-family: "Raleway", sans-serif;
   color: #fff;
