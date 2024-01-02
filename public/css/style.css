@@ -83,6 +83,18 @@ hr {
   border: 0;
 }
 
+.logo-img {
+  width: 175px;
+  /* Adjust as needed */
+  /* Maintain aspect ratio */
+
+  position: absolute;
+  top: 45%;
+  transform: translateY(-50%);
+  left: 15px;
+  /* Adjust the left positioning as needed */
+}
+
 /* Navigation */
 #menu {
   padding: 15px;

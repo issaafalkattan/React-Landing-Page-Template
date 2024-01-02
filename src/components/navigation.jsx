@@ -1,24 +1,25 @@
 import React from "react";
+import logoImage from "../GrayCLogo2.png"
 
 export const Navigation = (props) => {
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container">
-        <div className="navbar-header">
+        <div className="navbar-header" style={{ position: "relative" }}>
           <button
             type="button"
             className="navbar-toggle collapsed"
             data-toggle="collapse"
             data-target="#bs-example-navbar-collapse-1"
           >
-            {" "}
             <span className="sr-only">Toggle navigation</span>{" "}
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
-            GrayC Electric
+          {/* Logo added here */}
+          <a className="navbar-brand page-scroll" href="#page-top" style={{ position: "absolute", top: 0, left: 0 }}>
+            <img src={logoImage} alt="GrayC Electric Logo" className="logo-img" />
           </a>{" "}
         </div>
 
