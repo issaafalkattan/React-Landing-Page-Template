@@ -24,7 +24,7 @@ export const Header = (props) => {
                     transform: 'translate(-50%, -50%)'
                   }}
                 >
-                  Contact Us/Make Reservation
+                  Contact Us/Reservation
                 </a>
 
                 {/* Add the "Order Now" button */}

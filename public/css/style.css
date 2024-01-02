@@ -216,6 +216,12 @@ a:focus,
   background-size: cover;
   -o-background-size: cover;
 }
+@media (max-width: 768px) {
+  /* Adjustments for smaller screens */
+  .intro {
+    background-size: contain; /* Use 'contain' for smaller screens */
+  }
+}
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
 }

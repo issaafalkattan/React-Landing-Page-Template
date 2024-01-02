@@ -185,8 +185,10 @@ export const Contact = (props) => {
               <h3>Contact Info</h3>
               <p>
                 <span>
-                  <i className="fa fa-map-marker"></i> Address
+                  <i className="fa fa-map-marker" href='https://www.google.com/maps/place/240+Ormiston+Road,+Flat+Bush,+Auckland+2019/@-36.9646119,174.9099049,17z/data=!3m1!4b1!4m6!3m5!1s0x6d0d4ce59519bff5:0xa7eca17053996fe7!8m2!3d-36.9646162!4d174.9124798!16s%2Fg%2F11h0_ngc26?hl=en&entry=ttu'></i> Address
+                 
                 </span>
+                
                 {props.data ? props.data.address : "loading"}
               </p>
             </div>
