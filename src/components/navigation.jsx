@@ -1,5 +1,5 @@
 import React from "react";
-
+import logoImage from "../../src/img/Manna Kitchen Logo.png";
 export const Navigation = (props) => {
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
@@ -17,8 +17,9 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          <a className="navbar-brand page-scroll" href="#page-top" style={{fontSize: '15px'}}>
-          Manna Kitchen Ormiston
+          <a className="navbar-brand page-scroll" href="#page-top" style={{fontSize: '15px', }}>
+            <img src={logoImage} alt="Manna Kitchen Logo" style={{ height: '35px', marginRight: '10px' }} />
+            {/* Manna Kitchen Ormiston */}
           </a>{" "}
         </div>
 
@@ -42,9 +43,10 @@ export const Navigation = (props) => {
                 Services
               </a>
             </li>
+            
             <li>
               <a href="#portfolio" className="page-scroll">
-                Gallery
+                Restaurant Menu
               </a>
             </li>
             <li>
@@ -52,11 +54,12 @@ export const Navigation = (props) => {
                 Testimonials
               </a>
             </li>
+{/* 
             <li>
               <a href="#team" className="page-scroll">
                 Team
               </a>
-            </li>
+            </li> */}
             <li>
               <a href="#contact" className="page-scroll">
                 Contact

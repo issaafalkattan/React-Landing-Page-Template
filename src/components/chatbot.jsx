@@ -73,7 +73,7 @@
 
 //   return (
 //     <div className={isChatbotOpen ? 'chatbot-open' : ''}>
-//         <button onClick={toggleChatbot}>Toggle Chatbot</button>
+//         <button onClick={toggleChatbot}></button>
 //     <ChatBot 
         
 //         isOpen={isChatbotOpen}

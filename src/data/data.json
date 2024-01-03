@@ -20,38 +20,45 @@
   },
   "Gallery": [
     {
-      "title": "Menu",
-      "largeImage": "img/MenuofFood.jpg",
-      "smallImage": "img/MenuofFood.jpg"
-    },
-    {
-      "title": "Mains ",
-      "largeImage": "img/Mains.jpg",
-      "smallImage": "img/Mains.jpg"
-    },
-
-    {
       "title": "Starters",
-      "largeImage": "img/StartersBrunch.jpg",
-      "smallImage": "img/StartersBrunch.jpg"
+      "largeImage": "img/starter.png",
+      "smallImage": "img/starter.png"
     },
     {
-      "title": "Opening Hours",
-      "largeImage": "img/Opening Hours.jpg",
-      "smallImage": "img/Opening Hours.jpg"
+      "title": "mains",
+      "largeImage": "img/mains2.png",
+      "smallImage": "img/mains2.png"
+    },
+    {
+      "title": "mains ",
+      "largeImage": "img/mains1.png",
+      "smallImage": "img/mains1.png"
     },
 
 
     {
-      "title": "",
-      "largeImage": "img/Guests1.jpg",
-      "smallImage": "img/Guests1.jpg"
+      "title": "Grill",
+      "largeImage": "img/grill1.png",
+      "smallImage": "img/grill1.png"
     },
     {
-      "title": "",
-      "largeImage": "img/Guests4.jpg",
-      "smallImage": "img/Guests4.jpg"
+      "title": "Soups",
+      "largeImage": "img/soups.png",
+      "smallImage": "img/soups.png"
+    },
+    {
+      "title": "Drinks",
+      "largeImage": "img/drinks.png",
+      "smallImage": "img/drinks.png"
+    },
+    {
+      "title": "Desserts",
+      "largeImage": "img/desserts.png",
+      "smallImage": "img/desserts.png"
     }
+
+
+ 
 
 
   ],
