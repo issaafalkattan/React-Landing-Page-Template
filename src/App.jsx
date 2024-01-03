@@ -9,7 +9,7 @@ import { Gallery } from "./components/gallery";
 import { Testimonials } from "./components/testimonials";
 import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
-import { MKChatbot } from "./components/chatbot";
+// import { MKChatbot } from "./components/chatbot";
 
 
 
@@ -35,7 +35,7 @@ const App = () => {
 
   return (
     <div>
-      <MKChatbot/>
+      
       <Navigation />
       <Header data={landingPageData.Header} />
       <Features data={landingPageData.Features} />
