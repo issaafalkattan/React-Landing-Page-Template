@@ -208,7 +208,8 @@ a:focus,
   display: table;
   width: 100%;
   max-width: 100%;
-  padding: 0;
+  padding: -0;
+  
   background: url(../img/Ormiston\ Manna\ Kitchen.jpg) center center no-repeat;
   background-color: none;
   -webkit-background-size: cover;
