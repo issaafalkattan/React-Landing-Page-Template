@@ -8,7 +8,8 @@ import { Services } from "./components/services";
 import { Gallery } from "./components/gallery";
 import { Testimonials } from "./components/testimonials";
 // import Restaurantmenu from "./components/Restaurantmenu";
-// import { Team } from "./components/team";
+import { Team } from "./components/team"; // Use lowercase 'team'
+
 import { Contact } from "./components/contact";
 // import { MKChatbot } from "./components/chatbot";
 
@@ -45,7 +46,7 @@ const App = () => {
       <Gallery data={landingPageData.Gallery} />
       {/* <Restaurantmenu/> */}
       <Testimonials data={landingPageData.Testimonials} />
-      {/* <Team data={landingPageData.Team} /> */}
+      <Team data={landingPageData.Team} />
       <Contact data={landingPageData.Contact} />
       
 

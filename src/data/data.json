@@ -50,12 +50,8 @@
       "title": "Drinks",
       "largeImage": "img/drinks.png",
       "smallImage": "img/drinks.png"
-    },
-    {
-      "title": "Desserts",
-      "largeImage": "img/desserts.png",
-      "smallImage": "img/desserts.png"
     }
+
 
 
  
@@ -104,24 +100,64 @@
   ],
   "Team": [
     {
-      "img": "img/team/01.jpg",
-      "name": "Joce Lorenz",
-      "job": "Owner"
+      "img": "img/newcustomerlogo/Customer1.jpg",
+      "name": "",
+      "job": ""
     },
     {
-      "img": "img/team/02.jpg",
-      "name": "JP Pearl",
-      "job": "Owner"
+      "img": "img/newcustomerlogo/Customer2.jpg",
+      "name": "",
+      "job": ""
     },
     {
-      "img": "img/team/03.jpg",
-      "name": "Juan Dela Cruz",
-      "job": "Chef"
+      "img": "img/newcustomerlogo/Customer3.jpg",
+      "name": "",
+      "job": ""
     },
     {
-      "img": "img/team/04.jpg",
-      "name": "Juan Dela Cruz",
-      "job": "Chef"
+      "img": "img/newcustomerlogo/Customer6.jpg",
+      "name": "",
+      "job": ""
+    },
+    {
+      "img": "img/newcustomerlogo/Customer5.jpg",
+      "name": "",
+      "job": ""
+    },
+    {
+      "img": "img/newcustomerlogo/Customer7.jpg",
+      "name": "",
+      "job": ""
+    },
+    {
+      "img": "img/newcustomerlogo/Customer8.jpg",
+      "name": "",
+      "job": ""
+    },
+    {
+      "img": "img/newcustomerlogo/Customer9.jpg",
+      "name": "",
+      "job": ""
+    },
+    {
+      "img": "img/newcustomerlogo/Customer10.jpg",
+      "name": "",
+      "job": ""
+    },
+    {
+      "img": "img/newcustomerlogo/Customer11.jpg",
+      "name": "",
+      "job": ""
+    },
+    {
+      "img": "img/newcustomerlogo/Customer12.jpg",
+      "name": "",
+      "job": ""
+    },
+    {
+      "img": "img/newcustomerlogo/Customer13.jpg",
+      "name": "",
+      "job": ""
     }
   ],
   "Contact": {
