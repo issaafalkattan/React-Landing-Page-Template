@@ -8,7 +8,7 @@ import { Services } from "./components/services";
 import { Gallery } from "./components/gallery";
 import { Testimonials } from "./components/testimonials";
 // import Restaurantmenu from "./components/Restaurantmenu";
-import { Team } from "./components/team"; // Use lowercase 'team'
+import { Team } from "./components/Team"; // Use lowercase 'team'
 
 import { Contact } from "./components/contact";
 // import { MKChatbot } from "./components/chatbot";
