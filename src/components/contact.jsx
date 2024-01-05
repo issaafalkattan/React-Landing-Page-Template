@@ -38,9 +38,11 @@ export const Contact = (props) => {
       alert("Please verify that you are not a robot.");
       return;
     }
-  
+    const emailjspublickey = process.env.REACT_APP_EMAILJS_PUBLICKEY
+    const emailjstemplateid = process.env.REACT_APP_EMAILJS_TEMPLATEID
+    const emailjsserviceid = process.env.REACT_APP_EMAILJS_SERVICEID
     emailjs
-      .sendForm("service_ub3ip7b","template_bqcbu6a", e.target, "s71WJ3jQjEobW5KEF")
+      .sendForm(emailjsserviceid,emailjstemplateid, e.target, emailjspublickey)
       .then(
         (result) => {
           console.log(result.text);
