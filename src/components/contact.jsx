@@ -19,6 +19,7 @@ const initialState = {
 };
 
 export const Contact = (props) => {
+  const RECAPTCHA_SITE_KEY = process.env.REACT_APP_RECAPTCHA_SITE_KEY;
   
   const [{ name, email, message, location}, setState] = useState(initialState);
   const [recaptchaValue, setRecaptchaValue] = useState(null);
@@ -171,10 +172,7 @@ export const Contact = (props) => {
                   ></textarea>
                   <p className="help-block text-danger"></p>
                 </div>
-                <ReCAPTCHA
-           sitekey="6Lfcj0EpAAAAAMIkOUhRMiZWVyJiRWR04t0ndIBN"
-          onChange={(value) => setRecaptchaValue(value)}
-            />
+                <ReCAPTCHA sitekey={RECAPTCHA_SITE_KEY} onChange={(value) => setRecaptchaValue(value)} />
                 <div id="success"></div>
                 <button type="submit" className="btn btn-custom btn-lg">
                   Send Message
