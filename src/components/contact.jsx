@@ -2,7 +2,7 @@ import { useState } from "react";
 import emailjs from "emailjs-com";
 import React from "react";
 import ReCAPTCHA from "react-google-recaptcha";
-
+import dompurify from 'dompurify'
 
 const initialState = {
   name: "",
@@ -19,9 +19,16 @@ const initialState = {
 };
 
 export const Contact = (props) => {
+
+  
+  const validateEmail = (email) => {
+    // Uses a regular expression to validate the email format
+    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailPattern.test(email);
+  };
   
   
-  const [{ name, email, message, location}, setState] = useState(initialState);
+  const [{ name, email, message, location,adults, kids, date, time}, setState] = useState(initialState);
   const [recaptchaValue, setRecaptchaValue] = useState(null);
 
   const handleChange = (e) => {
@@ -33,7 +40,30 @@ export const Contact = (props) => {
   
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(name, email, message);
+
+    
+    const sanitizedName = dompurify.sanitize(name);
+    const sanitizedEmail = dompurify.sanitize(email);
+    const sanitizedMessage = dompurify.sanitize(message);
+    const sanitizedLocation = dompurify.sanitize(location);
+    const sanitizedAdults = dompurify.sanitize(adults);
+    const sanitizedKids = dompurify.sanitize(kids);
+    const sanitizedDate = dompurify.sanitize(date);
+    const sanitizedTime = dompurify.sanitize(time);
+    if (
+      !sanitizedName ||
+      !sanitizedEmail ||
+      !validateEmail(sanitizedEmail) ||
+      !sanitizedMessage ||
+      !sanitizedLocation ||
+      !sanitizedAdults ||
+      !sanitizedKids ||
+      !sanitizedDate ||
+      !sanitizedTime
+    ) {
+      alert("Please fill in all required fields with valid information.");
+      return;
+    }
 
     if (!recaptchaValue) {
       alert("Please verify that you are not a robot.");
