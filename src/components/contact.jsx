@@ -22,7 +22,7 @@ export const Contact = (props) => {
 
   
   const validateEmail = (email) => {
-    // Uses a regular expression to validate the email format
+    // using REGEX
     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return emailPattern.test(email);
   };
@@ -33,6 +33,24 @@ export const Contact = (props) => {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
+
+   
+   if (name === 'name' && value.length > 50) {
+    return; 
+  }
+
+  
+  if (name === 'message' && value.length > 200) {
+    return; 
+  }
+
+ 
+  if (name === 'contact_number' && value.length > 15) {
+    return; 
+  }
+    //this are used to prevent DOS attacks
+  
+
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
   const clearState = () => setState({ ...initialState });
@@ -41,7 +59,7 @@ export const Contact = (props) => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    
+    // setting sanitations to prevent XSS attacks
     const sanitizedName = dompurify.sanitize(name);
     const sanitizedEmail = dompurify.sanitize(email);
     const sanitizedMessage = dompurify.sanitize(message);
