@@ -1,6 +1,7 @@
 import { useState } from "react";
 import emailjs from "emailjs-com";
 import React from "react";
+import { useNavigate } from 'react-router-dom';
 
 const initialState = {
   name: "",
@@ -8,6 +9,7 @@ const initialState = {
   message: "",
 };
 export const Contact = (props) => {
+  const navigate = useNavigate();
   const [{ name, email, message }, setState] = useState(initialState);
 
   const handleChange = (e) => {
@@ -98,7 +100,9 @@ export const Contact = (props) => {
                 <button type="submit" className="btn btn-custom btn-lg" style={{width: '300px'}}>
                   로그인
                 </button>
-                <div style={{width: '300px', textAlign: 'center'}}><u>회원가입</u></div>
+                <div style={{width: '300px', textAlign: 'center', cursor: 'pointer'}} onClick={() => navigate('/join')}>
+                  <u>회원가입</u>
+                </div>
               </form>
             </div>
           </div>
