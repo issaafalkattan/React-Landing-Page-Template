@@ -40,7 +40,7 @@ const App = () => {
     <div>
       
       <Navigation />
-
+      <ChatComponent />
       <Header data={landingPageData.Header} />
       <Features data={landingPageData.Features} />
       <About data={landingPageData.About} />
@@ -50,7 +50,7 @@ const App = () => {
       <Testimonials data={landingPageData.Testimonials} />
       <Team data={landingPageData.Team} />
       <Contact data={landingPageData.Contact} />
-      <ChatComponent />
+      
       
 
     </div>
