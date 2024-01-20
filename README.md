@@ -1,1 +1,1 @@
-Coming soon
+Poster Coming soon and details
