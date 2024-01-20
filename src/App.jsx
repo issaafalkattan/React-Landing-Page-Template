@@ -12,6 +12,7 @@ import { Team } from "./components/Team"; // Use lowercase 'team'
 
 import { Contact } from "./components/contact";
 // import { MKChatbot } from "./components/chatbot";
+import ChatComponent from "./components/ChatComponent"; // Import scroll if needed
 
 
 
@@ -39,6 +40,7 @@ const App = () => {
     <div>
       
       <Navigation />
+
       <Header data={landingPageData.Header} />
       <Features data={landingPageData.Features} />
       <About data={landingPageData.About} />
@@ -48,6 +50,7 @@ const App = () => {
       <Testimonials data={landingPageData.Testimonials} />
       <Team data={landingPageData.Team} />
       <Contact data={landingPageData.Contact} />
+      <ChatComponent />
       
 
     </div>

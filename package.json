@@ -16,6 +16,7 @@
     "react-chatbotify": "^1.0.6",
     "react-dom": "^17.0.1",
     "react-google-recaptcha": "^3.1.0",
+    "react-helmet": "^6.1.0",
     "react-scripts": "^5.0.1",
     "react-scroll": "^1.9.0",
     "smooth-scroll": "^16.1.3",
