@@ -65,6 +65,12 @@ export const Navigation = (props) => {
                 Contact
               </a>
             </li>
+            <li>
+  <a href="https://mannakitchen.tawk.help/article/about-us" className="page-scroll" target="_blank" rel="noreferrer">
+    Knowledge Base
+  </a>
+</li>
+
           </ul>
         </div>
       </div>
