@@ -232,31 +232,36 @@ export const Contact = (props) => {
             </div>
           </div>
           <div className="col-md-3 col-md-offset-1 contact-info">
+          <div className="contact-item">
+  <p>
+    <span>
+      <i className="fa fa-map-marker"></i> Address
+    </span>{" "}
+    <a href={props.data ? props.data.mapLink : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3187.892834148585!2d174.9124798!3d-36.9646162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d0d4ce59519bff5%3A0xa7eca17053996fe7!2s240%20Ormiston%20Road%2C%20Flat%20Bush%2C%20Auckland%202019!5e0!3m2!1sen!2snz!4v1705868431727!5m2!1sen!2snz"} target="_blank" rel="noopener noreferrer">
+      {props.data ? props.data.address : "loading"}
+    </a>
+  </p>
+</div>
             <div className="contact-item">
-              <h3>Contact Info</h3>
-              <p>
-                <span>
-                  <i className="fa fa-map-marker" href='https://www.google.com/maps/place/240+Ormiston+Road,+Flat+Bush,+Auckland+2019/@-36.9646119,174.9099049,17z/data=!3m1!4b1!4m6!3m5!1s0x6d0d4ce59519bff5:0xa7eca17053996fe7!8m2!3d-36.9646162!4d174.9124798!16s%2Fg%2F11h0_ngc26?hl=en&entry=ttu'></i> Address
-                 
-                </span>
-                
-                {props.data ? props.data.address : "loading"}
-              </p>
-            </div>
-            <div className="contact-item">
-              <p>
-                <span>
-                  <i className="fa fa-phone"></i> Phone
-                </span>{" "}
-                {props.data ? props.data.phone : "loading"}
-              </p>
+                <p>
+                  <span>
+                 <i className="fa fa-phone"></i> Phone
+                 </span>{" "}
+                 <a href={`tel:${props.data ? props.data.phone : "loading"}`}>
+                 {props.data ? props.data.phone : "loading"}
+                </a>
+               </p>
             </div>
             <div className="contact-item">
               <p>
                 <span>
                   <i className="fa fa-envelope-o"></i> Opening Hours
                 </span>{" "}
-                {props.data ? props.data.openinghours : "loading"}
+                {props.data ? (
+      <a href={props.data.openingHoursLink ? props.data.openingHoursLink : "#"} target="_blank" rel="noopener noreferrer">
+        {props.data.openinghours}
+      </a>
+    ) : "loading"}
               </p>
             </div>
             <div className="contact-item">
@@ -264,9 +269,29 @@ export const Contact = (props) => {
                 <span>
                   <i className="fa fa-envelope-o"></i> Email
                 </span>{" "}
-                {props.data ? props.data.email : "loading"}
+                <a href={`mailto:${props.data ? props.data.email : "loading"}`}>
+      {props.data ? props.data.email : "loading"}
+    </a>
               </p>
             </div>
+
+             {/* Google Maps Section */}
+                <div className="col-md-12 contact-map">
+            <h3>Google Maps</h3>
+            <div className="map-container">
+              <iframe
+                title="Google Maps"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3187.892834148585!2d174.9124798!3d-36.9646162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d0d4ce59519bff5%3A0xa7eca17053996fe7!2s240%20Ormiston%20Road%2C%20Flat%20Bush%2C%20Auckland%202019!5e0!3m2!1sen!2snz!4v1705868431727!5m2!1sen!2snz"
+                width="100%"
+                height="400"
+                frameBorder="0"
+                style={{ border: 0 }}
+                allowFullScreen=""
+                aria-hidden="false"
+                tabIndex="0"
+              ></iframe>
+            </div>
+          </div>
             
           </div>
           <div className="col-md-12">
@@ -278,16 +303,16 @@ export const Contact = (props) => {
                       <i className="fa fa-facebook"></i>
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a href={props.data ? props.data.twitter : "/"}>
                       <i className="fa fa-twitter"></i>
                     </a>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <a href={props.data ? props.data.youtube : "/"}>
                       <i className="fa fa-youtube"></i>
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>

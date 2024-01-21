@@ -99,11 +99,7 @@
 
   ],
   "Team": [
-    {
-      "img": "img/newcustomerlogo/Customer1.jpg",
-      "name": "",
-      "job": ""
-    },
+
     {
       "img": "img/newcustomerlogo/Customer2.jpg",
       "name": "",
@@ -144,11 +140,7 @@
       "name": "",
       "job": ""
     },
-    {
-      "img": "img/newcustomerlogo/Customer11.jpg",
-      "name": "",
-      "job": ""
-    },
+
     {
       "img": "img/newcustomerlogo/Customer12.jpg",
       "name": "",
@@ -161,6 +153,31 @@
     },
     {
       "img": "img/newcustomerlogo/Customer14.jpg",
+      "name": "",
+      "job": ""
+    },
+    {
+      "isVideo": false,
+      "img": "img/newcustomerlogo/Customer1.jpg",
+      "name": "",
+      "job": ""
+    },
+    {
+      "isVideo": true,
+      "src": "img/video/Manna Kitchen Video 2.mp4",
+      "name": "",
+      "job": ""
+    },
+
+    {
+      "isVideo": true,
+      "src": "img/video/Manna Kitchen Video.mp4",
+      "name": "",
+      "job": ""
+    },
+    {
+      "isVideo": true,
+      "src": "img/video/Manna Kitchen Video 3.mp4",
       "name": "",
       "job": ""
     }
