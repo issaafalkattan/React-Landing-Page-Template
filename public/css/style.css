@@ -210,7 +210,7 @@ a:focus,
   max-width: 100%;
   padding: -0;
  
-  background: url(../img/Ormiston\ Manna\ Kitchen\ Logo.jpg) center center no-repeat;
+  background: url(../img/Ormiston\ Manna\ Kitchen\ Logo.jpg) center  no-repeat;
   background-color: rgba(255, 255, 255, 0.511);
   -webkit-background-size: cover;
   -moz-background-size: cover;

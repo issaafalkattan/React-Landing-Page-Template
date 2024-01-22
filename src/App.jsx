@@ -43,7 +43,7 @@ const App = () => {
       <Navigation />
       
       <ChatComponent />
-      
+
       <Header data={landingPageData.Header} />
       <MarqueeComponent/>
       <Features data={landingPageData.Features} />

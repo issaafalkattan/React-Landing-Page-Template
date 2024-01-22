@@ -29,7 +29,7 @@ export const Header = (props) => {
 
                 {/* Add the "Order Now" button */}
                 <a
-                  href="https://www.doordash.com/store/manna-kitchen-auckland-25561047/?event_type=autocomplete&pickup=false"
+                  href="https://www.doordash.com/store/manna-kitchen-auckland-27642015/?event_type=autocomplete&pickup=false"
                   className="btn btn-custom btn-lg page-scroll"
                   style={{
                     position: 'absolute',
