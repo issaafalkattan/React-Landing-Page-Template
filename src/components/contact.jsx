@@ -29,6 +29,8 @@ export const Contact = (props) => {
   
   
   const [{ name, email, message, location,adults, kids, date, time}, setState] = useState(initialState);
+  const [privacyAgreement, setPrivacyAgreement] = useState(false);
+  const [privacyAgreementError, setPrivacyAgreementError] = useState('');
   const [recaptchaValue, setRecaptchaValue] = useState(null);
 
   const handleChange = (e) => {
@@ -55,7 +57,11 @@ export const Contact = (props) => {
   };
   const clearState = () => setState({ ...initialState });
   
-  
+  const handlePrivacyCheckboxChange = () => {
+    setPrivacyAgreementError('');
+    setPrivacyAgreement(!privacyAgreement);
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -87,6 +93,10 @@ export const Contact = (props) => {
       alert("Please verify that you are not a robot.");
       return;
     }
+    if (!privacyAgreement) {
+      setPrivacyAgreementError('Please acknowledge the Privacy Act 2020.');
+      return;
+    }
     const emailjspublickey = process.env.REACT_APP_EMAILJS_PUBLICKEY
     const emailjstemplateid = process.env.REACT_APP_EMAILJS_TEMPLATEID
     const emailjsserviceid = process.env.REACT_APP_EMAILJS_SERVICEID
@@ -102,6 +112,9 @@ export const Contact = (props) => {
           console.log(error.text);
         }
       );
+
+ 
+
   };
   return (
     <div>
@@ -220,6 +233,28 @@ export const Contact = (props) => {
                   ></textarea>
                   <p className="help-block text-danger"></p>
                 </div>
+                <div className="form-group">
+        <label style={{ display: 'flex', alignItems: 'center' }}>
+          <input
+            type="checkbox"
+            name="privacyAgreement"
+            checked={privacyAgreement}
+            onChange={handlePrivacyCheckboxChange}
+            required
+            style={{ transform: 'scale(1.8)',  marginRight: '8px' }}
+          /> 
+          Under the New Zealand  Data Protection Regulation and also adhering to Privacy Act 2020, we need your approval for the use of personal information for us to communicate back to you (e.g. your name and email).
+        </label>
+        {privacyAgreementError && (
+          <p className="help-block text-danger">{privacyAgreementError}</p>
+        )}
+      </div>
+      <div className="form-group">
+        <a href="https://www.legislation.govt.nz/act/public/2020/0031/latest/LMS23223.html" target="_blank" rel="noopener noreferrer">
+          Read the Privacy Act 2020 NZ
+        </a>
+
+      </div>
                 <ReCAPTCHA
            sitekey="6Lfcj0EpAAAAAMIkOUhRMiZWVyJiRWR04t0ndIBN"
           onChange={(value) => setRecaptchaValue(value)}
