@@ -109,7 +109,7 @@ export const Contact = (props) => {
         <div className="container">
           <div className="col-md-8">
             <div className="row">
-              <div className="section-title">
+              <div className="section-title shining-button">
                 <h2>Get In Touch</h2>
                 <p>
                   Please fill out the form below to send us an email and we will
@@ -225,7 +225,7 @@ export const Contact = (props) => {
           onChange={(value) => setRecaptchaValue(value)}
             />
                 <div id="success"></div>
-                <button type="submit" className="btn btn-custom btn-lg">
+                <button type="submit" className="btn btn-custom btn-lg shining-button">
                   Send Message
                 </button>
               </form>

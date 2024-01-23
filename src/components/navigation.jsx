@@ -1,8 +1,10 @@
 import React from "react";
 import logoImage from "../../src/img/Manna Kitchen Logo.png";
+import MarqueeComponent from "./MarqueeComponent";
 export const Navigation = (props) => {
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
+      <MarqueeComponent/>
       <div className="container">
         <div className="navbar-header">
           <button
@@ -67,7 +69,7 @@ export const Navigation = (props) => {
             </li>
             <li>
   <a href="https://mannakitchen.tawk.help/article/about-us" className="page-scroll" target="_blank" rel="noreferrer">
-    Knowledge Base
+    Information Hub
   </a>
 </li>
 

@@ -3,11 +3,11 @@
   width: 100%;
   overflow: hidden;
   padding: 10px;
-  border: 1px solid #ddd;
+  border: 0px solid #ddd;
 }
 
 .marquee-text {
   margin: 0;
-  font-size: 16px;
+  font-size: 12px;
   color: #333;
 }

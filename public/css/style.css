@@ -72,7 +72,7 @@ hr {
 }
 /* Navigation */
 #menu {
-  padding: 15px;
+  padding: 5px;
   transition: all 0.8s;
 }
 #menu.navbar-default {
@@ -93,9 +93,9 @@ hr {
   color: #555;
   font-size: 15px;
   font-weight: 400;
-  padding: 8px 2px;
+  padding: 8px 5px;
   border-radius: 0;
-  margin: 9px 20px 0;
+  margin: 9px 15px 0;
 }
 #menu.navbar-default .navbar-nav > li > a:after {
   display: block;
@@ -103,7 +103,7 @@ hr {
   left: 0;
   bottom: -1px;
   width: 0;
-  height: 2px;
+  height: 1px;
   background: linear-gradient(to right, #0032A0 0%,  100%);
   content: "";
   transition: width 0.2s;
@@ -162,6 +162,37 @@ hr {
 .section-title p {
   font-size: 18px;
 }
+/* Add this style to your CSS file */
+.shining-button {
+  background: linear-gradient(to right, #0032A0 0%, #BF0D3E 100%);
+  color: #fff;
+  padding: 14px 34px;
+  border: none;
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: 500;
+  position: relative;
+  overflow: hidden;
+}
+
+.shining-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  transform: skewX(-20deg);
+  animation: shiningAnimation 6s linear infinite;
+}
+
+@keyframes shiningAnimation {
+  to {
+    left: 100%;
+  }
+}
+
 .btn-custom {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
@@ -207,26 +238,29 @@ a:focus,
 .intro {
   display: table;
   width: 100%;
+  height: 6rem;
   max-width: 100%;
-  padding: -0;
- 
-  background: url(../img/Ormiston\ Manna\ Kitchen\ Logo.jpg) center  no-repeat;
-  background-color: rgba(255, 255, 255, 0.511);
+  padding: 0;
+
+  /* Specify multiple background images separated by commas */
+  background: url('../img/FoodAI.jpg') center repeat ;
+  background-color: rgb(255, 255, 255);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: auto;
   -o-background-size: cover;
 }
+
 @media (max-width: 768px) {
   /* Adjustments for smaller screens */
   .intro {
     background-size: contain; /* Use 'contain' for smaller screens */
+    height: 5rem; /* Adjusted height for smaller screens */
   }
 }
 
 .intro .overlay {
   background: rgba(255, 255, 255, 0.011);
-
 }
 
 /* Additional styles for better visibility on small screens */
@@ -236,6 +270,7 @@ a:focus,
     font-size: 14px;
   }
 }
+
 
 .intro h1 {
   font-family: "Raleway", sans-serif;
