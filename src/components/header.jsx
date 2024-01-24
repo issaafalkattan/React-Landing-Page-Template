@@ -5,7 +5,7 @@ export const Header = (props) => {
   const [fontSize, setFontSize] = useState('5rem'); // Default font size
 
   useEffect(() => {
-    const welcomeText = " Welcome to Manna Kitchen";
+    const welcomeText = " Welcome to Manna Kitchen Ormiston";
 
     // Typewriter effect
     let index = 0;
