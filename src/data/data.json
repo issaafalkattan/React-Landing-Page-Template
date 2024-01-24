@@ -14,8 +14,7 @@
     "Why2": [
       "Live Entertainment - Immerse yourself in the rich Filipino culture with our live entertainment and events.",
       "Quality Ingredients - We pride ourselves on using only the freshest and highest quality ingredients in all of our dishes.",
-      "Innovative Menus - Our chefs continually push the boundaries with creative twists on classic recipes, providing you with a unique culinary adventure.",
-      "Community Focus - As a local business, we are deeply invested in the community, regularly participating in events and initiatives."
+      "Innovative Menus - Our chefs continually push the boundaries with creative twists on classic recipes, providing you with a unique culinary adventure."
     ]
   },
   "Gallery": [
@@ -59,11 +58,7 @@
 
   ],
   "Services": [
-    {
-      "icon": "fa fa-cutlery",
-      "name": "Catering Services",
-      "text": "Our catering services bring the essence of Filipino cuisine to your special events. Tailored menus and exceptional service make your gatherings memorable."
-    },
+
     {
       "icon": "fa fa-birthday-cake",
       "name": "Private Events",
@@ -73,6 +68,11 @@
       "icon": "fa fa-motorcycle",
       "name": "Food Delivery ",
       "text": "Convenient dining at your fingertips. Order at Doordash for delivery right at your door."
+    },
+    {
+      "icon": "fa fa-comments",
+      "name": "Customer Feedback",
+      "text": "We value your feedback! Share your thoughts with us, and help us enhance your dining experience. Your opinions matter, and we strive to make every visit exceptional."
     }
 
 
@@ -198,9 +198,9 @@
       "text": "Dive into the rich tapestry of flavors with our authentic Filipino dishes, each crafted with traditional recipes and the freshest local ingredients."
     },
     {
-      "icon": "fa fa-heart",
-      "title": "Family Recipes",
-      "text": "Experience the comfort of home with our family-inspired recipes passed down through generations, offering a taste of the Philippines' culinary heritage."
+      "icon": "fa fa-users",
+      "title": "Gather with Loved Ones",
+      "text": "Celebrate togetherness with a family-friendly setting perfect for gatherings, ensuring that every member of your family feels at home in our welcoming space."
     },
 
     {
@@ -209,9 +209,9 @@
       "text": "Our commitment to quality means sourcing the finest ingredients, ensuring every dish we serve is a celebration of flavor and freshness."
     },
     {
-      "icon": "fa fa-coffee",
-      "title": "Café Ambiance",
-      "text": "Indulge in a relaxed café ambiance, perfect for enjoying a cup of artisanal coffee or tea along with our delectable treats."
+      "icon": "fa fa-cutlery",
+      "title": "Warm Hospitality",
+      "text": "Experience genuine warmth and hospitality. Our friendly staff is dedicated to making your dining experience memorable and delightful."
     }
   ]
 }
