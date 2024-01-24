@@ -80,20 +80,16 @@
   ],
   
   "Testimonials": [
+
     {
-      "img": "img/CustomerReview1.jpg",
-      "text": "Highly recommended, delicious food",
-      "name": "Jared Tablate"
+      "img": "img/CustomerReview8.jpg",
+      "text": "It's an amazing experience. It's a very wonderful and friendly atmosphere. Wonderful food and service. The lively atmosphere, pleasant service, and excellent Filipino food recommendations are all present. This place is awesome! It's evident that maintaining happy customers is their main priority. The cuisine is superb and well worth the price, including both modern and traditional Filipino meals. Highly recommended",
+      "name": "LIFE Green Cleaning Service Limited"
     },
     {
-      "img": "img/CustomerReview2.jpg",
-      "text": "Manna Kitchen's food taste great! especially their Lechon belly and Spare ribs. Nice dining experience.",
-      "name": "Carm Thurlby"
-    },
-    {
-      "img": "img/CustomerReview3.jpg",
-      "text": "An evening to remember. Thank you for the great service",
-      "name": "Lani Larsen"
+      "img": "img/CustomerReview7.jpg",
+      "text": "Very friendly staff and yummy Filipino food",
+      "name": "Cheryl De Jesus"
     }
 
 
