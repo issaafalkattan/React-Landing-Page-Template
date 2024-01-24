@@ -57,7 +57,7 @@ export const Header = (props) => {
 
 {/* Add the "Order Now" button */}
 <a
-  href="http://www.doordash.com/store/manna-kitchen-auckland-27642015/?event_type=autocomplete&pickup=false"
+  href="https://mannakitchen.tawk.help/article/order-now"
   className="btn btn-custom btn-lg page-scroll shining-button"
   style={{
     position: 'absolute',
