@@ -126,7 +126,7 @@ export const Contact = (props) => {
                 <h2>Get In Touch</h2>
                 <p>
                   Please fill out the form below to send us an email and we will
-                  get back to you as soon as possible.
+                  get back to you as soon as possible. (Please be advised that Manna Kitchen Ormiston will never ask for your bank card information/physical address via email,phone and human live chat support)
                 </p>
               </div>
               <form name="sentMessage"  onSubmit={handleSubmit}>
@@ -251,7 +251,7 @@ export const Contact = (props) => {
       </div>
       <div className="form-group">
         <a href="https://www.legislation.govt.nz/act/public/2020/0031/latest/LMS23223.html" target="_blank" rel="noopener noreferrer">
-          Read the Privacy Act 2020 NZ
+          Read the Privacy Act 2020 NZ (Please be advised that Manna Kitchen Ormiston will never ask for your bank card information/physical address via email,phone and human live chat support)
         </a>
 
       </div>
