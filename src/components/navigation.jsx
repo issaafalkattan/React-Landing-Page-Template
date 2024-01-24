@@ -68,7 +68,7 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li>
-  <a href="https://mannakitchen.tawk.help/article/about-us" className="page-scroll" target="_blank" rel="noreferrer">
+  <a href="https://mannakitchenormiston.tawk.help/article/faq" className="page-scroll" target="_blank" rel="noreferrer">
     Information Hub
   </a>
 </li>
