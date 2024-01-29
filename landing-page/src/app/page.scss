@@ -1,0 +1,171 @@
+.main {
+  width: 100vw;
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+  /* 创建3D透视 */
+  perspective: 1px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 100vh;
+  /* 透视消失点坐标 */
+  perspective-origin: left top;
+  transform-style: preserve-3d;
+  position: relative;
+  
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 95px;
+    padding-top: 25px;
+    transition: 0.3s transform, 0.3s background-color;
+    .top-bar {
+      padding: 0 4rem;
+      font-size: 22px;
+    }
+  }
+  .main-part {
+    position: relative;
+    z-index: 1;
+    transform-origin: left top 0px;
+    transform: scale(2) translateZ(-1px);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    .left {
+      height: 500px;
+      max-width: 500px;
+      flex: auto;
+      background-color: #1a1a1a;
+
+      img {
+        object-fit: cover; 
+        filter: grayscale(100%); 
+      }
+    }
+    .right {
+      width: 500px;
+      // height: 500px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .title {
+      text-align: center;
+      font-size: clamp(3.5rem, 8vw, 120px);
+      font-weight: 700;
+      line-height: 0.9;
+      margin-bottom: clamp(2rem, 8vw, 4rem);
+    }
+    .slogan {
+      text-align: center;
+      font-size: clamp(1rem, 3vw, 32px);
+      font-weight: 700;
+      line-height: 1.15;
+      color: #828282;
+    }
+  }
+  .service {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #16161b;
+    h1 {
+      font-size: 56px;
+      margin-bottom: 20px;
+    }
+    .service-list {
+      margin-top: 60px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+  }
+  .team {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0c0c0d;
+    .top-left {
+      margin-left: 200px;
+      h1 {
+        font-size: 56px;
+        margin-bottom: 26px;
+      }
+      .desc {
+        margin-bottom: 36px;
+        width: 60%;
+      }
+    }
+    .team-member-list {
+      height: 400px;
+      width: calc(100% - 100px);
+      background-color: #16161b;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .partner {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0c0c0d;
+    h1 {
+      font-size: 38px;
+      width: 300px;
+    }
+    .partner-imgs {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 680px;
+    }
+    .partner-img {
+      width: 204px;
+      height: 204px;
+      background-color: #fff;
+      object-fit: contain;
+
+      &.white {
+        background-color: #fff;
+      }
+      &.black {
+        background-color: #000;
+        border: 1px solid #fff;
+        padding: 5px;
+      }
+    }
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    background-color: #0c0c0d;
+    font-size: 14px;
+    padding: 10px 50px;
+    color: #aaa;
+  }
+  footer {
+    font-size: 14px;
+    background-color: #0c0c0d;
+    padding: 10px 50px;
+    color: #aaa;
+  }
+}

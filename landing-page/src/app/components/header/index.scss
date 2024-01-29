@@ -1,0 +1,21 @@
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .right {
+    img {
+      position: relative;
+      background-color: black;
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: linear-gradient(rgba(255, 69, 0, 0.5), rgba(255, 69, 0, 0.5));
+        mix-blend-mode: screen; /* 正片垫底效果 */
+      }
+    }
+  }
+}

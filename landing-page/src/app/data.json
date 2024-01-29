@@ -1,0 +1,50 @@
+{
+  "sevice": [
+    {
+      "name": "水表",
+      "desc": "水表",
+      "img": ""
+    },
+    {
+      "name": "暖通空调",
+      "desc": "暖通空调",
+      "img": ""
+    },
+    {
+      "name": "防呆防错",
+      "desc": "防呆防错",
+      "img": ""
+    }
+  ],
+  "partners": [
+    {
+      "img": "/nwm.jpg",
+      "bgc": "white"
+    },
+    {
+      "img": "/siming.jpg",
+      "bgc": "white"
+    },
+    {
+      "img": "https://www.senge.com/bocstatic/web/img/sggb/logo.png?v=v210",
+      "bgc": "black"
+    }
+  ],
+  "contacts": [
+    {
+      "icon": "/phone.svg",
+      "desc": ["0574-88172768"]
+    },
+    {
+      "icon": "/address.svg",
+      "desc": [
+        "浙江省宁波市鄞州区诚信路850号汇峰亿天大厦B幢102",
+        "上海市闵行区合川路2679号虹桥国际商务广场B幢3A07"
+      ]
+    }
+  ],
+  "members": [
+    { "name": "ABC", "desc": "superman" },
+    { "name": "EFG", "desc": "iconman" }
+  ]
+}

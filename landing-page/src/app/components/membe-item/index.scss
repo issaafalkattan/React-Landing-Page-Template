@@ -1,0 +1,18 @@
+.member-item {
+  background-color: #a7a5a1;
+  width: 287px;
+  height: 323px;
+  position: relative;
+  &:first-child {
+    margin-right: 40px;
+  }
+  .info {
+    position: absolute;
+    bottom: -40px;
+    right: -20px;
+    width: 255px;
+    height: 80px;
+    background-color: #0c0c0d;
+    padding: 20px;
+  }
+}
