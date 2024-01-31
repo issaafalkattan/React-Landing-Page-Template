@@ -1,0 +1,10 @@
+.top-bar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  img {
+    position: relative;
+    background-color: black;
+    margin-right: 15px;
+  }
+}

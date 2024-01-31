@@ -1,0 +1,28 @@
+.service-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 280px;
+  min-height: 400px;
+  text-align: center;
+  img {
+    width: 121px;
+    height: 121px;
+    border-radius: 50% 50%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    margin-bottom: 33px;
+    flex-shrink: 0;
+    filter: grayscale(50%);
+    border: 15px #2a2a2a solid;
+  }
+  .service-name {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 38px;
+  }
+  .service-desc {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+}

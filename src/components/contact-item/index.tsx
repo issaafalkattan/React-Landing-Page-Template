@@ -1,4 +1,3 @@
-import Image from "next/image";
 import "./index.scss";
 
 export default function ContactItem(props: { icon: string; desc: string[] }) {
@@ -6,11 +5,11 @@ export default function ContactItem(props: { icon: string; desc: string[] }) {
   return (
     <div className="contact-item">
       <div className="left">
-        <Image src={icon} width={20} height={20} alt="address" />
+        <img src={icon} width={20} height={20} alt="address" />
       </div>
       <div className="right">
         {desc.map((item) => (
-          <p>{item}</p>
+          <p key={item}>{item}</p>
         ))}
       </div>
     </div>

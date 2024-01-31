@@ -1,3 +1,5 @@
+@import url('./global.css');
+
 .main {
   width: 100vw;
   scrollbar-width: thin;
@@ -20,6 +22,7 @@
     height: 95px;
     padding-top: 25px;
     transition: 0.3s transform, 0.3s background-color;
+    z-index: 2;
     .top-bar {
       padding: 0 4rem;
       font-size: 22px;
@@ -34,10 +37,12 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background-image: url('../../public/bg.jpg');
+    background-size: cover;
 
     .left {
-      height: 500px;
-      max-width: 500px;
+      height: 600px;
+      max-width: 600px;
       flex: auto;
       background-color: #1a1a1a;
 
@@ -79,6 +84,8 @@
     height: 100vh;
     width: 100%;
     background-color: #16161b;
+    // background: linear-gradient(to bottom, rgba(0,0,0,0.5), #16161b);;
+    
     h1 {
       font-size: 56px;
       margin-bottom: 20px;
@@ -92,13 +99,14 @@
     }
   }
   .team {
-    height: 100vh;
+    height: 70vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: #0c0c0d;
+    padding-top: 150px;
     .top-left {
       margin-left: 200px;
       h1 {
@@ -110,13 +118,27 @@
         width: 60%;
       }
     }
-    .team-member-list {
-      height: 400px;
+    // .team-member-list {
+    //   height: 400px;
+    //   width: calc(100% - 100px);
+    //   background-color: #16161b;
+    //   display: flex;
+    //   align-items: center;
+    //   justify-content: center;
+    // }
+    .team-advantages-list {
+      display: flex;
+      flex-direction: column;
       width: calc(100% - 100px);
       background-color: #16161b;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      padding: 30px 150px;
+      .advantage {
+        display: flex;
+        align-items: center;
+        img {
+          margin: 10px;
+        }
+      }
     }
   }
   .partner {
@@ -152,10 +174,17 @@
       }
     }
   }
+  .bottom {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0f0f0f;
+  }
   .contact {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     text-align: center;
     background-color: #0c0c0d;
     font-size: 14px;

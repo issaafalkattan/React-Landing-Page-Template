@@ -7,7 +7,7 @@ export default function ServiceItem(props: {
   const { name, img = "", desc } = props;
   return (
     <div className="service-item">
-      <img src={img} alt="" />
+      <img src={img} alt="service" />
       <div className="service-name">{name}</div>
       <div className="service-desc">{desc}</div>
     </div>
