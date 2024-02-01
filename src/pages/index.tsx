@@ -51,8 +51,9 @@ export default function Home() {
 
           <div className="logos">
             <div className="desc">
-              草船科技(CC.AI)成立于2021年12月，由前Facebook机器学习工程团队创建，核心成员来自Facebook,
-              字节跳动, 阿里巴巴, 华为, 菲尼克斯电气, 斯坦福大学, 哥伦比亚大学,
+              草船科技(CC.AI)成立于2021年12月，由前Facebook机器学习工程团队创建，核心成员来自Facebook，
+              字节跳动，
+              阿里巴巴，华为，菲尼克斯电气，斯坦福大学，哥伦比亚大学，
               南京大学等。
             </div>
             <div className="divider"></div>
