@@ -63,7 +63,7 @@
       text-align: center;
       font-size: clamp(3.5rem, 8vw, 120px);
       font-weight: 700;
-      line-height: 0.9;
+      line-height: 1.2;
       margin-bottom: clamp(2rem, 8vw, 4rem);
     }
     .slogan {
@@ -108,24 +108,43 @@
     background-color: #0c0c0d;
     padding-top: 150px;
     .top-left {
-      margin-left: 200px;
+      width: 80%;
+      height: 100%;
+      margin-bottom: 36px;
       h1 {
         font-size: 56px;
         margin-bottom: 26px;
       }
-      .desc {
-        margin-bottom: 36px;
-        width: 60%;
+      .logos {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .divider {
+          width: 1px;
+          height: 50px;
+          background-color: #aaaaaa;
+          margin: 0 40px;
+        }
+        .logo-items {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          img {
+            width: 70px;
+            height: 70px;
+            margin-right: 20px;
+            object-fit: contain;
+            border: 1px #373743 solid;
+            // background-color: #16161b;
+            &:last-child {
+              margin-right: none;
+            }
+          }
+        }
+        
       }
     }
-    // .team-member-list {
-    //   height: 400px;
-    //   width: calc(100% - 100px);
-    //   background-color: #16161b;
-    //   display: flex;
-    //   align-items: center;
-    //   justify-content: center;
-    // }
     .team-advantages-list {
       display: flex;
       flex-direction: column;
@@ -149,8 +168,12 @@
     align-items: center;
     background-color: #0c0c0d;
     h1 {
-      font-size: 38px;
+      font-size: 56px;
       width: 300px;
+      margin-bottom: 20px;
+    }
+    .investors-desc {
+
     }
     .partner-imgs {
       display: flex;
@@ -161,11 +184,16 @@
     .partner-img {
       width: 204px;
       height: 204px;
-      background-color: #fff;
+      padding: 10px;
+      // background-color: #fff;
       object-fit: contain;
 
       &.white {
         background-color: #fff;
+      }
+      &.transparent {
+        background-color: transparent;
+        border: 1px solid #fff;
       }
       &.black {
         background-color: #000;

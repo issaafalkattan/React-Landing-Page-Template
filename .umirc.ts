@@ -2,7 +2,7 @@ import { defineConfig } from "umi";
 
 export default defineConfig({
   npmClient: "pnpm",
-  favicons: ["/favicon.png"],
+  favicons: ["/favicon.ico"],
   metas: [
     {
       name: "keywords",

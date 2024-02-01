@@ -1,33 +1,39 @@
 {
   "service": [
     {
-      "name": "水表",
-      "desc": "草船科技提供先进的校表台位自动化、数字化和智能化服务，其中包括全自动化的质检流程和智能读表计算。实现设备校表过程的自动化管理，包括全自动质检，确保仪器设备的准确性和可靠性。同时引入智能读表计算技术，将数据采集和分析过程数字化，提高效率、减少人工干预，为您提供更为智能、高效的校表服务。",
-      "img": "/water_meter.png"
+      "name": "智能质检",
+      "desc": "草船科技提供先进的台位自动化、数字化和智能化质检服务，实现设备过程的自动化管理，包括全自动质检，确保仪器设备的准确性和可靠性。同时引入智能计算技术，将数据采集和分析过程数字化，提高效率、减少人工干预，为您提供更为智能、高效的质检服务。",
+      "img": "/ai_check.png"
     },
     {
       "name": "暖通空调",
       "desc": "自主研发暖通空调人工智能控制算法服务，实现建筑物暖通系统的全自动化、数字化和智能化管理。通过智能感知和深度学习，实时监测环境参数，个性化调整供暖、通风和空调系统，提供高效能源利用和工业标准范围的环境温度。",
-      "img": "/hvac.jpg"
+      "img": "/hvac.jpeg"
     },
     {
       "name": "防呆防错",
       "desc": "引领产线防呆防错服务的人工智能革新，通过智能感知和实时监控，迅速识别异常操作，并借助深度学习不断优化预测和纠错。我们的智能解决方案提高了工作效率和产品质量，通过自动化的管理和智能纠错机制，降低了人为错误风险，为企业实现更智能、可靠的生产流程。",
-      "img": "/isp.jpg"
+      "img": "/isp.png"
+    },
+    {
+      "name": "· · ·",
+      "desc": "我们的服务具备高度的灵活性，可根据客户需求自由定制，确保满足不同工业领域的独特需求，助力企业实现智能数字化转型。",
+      "img": "/more.svg",
+      "border": false
     }
   ],
   "partners": [
     {
-      "img": "/nwm.jpg",
+      "img": "/shunwei.png",
+      "bgc": "transparent"
+    },
+    {
+      "img": "https://gsrventureschina.com/wp-content/uploads/2020/08/CNV2Logo_PNG_LG.png",
       "bgc": "white"
     },
     {
-      "img": "/siming.jpg",
+      "img": "/chuxin.jpeg",
       "bgc": "white"
-    },
-    {
-      "img": "https://www.senge.com/bocstatic/web/img/sggb/logo.png?v=v210",
-      "bgc": "black"
     }
   ],
   "contacts": [
@@ -43,9 +49,10 @@
       ]
     }
   ],
-  "members": [
-    { "name": "ABC", "desc": "superman" },
-    { "name": "EFG", "desc": "iconman" }
+  "team_logos": [
+    { "name": "facebook", "src": "/facebook.png" },
+    { "name": "stanford", "src": "/stanford.png" },
+    { "name": "columbia", "src": "/columbia.png" }
   ],
-  "advantages": ["8-12周快速交付", "快速响应", "深耕行业", "智能化带动数字化"]
+  "advantages": ["4-12周快速交付", "快速响应", "深耕行业", "智能化带动数字化"]
 }
