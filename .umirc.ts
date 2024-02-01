@@ -17,4 +17,5 @@ export default defineConfig({
       content: "为中国40万家工业企业落地人工智能解决方案",
     },
   ],
+  outputPath: "build",
 });

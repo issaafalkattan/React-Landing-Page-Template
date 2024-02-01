@@ -6,7 +6,8 @@
     "build": "umi build",
     "postinstall": "umi setup",
     "setup": "umi setup",
-    "start": "npm run dev"
+    "start": "npm run dev",
+    "dep": "scp -r build/ ec2-user@161.189.211.235:/home/ec2-user"
   },
   "dependencies": {
     "umi": "^4.1.1"
