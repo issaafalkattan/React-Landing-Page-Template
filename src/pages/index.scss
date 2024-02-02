@@ -13,12 +13,6 @@
   perspective-origin: left top;
   transform-style: preserve-3d;
   position: relative;
-  &.no-perspective {
-    perspective: none;
-    .main-part {
-      transform: none;
-    }
-  }
   
   header {
     position: fixed;

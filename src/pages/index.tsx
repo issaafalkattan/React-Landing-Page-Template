@@ -7,22 +7,17 @@ import { useRef } from "react";
 
 export default function Home() {
   const mainPartRef = useRef(null);
-  const mainRef = useRef(null);
 
   const onScroll = (e: HTMLElement) => {
     const scrollPosition = e.target?.scrollTop;
     if (mainPartRef.current?.style) {
-      mainPartRef.current.style.opacity = 1 / (scrollPosition / 300);
-    }
-    if (scrollPosition <= 0) {
-      mainRef.current.classList?.add?.("no-perspective");
-    } else {
-      mainRef.current.classList?.remove?.("no-perspective");
+      const opacity = 1 / (scrollPosition / 300);
+      mainPartRef.current.style.opacity = opacity > 0 ? opacity : 1;
     }
   };
 
   return (
-    <main className="main" onScroll={onScroll} ref={mainRef}>
+    <main className="main" onScroll={onScroll}>
       <Header />
       <section className="main-part" ref={mainPartRef}>
         <div className="left">
