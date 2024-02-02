@@ -226,3 +226,81 @@
     color: #aaa;
   }
 }
+@media screen and (max-width: 600px) {
+  .main {
+    header {
+      .top-bar {
+        font-size: 14px;
+        padding: 0 20px;
+        img {
+          width: 30px;
+          height: 30px;
+          margin-right: 10px;
+        }
+      }
+    }
+    .main-part {
+      position: relative;
+      padding: 0 20px;
+      .left {
+        display: none;
+      }
+    }
+    .service {
+      height: auto;
+      padding: 50px 20px;
+      padding-top: 70px;
+      padding-bottom: 0;
+      .service-list {
+        height: auto;
+        flex-direction: column;
+      }
+    }
+    .team {
+      height: 100%;
+      padding-top: 50px;
+      .top-left {
+        width: auto;
+        padding: 50px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .logos {
+          flex-direction: column;
+          .divider {
+            display: none;
+          }
+          .logo-items {
+            margin-top: 50px;
+          }
+       }
+      }
+      .team-advantages-list {
+        flex-direction: column;
+        width: calc(100% - 40px);
+        padding: 10px;
+      }
+    }
+    .partner {
+      height: 100%;
+      flex-direction: column;
+      justify-content: center;
+      .partner-imgs {
+        width: 100%;
+        padding: 20px;
+        margin-top: 50px;
+        .partner-img  {
+          margin-bottom: 10px;
+          width: 100px;
+          height: 100px;
+        }
+      }
+    }
+    .contact {
+      .contact-item {
+        text-align: left;
+      }
+    }
+  }
+
+}
