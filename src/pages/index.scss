@@ -10,9 +10,15 @@
   overflow-y: auto;
   height: 100vh;
   /* 透视消失点坐标 */
-  perspective-origin: left -20px;
+  perspective-origin: left top;
   transform-style: preserve-3d;
   position: relative;
+  &.no-perspective {
+    perspective: none;
+    .main-part {
+      transform: none;
+    }
+  }
   
   header {
     position: fixed;
