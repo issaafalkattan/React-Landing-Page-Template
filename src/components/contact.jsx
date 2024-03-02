@@ -1,7 +1,7 @@
 import { useState } from "react";
 import emailjs from "emailjs-com";
 import React from "react";
-// import ReCAPTCHA from "react-google-recaptcha";
+import ReCAPTCHA from "react-google-recaptcha";
 import dompurify from 'dompurify'
 
 const initialState = {
@@ -89,10 +89,10 @@ export const Contact = (props) => {
       return;
     }
 
-    // if (!recaptchaValue) {
-    //   alert("Please verify that you are not a robot.");
-    //   return;
-    // }
+    if (!recaptchaValue) {
+      alert("Please verify that you are not a robot.");
+      return;
+    }
     if (!privacyAgreement) {
       setPrivacyAgreementError('Please acknowledge the Privacy Act 2020.');
       return;
@@ -255,10 +255,10 @@ export const Contact = (props) => {
         </a>
 
       </div>
-                {/* <ReCAPTCHA
-           sitekey="6Lfcj0EpAAAAAMIkOUhRMiZWVyJiRWR04t0ndIBN"
+                <ReCAPTCHA
+           sitekey="6LfO4oYpAAAAANnt40x6gM0PPqeOzPQqKUeHwTeD"
           onChange={(value) => setRecaptchaValue(value)}
-            /> */}
+            />
                 <div id="success"></div>
                 <button type="submit" className="btn btn-custom btn-lg shining-button">
                   Send Message
