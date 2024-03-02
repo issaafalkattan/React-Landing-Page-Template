@@ -256,7 +256,7 @@ export const Contact = (props) => {
 
       </div>
                 <ReCAPTCHA
-           sitekey="6LfO4oYpAAAAANnt40x6gM0PPqeOzPQqKUeHwTeD"
+           sitekey="6LfO4oYpAAAAAPFYckrOxqxsUsPn76Ps7-wAp3qg"
           onChange={(value) => setRecaptchaValue(value)}
             />
                 <div id="success"></div>
