@@ -31,7 +31,7 @@ export const Contact = (props) => {
   const [{ name, email, message, location,adults, kids, date, time}, setState] = useState(initialState);
   const [privacyAgreement, setPrivacyAgreement] = useState(false);
   const [privacyAgreementError, setPrivacyAgreementError] = useState('');
-  // const [recaptchaValue, setRecaptchaValue] = useState(null);
+  const [recaptchaValue, setRecaptchaValue] = useState(null);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
