@@ -1,0 +1,32 @@
+:root {
+    --bs-body-font-family: "Open Sans", sans-serif;
+    --bs-body-font-weight: 400;
+    --bs-heading-color: inherit;
+}
+
+:root[data-bs-theme=light] {
+    --bs-body-color: #212529;
+    --bs-box-shadow: 0 0.5rem 1rem #00000026;
+    --bs-dark: #212529;
+    --bs-emphasis-color: #212529;
+    --bs-light: #F8F9FA;
+    --bs-link-color-rgb: 96, 141, 253;
+    --bs-link-color: #5CA9FB;
+    --bs-primary: #5CA9FB;
+    --gradient: linear-gradient(to right, #6372FF 0%, #5CA9FB 100%);
+    --bs-secondary: #6C757D;
+}
+
+
+:root[data-bs-theme=dark] {
+    --bs-body-color: #DEE2E6;
+    --bs-box-shadow: 0 0.5rem 1rem #00000026;
+    --bs-dark: #212529;
+    --bs-emphasis-color: #212529;
+    --bs-light: #F8F9FA;
+    --bs-link-color-rgb: 96, 141, 253;
+    --bs-link-color: #5CA9FB;
+    --bs-primary: #5CA9FB;
+    --gradient: linear-gradient(to right, #6372FF 0%, #5CA9FB 100%);
+    --bs-secondary: #6C757D;
+}
