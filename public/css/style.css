@@ -207,8 +207,9 @@ a:focus,
 .intro {
   display: table;
   width: 100%;
+  height: 90%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
+  background: url(../img/tesla_grey.jpg) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -223,7 +224,7 @@ a:focus,
   color: #fff;
   font-size: 82px;
   font-weight: 700;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   margin-top: 0;
   margin-bottom: 10px;
 }
@@ -310,7 +311,7 @@ header .intro-text {
 /* Services Section */
 #services {
   padding: 100px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #4f5155 0%, #708191 100%);
   color: #fff;
 }
 #services .service-desc {
@@ -460,7 +461,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #4f5155 0%, #708191 100%);
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
@@ -604,3 +605,91 @@ label {
     margin: 50px 0;
   }
 }
+
+/*.img-thumbnail {*/
+/*  width: 250px;*/
+/*  height: 250px; !* Maintains aspect ratio *!*/
+/*  object-fit: cover; !* Ensures images fill the defined space *!*/
+/*  max-width: 300px; !* Set a specific width for all images *!*/
+/*  max-height: 300px; !* Set a specific height for all images *!*/
+/*  border-radius: 8px; !* Optional: Add rounded corners *!*/
+/*  margin: auto; !* Centers the images within their containers *!*/
+/*}*/
+
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1000;
+}
+
+/* Image container: Ensure each image container has a fixed size */
+.image-container {
+  width: 100%; /* Allow the image container to take full width of the column */
+  height: 200px; /* Fixed height for the container */
+  overflow: hidden; /* Hide anything that overflows */
+  position: relative;
+}
+
+/* Image styling: Ensure all images inside the container are the same size */
+.image-size {
+  width: 100%; /* Ensure the image stretches to fill the container width */
+  height: 100%; /* Ensure the image stretches to fill the container height */
+  object-fit: cover; /* Maintain the aspect ratio while cropping the image */
+  display: block; /* Remove extra space below the image */
+}
+
+
+/*!* Modal Image Size (optional) *!*/
+/*.modal-content {*/
+/*  max-width: 80%;*/
+/*  max-height: 80%;*/
+/*  object-fit: contain; !* Adjust image to fit within the modal *!*/
+/*}*/
+
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+  user-select: none;
+  z-index: 1001;
+}
+
+.prev {
+  left: 20px;
+}
+
+.next {
+  right: 20px;
+}
+
+
+
+
+
+
