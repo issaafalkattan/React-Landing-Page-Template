@@ -4,7 +4,7 @@ export const Navigation = (props) => {
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container">
-        <div className="navbar-header">
+        {/* <div className="navbar-header"> */}
           <button
             type="button"
             className="navbar-toggle collapsed"
@@ -18,9 +18,13 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
-            React Landing Page
+            <img
+              src="/img/budda-logo.png"
+              alt="Budda Logo"
+              style={{ width: "auto", height: "inherit" }}
+            />
           </a>{" "}
-        </div>
+        {/* </div> */}
 
         <div
           className="collapse navbar-collapse"
@@ -42,16 +46,16 @@ export const Navigation = (props) => {
                 Services
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="#portfolio" className="page-scroll">
                 Gallery
               </a>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <a href="#testimonials" className="page-scroll">
                 Testimonials
               </a>
-            </li>
+            </li> */}
             <li>
               <a href="#team" className="page-scroll">
                 Team
