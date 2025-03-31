@@ -1,132 +1,86 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "    ",
+    "paragraph":  " "
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+    "paragraph": "Olá! Sou Adriana Magalhães, psicóloga com mais de 20 anos de experiência em gestão e desenvolvimento organizacional. Minha missão é ajudar pessoas e empresas a desbloquearem seu verdadeiro potencial por meio de abordagens científicas, humanas e personalizadas. Acredito que, com as ferramentas certas, é possível criar uma vida mais plena, cheia de propósito e alcançar resultados duradouros.",
+    "Why": [ 
+      "Paixão de transformar vidas e organizações",
+      "Mais de 20 anos de experiência"
+     
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Criar ambientes mais felizes, saudáveis e produtivos.",
+      "Psicologia com a humanização"
     ]
   },
   "Gallery": [
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "title": "Gervásio Farias",
+      "largeImage": "https://youtube.com/shorts/glQfVIptBLE?feature=share ",
+      "smallImage": "img/portfolio/Gervasio Farias Small.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
+      "title": "Valéria Cardoso",
+      "largeImage": "https://youtube.com/shorts/997Qhr5Sf3w?feature=share ", 
+      "smallImage": "img/portfolio/Valeria Cardoso Small.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
+      "title": "Dalianne Soares",
+      "largeImage": "https://youtube.com/shorts/hmJXoEcmhx8?feature=share",
+      "smallImage": "img/portfolio/Dalianne Soares Small.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
+      "title": "Mentoria",
+      "largeImage": "https://youtu.be/d9hHm5FwlNg ",
+      "smallImage": "img/portfolio/mentoria.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
+      "title": "Motivacional",
+      "largeImage": "https://youtu.be/5JTaOgnkUPk ",
+      "smallImage": "img/portfolio/motivacional.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "title": "Palestra",
+      "largeImage": "https://youtu.be/bcvJ0hXKZVY",
+      "smallImage": "img/portfolio/palestra.jpg"
     }
+   
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-lightbulb-o",
+      "name": "Psicoterapia Positiva e Comportamental",
+      "text": "A psicoterapia é uma jornada para o autoconhecimento, e estou aqui para caminhar ao seu lado."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-line-chart",
+      "name": "Mentoria de Liderança Positiva",
+      "text": "Se você é um líder ou deseja se tornar um, minha Mentoria de Liderança Positiva foi criada para ajudar a desenvolver competências essenciais para liderar com confiança, alinhamento e eficácia."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-user-md",
+      "name": "Avaliação Psicológica e Consultoria",
+      "text": "Entender seu perfil comportamental ou o de sua equipe é essencial para alcançar um desempenho mais eficaz."
     }
+    
   ],
   "Testimonials": [
     {
-      "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "img": "img/testimonials/gf.jpg",
+      "text": "\"Pra mim a mentoria foi transformadora! Foi o combustível que me impulsionou a buscar o melhor de mim mesmo, a superar desafios e a enxergar oportunidades onde antes só via obstáculos.\"",
+      "name": "Gervásio Farias"
     },
     {
-      "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "img": "img/testimonials/ds.jpg",
+      "text": "\"A mentoria me trouxe reflexões muito importantes e isso tem agregado muito na minha vida profissional e na minha vida pessoal.\"",
+      "name": "Dalianne Soares"
     },
     {
-      "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "img": "img/testimonials/va.jpg",
+      "text": "\"Foi muito gratificante evoluir como pessoa e evoluindo como pessoa, que esse é o objetivo da monitoria, é evoluir profissionalmente, claro.\"",
+      "name": "Valéria Cardoso"
     }
   ],
   "Team": [
@@ -152,33 +106,33 @@
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
+    "address": " ",
+    "phone": "+55 84 9479-7413 ",
+    "email": "contato@adrianamagalhaes.com.br",
     "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "instagram": "instagram.com"
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-file-text-o",
+      "title": "Certificação CAPP",
+      "text": "Certificação CAPP (Psicologia Positiva Avançada)."
     },
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-certificate",
+      "title": "Formação CSI",
+      "text": "Formação CSI – Interventora com Forças de Caráter e Virtudes"
     },
     {
       "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Análise de Perfil Comportamental ",
+      "text": "Análise de Perfil Comportamental (Solides – LLC Internacional)."
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-star",
+      "title": "Especialista",
+      "text": "Especialista em TDAH e TOD"
     }
+   
   ]
 }
