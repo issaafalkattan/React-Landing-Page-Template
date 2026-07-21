@@ -24,6 +24,9 @@ Change the data in the ```data.json``` file as well as add any images to ```publ
 You can also change styles by modifying the ```public/css``` files.
 If you need the contact form to work, you also need to create an EmailJS account, and modify the ```src/components/contact.jsx``` file to replace your own service ID, template ID and Public Key
 
+## Working with Claude Code
+This repo is set up for <a href="https://claude.ai/code">Claude Code</a>: `CLAUDE.md` documents the architecture and commands, a `SessionStart` hook installs dependencies automatically in web sessions, and the `/customize` skill walks Claude through turning the template into your own site — try asking Claude to "customize this landing page for my company".
+
 ## Like this project?
 <a href="https://www.buymeacoffee.com/issaaf">Buy my a coffee ☕️</a>
 
